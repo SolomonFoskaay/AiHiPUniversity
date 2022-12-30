@@ -114,6 +114,22 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'Contact',
     url: '/contact',
   },
+  {
+    name: 'Courses',
+    url: '/?tags=Courses',
+  },
+  {
+    name: 'AI Dev Support',
+    url: '/support',
+  },
+  {
+    name: 'Articles',
+    url: '/?tags=Articles',
+  },   
+  {
+    name: 'Contact',
+    url: '/contact',
+  },
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -123,6 +139,22 @@ export const mobilenavConfig: DD.Nav = {
       name: 'About',
       url: '/about',
     },
+    {
+      name: 'Contact',
+      url: '/contact',
+    },
+    {
+      name: 'Courses',
+      url: '/?tags=Courses',
+    },
+    {
+      name: 'AI Dev Support',
+      url: '/support',
+    },
+    {
+      name: 'Articles',
+      url: '/?tags=Articles',
+    },   
     {
       name: 'Contact',
       url: '/contact',
