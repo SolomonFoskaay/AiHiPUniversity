@@ -114,18 +114,18 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'Contact',
     url: '/contact',
   },
-  {
-    name: 'Courses',
-    url: '/?tags=Courses',
-  },
+  // {
+  //   name: 'Courses',
+  //   url: '/?tags=Courses',
+  // },
   {
     name: 'AI Dev Support',
     url: '/support',
   },
-  {
-    name: 'Articles',
-    url: '/?tags=Articles',
-  },  
+  // {
+  //   name: 'Articles',
+  //   url: '/?tags=Articles',
+  // },  
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -139,17 +139,17 @@ export const mobilenavConfig: DD.Nav = {
       name: 'Contact',
       url: '/contact',
     },
-    {
-      name: 'Courses',
-      url: '/?tags=Courses',
-    },
+    // {
+    //   name: 'Courses',
+    //   url: '/?tags=Courses',
+    // },
     {
       name: 'AI Dev Support',
       url: '/support',
     },
-    {
-      name: 'Articles',
-      url: '/?tags=Articles',
-    },
+    // {
+    //   name: 'Articles',
+    //   url: '/?tags=Articles',
+    // },
   ],
 };
