@@ -111,14 +111,20 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     url: '/about',
   },
   {
-    name: 'See Docs 📄',
-    url: 'https://docs-svelte-qwer.vercel.app/',
-    rel: 'external',
+    name: 'Contact',
+    url: '/contact',
   },
   {
-    name: 'Get QWER 🚀',
-    url: 'https://github.com/kwchang0831/svelte-QWER',
-    rel: 'external',
+    name: 'Courses',
+    url: '/?tags=Courses',
+  },
+  {
+    name: 'AI Dev Support',
+    url: '/support',
+  },
+  {
+    name: 'Articles',
+    url: '/?tags=Articles',
   },
 ];
 
@@ -130,14 +136,20 @@ export const mobilenavConfig: DD.Nav = {
       url: '/about',
     },
     {
-      name: 'See Docs 📄',
-      url: 'https://docs-svelte-qwer.vercel.app/',
-      rel: 'external',
+      name: 'Contact',
+      url: '/contact',
     },
     {
-      name: 'Get QWER 🚀',
-      url: 'https://github.com/kwchang0831/svelte-QWER',
-      rel: 'external',
+      name: 'Courses',
+      url: '/?tags=Courses',
+    },
+    {
+      name: 'AI Dev Support',
+      url: '/support',
+    },
+    {
+      name: 'Articles',
+      url: '/?tags=Articles',
     },
   ],
 };
