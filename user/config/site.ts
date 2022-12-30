@@ -107,23 +107,23 @@ export const giscusConfig: Giscus.Config = {
 
 export const navConfig: (DD.Nav | DD.Link)[] = [
   {
-    name: 'About',
+    name: '🎉About',
     url: '/about',
   },
   {
-    name: 'Contact',
+    name: '📄Contact',
     url: '/contact',
   },
   {
-    name: 'Courses📄',
+    name: '📚Courses',
     url: '/?tags=Courses',
   },
   {
-    name: 'AI Dev Support🚀',
+    name: '🚀AI Dev Support',
     url: '/ai-support',
   },
   {
-    name: 'Blog',
+    name: '✨Blog',
     url: '/?tags=Blog',
   }, 
 ];
@@ -132,23 +132,23 @@ export const mobilenavConfig: DD.Nav = {
   orientation: 2,
   links: [
     {
-      name: 'About',
+      name: '🎉About',
       url: '/about',
     },
     {
-      name: 'Contact',
+      name: '📄Contact',
       url: '/contact',
     },
     {
-      name: 'Courses📄',
+      name: '📚Courses',
       url: '/?tags=Courses',
     },
     {
-      name: 'AI Dev Support🚀',
+      name: '🚀AI Dev Support',
       url: '/ai-support',
     },
     {
-      name: 'Blog',
+      name: '✨Blog',
       url: '/?tags=Blog',
     },
   ],
