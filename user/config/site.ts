@@ -40,7 +40,7 @@ export const siteConfig: Site.Config = {
 
 export const headConfig: Site.Head = {
   // Used for IndieWeb
-  me: ['https://github.com/kwchang0831'],
+  me: ['https://github.com/SolomonFoskaay'],
   custom: ({ dev }) =>
     dev
       ? [
@@ -52,16 +52,15 @@ export const headConfig: Site.Head = {
           // Replace the following with your own setting
 
           // Plausible
-          '<link rel="preconnect" href="https://plausible.kwchang0831.dev" />',
-          '<script defer type="text/partytown" data-domain="svelte-qwer.vercel.app" src="https://plausible.kwchang0831.dev/js/plausible.js"></script>',
+          
           // Google tag (gtag.js)
-          `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
-          `<script type="text/partytown">
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-LQ73GWF6XT');
-          </script>`,
+          // `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
+          // `<script type="text/partytown">
+          //   window.dataLayer = window.dataLayer || [];
+          //   function gtag(){dataLayer.push(arguments);}
+          //   gtag('js', new Date());
+          //   gtag('config', 'G-xxx');
+          // </script>`,
         ],
 };
 
