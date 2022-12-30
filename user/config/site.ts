@@ -124,7 +124,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
   },
   {
     name: 'Blog',
-    url: '/blog',
+    url: '/?tags=Blog',
   }, 
 ];
 
@@ -149,7 +149,7 @@ export const mobilenavConfig: DD.Nav = {
     },
     {
       name: 'Blog',
-      url: '/blog',
+      url: '/?tags=Blog',
     },
   ],
 };

@@ -8,7 +8,7 @@ cover: ./AiHiPU-Img0000002a-Ai-2023-Youtube-Video-Thumbnail.png
 coverStyle: 'TOP'
 coverCaption: Photo by <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a> on <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a>
 tags:
-  - [Ai, OpenAi, chatGPT Ai, Courses, Articles]
+  - [Ai, OpenAi, chatGPT Ai, Courses, Blog]
 ---
 <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
 <!-- <base target="_blank"> -->
