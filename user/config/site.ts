@@ -114,16 +114,16 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     name: 'Contact',
     url: '/contact',
   },  
-  {
-    name: 'See Docs 📄',
-    url: 'https://docs-svelte-qwer.vercel.app/',
-    rel: 'external',
-  },
-  {
-    name: 'Get QWER 🚀',
-    url: 'https://github.com/kwchang0831/svelte-QWER',
-    rel: 'external',
-  },
+  // {
+  //   name: 'See Docs 📄',
+  //   url: 'https://docs-svelte-qwer.vercel.app/',
+  //   rel: 'external',
+  // },
+  // {
+  //   name: 'Get QWER 🚀',
+  //   url: 'https://github.com/kwchang0831/svelte-QWER',
+  //   rel: 'external',
+  // },
 ];
 
 export const mobilenavConfig: DD.Nav = {
@@ -137,15 +137,15 @@ export const mobilenavConfig: DD.Nav = {
       name: 'Contact',
       url: '/contact',
     },     
-    {
-      name: 'See Docs 📄',
-      url: 'https://docs-svelte-qwer.vercel.app/',
-      rel: 'external',
-    },
-    {
-      name: 'Get QWER 🚀',
-      url: 'https://github.com/kwchang0831/svelte-QWER',
-      rel: 'external',
-    },
+    // {
+    //   name: 'See Docs 📄',
+    //   url: 'https://docs-svelte-qwer.vercel.app/',
+    //   rel: 'external',
+    // },
+    // {
+    //   name: 'Get QWER 🚀',
+    //   url: 'https://github.com/kwchang0831/svelte-QWER',
+    //   rel: 'external',
+    // },
   ],
 };
