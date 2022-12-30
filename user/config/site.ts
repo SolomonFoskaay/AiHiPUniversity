@@ -115,8 +115,8 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
     url: '/contact',
   },
   {
-    name: 'Contact',
-    url: '/contact',
+    name: 'Courses',
+    url: '/?tags=Courses',
   },
 ];
 
@@ -132,8 +132,8 @@ export const mobilenavConfig: DD.Nav = {
       url: '/contact',
     },
     {
-      name: 'Contact',
-      url: '/contact',
+      name: 'Courses',
+      url: '/?tags=Courses',
     },
   ],
 };
