@@ -12,8 +12,8 @@ import Avatar_512_PNG from '$assets/avatar.png?w=512&h=512&imagetools';
 import SiteCover from '$assets/qwer.webp';
 
 export const siteConfig: Site.Config = {
-  url: 'https://svelte-qwer.vercel.app',
-  title: 'QWER',
+  url: 'https://aihipuniversity.vercel.app',
+  title: 'AiHiPUniversity',
   subtitle: '🚀 QWER - Built using Svelte with ❤',
   description: '🚀 QWER - Awesome Blog Starter, Built using Svelte with ❤',
   lang: 'en',
@@ -21,7 +21,7 @@ export const siteConfig: Site.Config = {
   since: 2022,
   cover: SiteCover,
   author: {
-    name: 'John Doe',
+    name: 'Solomon Foskaay',
     status: '🚀',
     statusTip:
       '<a href="https://github.com/kwchang0831/svelte-QWER" rel="external" style="color:#0F0" onMouseOver="this.style.color=\'#0FF\'" onMouseOut="this.style.color=\'#0F0\'" >QWER</a> is Awesome !',
