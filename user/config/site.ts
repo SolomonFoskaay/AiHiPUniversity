@@ -54,13 +54,16 @@ export const headConfig: Site.Head = {
           // Plausible
           
           // Google tag (gtag.js)
-          // `<script type="text/partytown" src="https://www.googletagmanager.com/gtag/js?id=G-LQ73GWF6XT"></script>`,
-          // `<script type="text/partytown">
-          //   window.dataLayer = window.dataLayer || [];
-          //   function gtag(){dataLayer.push(arguments);}
-          //   gtag('js', new Date());
-          //   gtag('config', 'G-xxx');
-          // </script>`,
+          
+    
+
+          `<script async src="https://www.googletagmanager.com/gtag/js?id=G-244ZKLLQMH"></script>`,
+          `<script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-244ZKLLQMH');
+          </script>`,
         ],
 };
 
