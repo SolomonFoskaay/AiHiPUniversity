@@ -1,5 +1,7 @@
 ---
 title: AI CODING SUPPORT PAGE
+options:
+  - unlisted
 ---
 
 Welcome To AiHiPUniversity

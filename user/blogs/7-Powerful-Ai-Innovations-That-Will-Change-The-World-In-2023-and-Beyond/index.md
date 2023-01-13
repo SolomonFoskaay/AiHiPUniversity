@@ -11,7 +11,7 @@ tags:
   - [Ai, OpenAi, chatGPT Ai, Courses, Blog]
 ---
 <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
-<!-- <base target="_blank"> -->
+<base target="_blank">
 
 ## ✨ INTRO
 
@@ -20,6 +20,7 @@ In this article, I will be going through the Powerful Ai Innovations That Will C
 ## 🎉 VIDEO
 
 If you prefer to watch the video, then below is the full video. If not, continue to read the text format.
+
 
 ## 📚 (7) Stable Diffusion AI Image Generator
 

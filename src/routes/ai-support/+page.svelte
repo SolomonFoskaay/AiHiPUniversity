@@ -14,5 +14,6 @@
     <p>Welcome To AiHiPUniversity</p>
     <p>We aim to enhance developers with AI to make them more productive.</p>
     <p>Artificial Intelligence + Human Intelligence + Programming = AiHiPUniversity</p>
+    <p>Talk To Our Coding Support AI for any programming issues below:</p>
   </article>
 </Post>

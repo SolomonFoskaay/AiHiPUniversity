@@ -1,5 +1,7 @@
 ---
 title: ABOUT US PAGE
+options:
+  - unlisted
 ---
 
 Welcome To AiHiPUniversity
