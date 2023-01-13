@@ -3,6 +3,8 @@ title: ABOUT US PAGE
 options:
   - unlisted
 ---
+<!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
+<base target="_blank">
 
 Welcome To AiHiPUniversity
 

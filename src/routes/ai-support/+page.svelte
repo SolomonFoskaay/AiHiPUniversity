@@ -11,6 +11,9 @@
 
 <Post>
   <article slot="post_content">
+    <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
+    <base target="_blank" />
+
     <p>Welcome To AiHiPUniversity</p>
     <p>We aim to enhance developers with AI to make them more productive.</p>
     <p>Artificial Intelligence + Human Intelligence + Programming = AiHiPUniversity</p>

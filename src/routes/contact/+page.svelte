@@ -11,6 +11,9 @@
 
 <Post>
   <article slot="post_content">
+    <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
+    <base target="_blank" />
+
     <p>For Enquiry, Partnership or Grant. Kindly reach us via: .</p>
   </article>
 </Post>
