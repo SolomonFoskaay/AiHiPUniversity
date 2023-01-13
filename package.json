@@ -1,17 +1,17 @@
 {
-  "name": "@kwchang0831/svelte-qwer",
-  "version": "0.6.0",
+  "name": "aihipuniversity",
+  "version": "1.0.0",
   "type": "module",
   "license": "MIT",
-  "homepage": "https://github.com/kwchang0831/svelte-qwer",
+  "homepage": "https://github.com/AiHiPUniversity",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kwchang0831/svelte-qwer.git"
+    "url": "git+https://github.com/SolomonFoskaay/aihipuniversity.git"
   },
   "bugs": {
-    "url": "https://github.com/kwchang0831/svelte-qwer/issues"
+    "url": "https://github.com/SolomonFoskaay/aihipuniversity/issues"
   },
-  "author": "kwchang0831",
+  "author": "SolomonFoskaay",
   "packageManager": "pnpm@7.9.3",
   "engines": {
     "pnpm": "^7.0.0"
