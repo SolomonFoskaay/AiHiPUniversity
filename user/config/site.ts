@@ -123,7 +123,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
   },
   {
     name: '🚀AI Dev Support',
-    url: '/ai-support',
+    url: 'https://foskaay.aihipuniversity.com',
   },
   {
     name: '✨Blog',
@@ -148,7 +148,7 @@ export const mobilenavConfig: DD.Nav = {
     },
     {
       name: '🚀AI Dev Support',
-      url: '/ai-support',
+      url: 'https://foskaay.aihipuniversity.com',
     },
     {
       name: '✨Blog',
