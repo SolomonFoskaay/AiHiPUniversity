@@ -19,6 +19,7 @@
   });
 </script>
 
+<!-- svelte-ignore security-anchor-rel-noreferrer -->
 {#if loaded}
   {#key $postsShow}
     <footer
@@ -40,22 +41,47 @@
         </div>
         <p itemprop="copyrightNotice">
           Copyright © <span itemprop="copyrightYear">{copyrightYear}</span>
-          <a href={siteConfig.author.github} rel="external author">
-            <span itemprop="copyrightHolder">{siteConfig.author.name}</span>
+          <a href="/">
+            <span itemprop="copyrightHolder"><strong>{siteConfig.title}</strong></span>          
+          <!-- <a href={siteConfig.author.github} rel="external author">
+            <span itemprop="copyrightHolder">{siteConfig.author.name}</span> -->
           </a>
         </p>
+        <div class="">
+          Developed by
+          <a
+            use:tippy
+            aria-label={$LL.QWER()}
+            rel="external"
+            href="https://github.com/SolomonFoskaay"
+            class="font-900"
+            target="_blank">
+            Solomon Foskaay
+          </a>
+        </div>
         <div class="">
           Powered by
           <a
             use:tippy
             aria-label={$LL.QWER()}
             rel="external"
+            href="https://kit.svelte.dev"
+            class="font-900"
+            target="_blank">
+            Sveltekit
+          </a>
+          &amp;
+          <a
+            use:tippy
+            aria-label={$LL.QWER()}
+            rel="external"
             href="https://github.com/kwchang0831/svelte-QWER"
-            class="font-900">
+            class="font-900"
+            target="_blank">
             QWER
           </a>
         </div>
-        <a
+        <!-- <a
           itemprop="copyrightNotice"
           href="https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1"
           aria-label="Creative Commons License"
@@ -63,7 +89,7 @@
           rel="noreferrer noopener license external"
           style="display:inline-block;">
           CC BY-NC-SA 4.0
-        </a>
+        </a> -->
       </main>
     </footer>
   {/key}
