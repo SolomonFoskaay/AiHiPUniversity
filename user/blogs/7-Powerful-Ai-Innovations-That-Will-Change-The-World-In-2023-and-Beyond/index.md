@@ -17,10 +17,13 @@ tags:
 
 In this article, I will be going through the Powerful Ai Innovations That Will Change The World In 2023 and Beyond categorized into 7 (seven)  ❤.
 
-## 🎉 VIDEO
+## ⏪️ VIDEO
 
-If you prefer to watch the video, then below is the full video. If not, continue to read the text format.
+If you prefer to watch the video, then below is the full video.
 
+[![This a video about Powerful Ai Innovations That Will Change The World In 2023 and Beyond](./AiHiPU-Vid000001a-7Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023.jpg)](https://www.youtube.com/watch?v=RmiLeS2bEuI&t=905s?ref=AiHiPUniversity.com)
+
+If not, continue to read the text format.
 
 ## 📚 (7) Stable Diffusion AI Image Generator
 

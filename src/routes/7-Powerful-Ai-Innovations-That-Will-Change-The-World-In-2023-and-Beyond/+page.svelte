@@ -19,8 +19,18 @@
       In this article, I will be going through the Powerful Ai Innovations That Will Change The World In 2023 and Beyond
       categorized into 7 (seven) ❤.
     </p>
-    <h2 id="video"><a href="#video">🎉 VIDEO</a></h2>
-    <p>If you prefer to watch the video, then below is the full video. If not, continue to read the text format.</p>
+    <h2 id="video"><a href="#video">⏪️ VIDEO</a></h2>
+    <p>If you prefer to watch the video, then below is the full video.</p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=RmiLeS2bEuI&amp;t=905s?ref=AiHiPUniversity.com" rel="external">
+        <ImgZoom
+          src="/7-Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023-and-Beyond/AiHiPU-Vid000001a-7Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023.jpg"
+          alt="This a video about Powerful Ai Innovations That Will Change The World In 2023 and Beyond"
+          width="1280"
+          height="720" />
+      </a>
+    </p>
+    <p>If not, continue to read the text format.</p>
     <h2 id="7-stable-diffusion-ai-image-generator">
       <a href="#7-stable-diffusion-ai-image-generator">📚 (7) Stable Diffusion AI Image Generator</a>
     </h2>

@@ -33,40 +33,143 @@
     </p>
     <p>
       <strong>ii. Experience</strong>
-      : 12Years in IT (as a Web designer (Wordpress), Digital Marketing &amp; SEO expert, Web3/Crypto Researcher and now
-      AI/Game/Metaverse/Web2/Web3 Developer Instructor)
+      : 13Years+ in IT (as a Web designer (Wordpress), Digital Marketing &amp; SEO expert, Web3/Crypto Researcher and
+      now AI/Game/Metaverse/Web2/Web3 Developer Instructor)
     </p>
-    <h3 id="course-prerequisites-for-taking-this-course">
-      <a href="#course-prerequisites-for-taking-this-course">🛂 Course Prerequisites for taking this course</a>
-    </h3>
+    <h3 id="course-prerequisites"><a href="#course-prerequisites">🛂 Course Prerequisites</a></h3>
     <p>Prerequisites for taking this course:</p>
     <p>
-      <strong>i</strong>
-       Nodejs (Install if not having it yet latest LTS version) ii. Pnpm Node package (Install if not having it yet) iii.
-      Essential Basic knowledge of: i- Using CLI ii- Git/Github iii- IDE/Code Editor like Visual Studio Code (VSCode) iv-
-      Svelte/Sveltekit (frontend) v- ExpressJs (backend) vi- Web Hosting &amp; Domain Hosting iv. Optional Basic knowledge
-      of: i- Openai large language AI models and their API ii- Vercel (frontend hosting) iii- Render (backend hosting)
+      <strong>(1)</strong>
+      <a href="https://nodejs.org/en/download?ref=AiHiPUniversity.com" rel="external" title="Nodejs Website">Nodejs</a>
+       (Install if not having it yet latest LTS version)
     </p>
-    <h2 id="video"><a href="#video">🎉 VIDEO</a></h2>
-    <p>If you prefer to watch the video, then below is the full video. If not, continue to read the text format.</p>
-    <h2 id="7-stable-diffusion-ai-image-generator">
-      <a href="#7-stable-diffusion-ai-image-generator">📚 (7) Stable Diffusion AI Image Generator</a>
-    </h2>
     <p>
-      This Ai generates stable diffusion images that are gorgeous and pro with just basic instructions. making it
-      useable by non-artist.
+      <strong>(2)</strong>
+      <a href="https://pnpm.io/installation?ref=AiHiPUniversity.com" rel="external" title="PNPM Website">PNPM</a>
+       Node package manager preferable over NPM and YARN (Install if not having it yet)
+    </p>
+    <p>
+      <strong>(3)</strong>
+       Essential Basic knowledge of:
     </p>
     <ul>
-      <li>
-        <a
-          href="https://starryai.com/stable-diffusion?ref=AiHiPUniversity.com"
-          rel="external"
-          title="Starryai Stable Diffusion Website">
-          Starryai Stable Diffusion
-        </a>
-      </li>
+      <li><p>Using CLI</p></li>
+      <li><p>Git/Github</p></li>
+      <li><p>IDE/Code Editor like Visual Studio Code (VSCode)</p></li>
+      <li><p>Svelte/Sveltekit (frontend)</p></li>
+      <li><p>ExpressJs (backend)</p></li>
+      <li><p>Web Hosting &amp; Domain Hosting</p></li>
     </ul>
-    <h2 id="6-nft-art-generator-ai"><a href="#6-nft-art-generator-ai">🚀 (6) NFT Art Generator AI</a></h2>
+    <p>
+      <strong>(4)</strong>
+       Optional Basic knowledge of:
+    </p>
+    <ul>
+      <li><p>Openai large language AI models and their API</p></li>
+      <li><p>Vercel (frontend hosting)</p></li>
+      <li><p>Render (backend hosting)</p></li>
+    </ul>
+    <h3 id="intro-to-aihipuniversity-platform">
+      <a href="#intro-to-aihipuniversity-platform">✅ Intro To AiHiPUniversity Platform</a>
+    </h3>
+    <p>i. Artificial Intelligence + Human Intelligence + Programming = AiHiPUniversity</p>
+    <p>ii. Free courses from Beginner, intermediate to Advanced courses for Pro developers.</p>
+    <p>iii. Ai 24/7 support to enhance developer productivity</p>
+    <p>iv. Support for students in their programming journey</p>
+    <p>v. Access to community of like-mind developers across the World.</p>
+    <p>vi. Web3/Blockchain development courses</p>
+    <p>vii. Free certification (Exercises, Challenges and Final Project is a must to receive certification).</p>
+    <h2 id="become-a-successful-developer">
+      <a href="#become-a-successful-developer">📝 Become A Successful Developer</a>
+    </h2>
+    <p>Master essential attitudes to become a lifetime successful developer:</p>
+    <p>
+      i. Embrace Ai like Foskaay Ai for coding and programming support always (before, during and after launching your
+      project)
+    </p>
+    <p>
+      ii. Security (Ai can help discover and patch security flaws in your project early before and during launching)
+    </p>
+    <p>
+      iii. Start every project with Git Private (start with Opensource as beginner dev, close source only when become
+      pro dev if essential for funding &amp; IP protection)
+    </p>
+    <p>iv. Code Commenting</p>
+    <p>v. Simplicity wins over complication/complexity (functions getting complex, break to simpler ones)</p>
+    <p>vi. Leave local host quicker for Production Deployment and testing.</p>
+    <p>vii. Listen to your project users feedbacks and tinker adjustment fast bit-by-bit</p>
+    <p>
+      viii. Keep the programming spirit high and alive by doing good to humanity and nature with your coding/progamming
+      skill and not evil.
+    </p>
+    <h3 id="course-target-audience"><a href="#course-target-audience">📌 Course Target Audience</a></h3>
+    <h4 id="i-who-is-this-course-for"><a href="#i-who-is-this-course-for">i. 👷 Who Is This Course For?</a></h4>
+    <ul>
+      <li>Intermediate and</li>
+      <li>Advanced Developers</li>
+    </ul>
+    <h4 id="ii-what-you-will-learn-in-this-course">
+      <a href="#ii-what-you-will-learn-in-this-course">ii. 📈 What You Will Learn In This Course?</a>
+    </h4>
+    <p>
+      i. At the end of this course, students should have a solid understanding of how to build a chatbot website like
+      chatGPT using Svelte/Sveltekit and the OpenAI API.
+    </p>
+    <p>
+      ii. Students will also be able to design and implement an interactive user interface, make API calls and handle
+      responses
+    </p>
+    <p>
+      iii. Students will be able to deploy the AI powered chatbot website to a web server and add to your dev profile
+      for potential partners, clients, sponsors and employers.
+    </p>
+    <h2 id="video"><a href="#video">⏪️ VIDEO</a></h2>
+    <p>
+      If you prefer to watch the video where I guide you on Building &amp; Deploying AI CHATBOT Website Like ChatGPT
+      With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API, then below is the full video.
+    </p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=RmiLeS2bEuI&amp;t=905s?ref=AiHiPUniversity.com" rel="external">
+        <ImgZoom
+          src="/Svelte-SvelteKit-303-Advanced-Build-And-Deploy-Ai-Chatbot-Website/AiHiPU-Vid000001a-7Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023.jpg"
+          alt="This a video about Building  &amp; Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API"
+          width="1280"
+          height="720" />
+      </a>
+    </p>
+    <p>If not, continue to read the text format.</p>
+    <p>
+      Though its adviseable to combine the two course materials (Video &amp; text) because some info are not 100%
+      converted as text but explained in details in the video).
+    </p>
+    <h2 id="lesson-1-planning-and-designing">
+      <a href="#lesson-1-planning-and-designing">📚 Lesson 1: Planning and Designing</a>
+    </h2>
+    <p>Planning and Designing the Ai Chatbot with Foskaay AI</p>
+    <h3 id="1-planning-the-layout-and-amp-functionality">
+      <a href="#1-planning-the-layout-and-amp-functionality">📚 1. Planning the layout &amp; functionality</a>
+    </h3>
+    <p>Planning the layout and functionality of the AI chatbot interface</p>
+    <h3 id="2-designing-the-ui-and-ux"><a href="#2-designing-the-ui-and-ux">📚 2. Designing the UI and UX</a></h3>
+    <p>Designing the user interface and user experience</p>
+    <h3 id="3-understand-best-practices-building-ai-chatbot">
+      <a href="#3-understand-best-practices-building-ai-chatbot">📚 3. Understand best practices building AI Chatbot</a>
+    </h3>
+    <p>Understanding best practices for building an AI Chatbot</p>
+    <h3 id="4-planning-project-folder-structure">
+      <a href="#4-planning-project-folder-structure">📚 4. Planning project folder structure</a>
+    </h3>
+    <p>Planning project folder structure (Backend server and frontend)</p>
+    <h3 id="5-deciding-web-development-techstack-to-use">
+      <a href="#5-deciding-web-development-techstack-to-use">📚 5. Deciding web development techstack to use</a>
+    </h3>
+    <h3 id="exercise"><a href="#exercise">📚 Exercise</a></h3>
+    <p>Plan and design the chatbot interface and layout. Submit screenshot in your course exercise repo.</p>
+    <h4 id="challenge"><a href="#challenge">📚 Challenge</a></h4>
+    <p>Research and apply best practices for building an AI Chatbot.</p>
+    <h2 id="lesson-2-setup-project-with-git">
+      <a href="#lesson-2-setup-project-with-git">🎨 Lesson 2: Setup Project with Git</a>
+    </h2>
     <p>These are Ai that generates NFT Arts.</p>
     <ul>
       <li>
@@ -78,83 +181,39 @@
         </a>
       </li>
     </ul>
-    <h2 id="5-avatar-generator-ai"><a href="#5-avatar-generator-ai">📚 (5) Avatar Generator AI</a></h2>
-    <p>These are Ai that can help you to generate Avatars for your social media and profile picture.</p>
-    <ul>
-      <li>
-        <a
-          href="https://www.starryai.com/starrytars?ref=AiHiPUniversity.com"
-          rel="external"
-          title="Starryai Art Ai Website">
-          Starryai Avatar Ai
-        </a>
-      </li>
-    </ul>
-    <h2 id="4-coding-ai"><a href="#4-coding-ai">🚀 (4) Coding AI</a></h2>
-    <p>
-      These are Ai that enhances programmers in their coding. While some generate complete codes and logic, others serve
-      as Ai pair programmer.
-    </p>
-    <ul>
-      <li>
-        <a
-          href="https://openai.com/blog/openai-codex?ref=AiHiPUniversity.com"
-          rel="external"
-          title="OpenAi Codex Ai Website">
-          OpenAi Codex Ai
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/features/copilot?ref=AiHiPUniversity.com"
-          rel="external"
-          title="Github Copilot Ai Website">
-          Github Copilot Ai
-        </a>
-      </li>
-    </ul>
-    <h2 id="3-text-to-speech-speach-to-text-and-translation-ai">
-      <a href="#3-text-to-speech-speach-to-text-and-translation-ai">
-        📚 (3) Text To Speech/Speach to Text and Translation AI
+    <h2 id="lesson-3-backend-expressjs-with-openai-api">
+      <a href="#lesson-3-backend-expressjs-with-openai-api">🔖 Lesson 3: Backend (ExpressJs) With OpenAI API</a>
+    </h2>
+    <p>Backend (ExpressJs)- Connecting to the OpenAI API With ExpressJs</p>
+    <h2 id="lesson-4-frontend-building-the-chatbot-interface">
+      <a href="#lesson-4-frontend-building-the-chatbot-interface">
+        🔥 Lesson 4: Frontend - Building the Chatbot Interface
       </a>
     </h2>
-    <p>This Ai can transcribe audio to text and even translate to/from multiple languages.</p>
-    <ul>
-      <li>
-        <a
-          href="https://github.com/openai/whisper?ref=AiHiPUniversity.com"
-          rel="external"
-          title="OpenAi Whisper Ai Website">
-          OpenAi Whisper Ai
-        </a>
-      </li>
-    </ul>
-    <h2 id="2-image-generator-ai"><a href="#2-image-generator-ai">🚀 (2) Image Generator AI</a></h2>
-    <p>
-      These are Ai that can generate realistic images just by following human plain text descriptions of how the image
-      should look like.
-    </p>
-    <p>
-      For example, I used one of the Images generating AI called DALL-E to generate the image used for this post above
-      by simply describing it in text.
-    </p>
-    <ul>
-      <li>
-        <a href="https://labs.openai.com/e?ref=AiHiPUniversity.com" rel="external" title="OpenAi DALL-E Ai Website">
-          OpenAi DALL-E Ai
-        </a>
-      </li>
-      <li>
-        <a href="https://midjourney.com?ref=AiHiPUniversity.com" rel="external" title="Midjourney Ai Website">
-          Midjourney Ai
-        </a>
-      </li>
-    </ul>
-    <h2 id="1-text-to-speech-speach-to-text-and-translation-ai">
-      <a href="#1-text-to-speech-speach-to-text-and-translation-ai">
-        👍 (1) Text To Speech/Speach to Text and Translation AI
+    <p>Frontend - Building the Chatbot Interface</p>
+    <h2 id="lesson-5-adding-security-features-to-ai-chatbot">
+      <a href="#lesson-5-adding-security-features-to-ai-chatbot">
+        🔒️ Lesson 5: Adding Security Features to AI ChatBot
       </a>
     </h2>
+    <p>Adding Security Features to AI ChatBot Website</p>
+    <h2 id="lesson-6-deployment-of-chatgpt-like-ai-chatbot">
+      <a href="#lesson-6-deployment-of-chatgpt-like-ai-chatbot">🎉 Lesson 6: Deployment of ChatGPT-like Ai Chatbot</a>
+    </h2>
+    <p>Deployment of ChatGPT-like Ai Chatbot Website to Vercel and Render.</p>
+    <h2 id="final-project"><a href="#final-project">🔨 FINAL PROJECT</a></h2>
+    <p>
+      Build an AI chatbot website using Svelte/Sveltekit and OpenAI&#39;s API. This could be a simple chatbot website or
+      more complex chatbot website that uses advanced features such as user account.
+    </p>
+    <h2 id="certification"><a href="#certification">🦺 CERTIFICATION</a></h2>
+    <p>
+      Kindly complete all exercises including the challenges and final project in this course to qualify for
+      Certificate. Submit the repo containing them for review.
+    </p>
+    <p>If approved, you will get notification in our discord.</p>
+    <p>Aside, that you will also be upgraded on our Discord to course Graduates only discussion private channels.</p>
+    <h2 id="course-git-repository"><a href="#course-git-repository">💥 Course Git Repository</a></h2>
     <p>These are Ai that can mimic human-like conversation during chat.</p>
     <ul>
       <li>
@@ -163,5 +222,6 @@
         </a>
       </li>
     </ul>
+    <h2 id="credit-and-amp-referencies"><a href="#credit-and-amp-referencies">👍 Credit &amp; Referencies</a></h2>
   </article>
 </Post>

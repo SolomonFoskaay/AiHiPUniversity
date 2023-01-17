@@ -14,29 +14,31 @@ tags:
 
   - '0.01. Courses Category By Web Generation': [Web 1.0 Courses, Web 2.0 Courses, Web 3.0 Courses]
 
-  - '0.02. Courses Category By Dev Path': [FullStack Engineer Courses, Frontend Developer Courses, Backend Developer Courses, AI Developer Courses, ML Developer Courses, Blockchain Developer Courses, Game Developer Courses, Metaverse Developer Courses, Mobile Developer Courses]  
+  - '0.02. Courses Category By Developer Experience Level': [Beginners Developer Courses, Intermediate Developer Courses, Advanced Developer Courses]  
 
-  - '0.03. Courses Category By Tech Stack': [Django Stack Courses, ExpressJs Stack Courses, Flask Stack Courses, JAM Stack Courses, LAMP Stack Courses, LEMP Stack Courses, MEAN Stack Courses, MERN Stack Courses, MEVN Stack Courses, RoR Stack Courses]
+  - '0.03. Courses Category By Dev Path': [FullStack Engineer Courses, Frontend Developer Courses, Backend Developer Courses, AI Developer Courses, ML Developer Courses, Blockchain Developer Courses, Game Developer Courses, Metaverse Developer Courses, Mobile Developer Courses]  
 
-  - '0.04. Courses Category By Web2 Programming Language': [C# Courses, C++ Courses, CSS Courses, Dart Courses, Go Courses, HTML Courses, Java Course, Javascript Courses, Kotlin Courses, PHP Courses, Python Courses, Ruby Courses, Rust Courses, Scala Courses, Shell Scripting Courses, Swift Courses, TypeScript Courses]
+  - '0.04. Courses Category By Tech Stack': [Django Stack Courses, ExpressJs Stack Courses, Flask Stack Courses, JAM Stack Courses, LAMP Stack Courses, LEMP Stack Courses, MEAN Stack Courses, MERN Stack Courses, MEVN Stack Courses, RoR Stack Courses]
 
-  - '0.05. Courses Category By Web3 Smart Contract Programming Language': [Cadence Courses, Mokoto Courses, Solidity Courses, Vyper Courses]  
+  - '0.05. Courses Category By Web2 Programming Language': [C# Courses, C++ Courses, CSS Courses, Dart Courses, Go Courses, HTML Courses, Java Course, Javascript Courses, Kotlin Courses, PHP Courses, Python Courses, Ruby Courses, Rust Courses, Scala Courses, Shell Scripting Courses, Swift Courses, TypeScript Courses]
 
-  - '0.06. Courses Category By Framework': [AngularJs Courses, Backbone.js Courses, Aurelia Courses, Django Courses, Docusaurus Courses, Ember.js Courses, Meteor.js Courses, ReactJs Courses, Svelte Courses, VueJs Courses] 
+  - '0.06. Courses Category By Web3 Smart Contract Programming Language': [Cadence Courses, Mokoto Courses, Solidity Courses, Vyper Courses]  
 
-  - '0.07. Courses Category By Meta Framework': [Eleventy Courses, Gatsby.js Courses, Gridsome Courses, Jekyll Courses, NextJs Courses, NuxtJs Courses, Nuxt.js Courses, SvelteKit Courses]
+  - '0.07. Courses Category By Framework': [AngularJs Courses, Backbone.js Courses, Aurelia Courses, Django Courses, Docusaurus Courses, Ember.js Courses, Meteor.js Courses, ReactJs Courses, Svelte Courses, VueJs Courses] 
 
-  - '0.08. Courses Category By Low-Code/No-Code Development Platform': [Appgyver Courses, Bubble Courses, Integromat Courses, Microsoft PowerApps Courses, Mendix Courses, OutSystems Courses, Retool Courses, WaveMaker Courses, Webflow Courses, Zapier Courses] 
+  - '0.08. Courses Category By Meta Framework': [Eleventy Courses, Gatsby.js Courses, Gridsome Courses, Jekyll Courses, NextJs Courses, NuxtJs Courses, Nuxt.js Courses, SvelteKit Courses]
 
-  - '0.09. Courses Category By IDE/Code Editors': [Atom Courses, Eclipse Courses, IntelliJ IDEA Courses, Replit Courses, Visual Studio Code Courses, Sublime Text Courses, Notepad++ Courses, Visual Studio Courses, Xcode Courses, PyCharm Courses, WebStorm Courses]  
+  - '0.09. Courses Category By Low-Code/No-Code Development Platform': [Appgyver Courses, Bubble Courses, Integromat Courses, Microsoft PowerApps Courses, Mendix Courses, OutSystems Courses, Retool Courses, WaveMaker Courses, Webflow Courses, Zapier Courses] 
 
-  - '0.10. Courses Category By Git Platform': [Bitbucket Courses, GitBucket Courses, GitCola Courses, GitEye Courses, GitKraken Courses, GitHub Courses, GitLab Courses, SourceForge Courses, SourceTree Courses] 
+  - '0.010. Courses Category By IDE/Code Editors': [Atom Courses, Eclipse Courses, IntelliJ IDEA Courses, Replit Courses, Visual Studio Code Courses, Sublime Text Courses, Notepad++ Courses, Visual Studio Courses, Xcode Courses, PyCharm Courses, WebStorm Courses]  
+
+  - '0.11. Courses Category By Git Platform': [Bitbucket Courses, GitBucket Courses, GitCola Courses, GitEye Courses, GitKraken Courses, GitHub Courses, GitLab Courses, SourceForge Courses, SourceTree Courses] 
   
-  - '0.11. Courses Category By AI Tools & AI Platforms For Developers': [Caffe Courses, ChatGPT Courses, Codex Courses, Deeplearning4j Courses, Foskaay AI Courses, GitHub CoPilot Courses, Keras Courses, MATLAB Courses, OpenCV Courses, PyTorch Courses, Scikit-learn Courses, TensorFlow Courses ]  
+  - '0.12. Courses Category By AI Tools & AI Platforms For Developers': [Caffe Courses, ChatGPT Courses, Codex Courses, Deeplearning4j Courses, Foskaay AI Courses, GitHub CoPilot Courses, Keras Courses, MATLAB Courses, OpenCV Courses, PyTorch Courses, Scikit-learn Courses, TensorFlow Courses ]  
 
-  - '0.12. Courses Category By Web3 Blockchains': [Algorand Blockchain Courses, Avalanche Blockchain Courses, Binance Smart Chain (BSC) Blockchain Courses, Bitcoin Blockchain Courses, Cardano Blockchain Courses, Cosmos Blockchain Courses, EOS Blockchain Courses, EVM Blockchain Courses, Ethereum Blockchain Courses, Flow Blockchain Courses, Filecoin Blockchain Courses, Fantom Blockchain Courses, Hedera Hashgraph Blockchain Courses, Hyperledger Blockchain Courses, IOTA Blockchain Courses, Internet Computer Blockchain Courses, Metis Blockchain Courses, NEM Blockchain Courses, NEAR Blockchain Courses, Polygon Blockchain Courses, Polkadot Blockchain Courses, Stellar Blockchain Courses, TRON Blockchain Courses, Waves Blockchain Courses, XRP Ledger Blockchain Courses ]  
+  - '0.13. Courses Category By Web3 Blockchains': [Algorand Blockchain Courses, Avalanche Blockchain Courses, Binance Smart Chain (BSC) Blockchain Courses, Bitcoin Blockchain Courses, Cardano Blockchain Courses, Cosmos Blockchain Courses, EOS Blockchain Courses, EVM Blockchain Courses, Ethereum Blockchain Courses, Flow Blockchain Courses, Filecoin Blockchain Courses, Fantom Blockchain Courses, Hedera Hashgraph Blockchain Courses, Hyperledger Blockchain Courses, IOTA Blockchain Courses, Internet Computer Blockchain Courses, Metis Blockchain Courses, NEM Blockchain Courses, NEAR Blockchain Courses, Polygon Blockchain Courses, Polkadot Blockchain Courses, Stellar Blockchain Courses, TRON Blockchain Courses, Waves Blockchain Courses, XRP Ledger Blockchain Courses ]  
 
-  - '0.13. Courses Category By Web3 Protocols, Web3 Platforms & Web3 SDKs For Developers': [0x Courses, Aave Courses, Aragon Courses, Band Protocol Courses, Biconomy Courses, ChainGuardian Courses, ChainID Courses, ChainSafe Courses, Chainlink Courses, Compound Courses, DAOstack Courses, DappHub Courses, Embark Courses, EthersJs Courses, Gnosis Courses, HOPR Courses, Kyber Network Courses, MakerDAO Courses, Moralis Courses, Ocean Protocol Courses, ThirdWeb Courses, Unlock Protocol Courses, Uniswap Courses, Wanchain Courses, Web3js Courses, Zilliqa Courses] 
+  - '0.14. Courses Category By Web3 Protocols, Web3 Platforms & Web3 SDKs For Developers': [0x Courses, Aave Courses, Aragon Courses, Band Protocol Courses, Biconomy Courses, ChainGuardian Courses, ChainID Courses, ChainSafe Courses, Chainlink Courses, Compound Courses, DAOstack Courses, DappHub Courses, Embark Courses, EthersJs Courses, Gnosis Courses, HOPR Courses, Kyber Network Courses, MakerDAO Courses, Moralis Courses, Ocean Protocol Courses, ThirdWeb Courses, Unlock Protocol Courses, Uniswap Courses, Wanchain Courses, Web3js Courses, Zilliqa Courses] 
 
   # Blog Categories and Tags
   - '1.0. Blog Category': [Blog]
@@ -59,78 +61,168 @@ Then deploy the AI chatbot app to Vercel (Frontend hosting) and Render (Backend 
 
 **i. Full name**: [Solomon Foskaay](https://github.com/SolomonFoskaay?ref=AiHiPUniversity.com "Solomon Foskaay Github Profile")
 
-**ii. Experience**: 12Years in IT (as a Web designer (Wordpress), Digital Marketing & SEO expert, Web3/Crypto Researcher and now AI/Game/Metaverse/Web2/Web3 Developer Instructor)
+**ii. Experience**: 13Years+ in IT (as a Web designer (Wordpress), Digital Marketing & SEO expert, Web3/Crypto Researcher and now AI/Game/Metaverse/Web2/Web3 Developer Instructor)
 	
-### 🛂 Course Prerequisites for taking this course
+### 🛂 Course Prerequisites
 
 Prerequisites for taking this course:
 
-**i** Nodejs (Install if not having it yet latest LTS version)
-	ii. Pnpm Node package (Install if not having it yet)
-	iii. Essential Basic knowledge of:
-		i- Using CLI 
-		ii- Git/Github
-		iii- IDE/Code Editor like Visual Studio Code (VSCode)
-		iv- Svelte/Sveltekit (frontend)
-		v- ExpressJs (backend)
-		vi- Web Hosting & Domain Hosting
-	iv. Optional Basic knowledge of:
-		i- Openai large language AI models and their API
-		ii- Vercel (frontend hosting)
-		iii- Render (backend hosting)
+**(1)** [Nodejs](https://nodejs.org/en/download?ref=AiHiPUniversity.com "Nodejs Website") (Install if not having it yet latest LTS version)
 
-## 🎉 VIDEO
+**(2)** [PNPM](https://pnpm.io/installation?ref=AiHiPUniversity.com "PNPM Website") Node package manager preferable over NPM and YARN (Install if not having it yet)
 
-If you prefer to watch the video, then below is the full video. If not, continue to read the text format.
+**(3)** Essential Basic knowledge of:
+  
+- Using CLI
 
+- Git/Github
 
-## 📚 (7) Stable Diffusion AI Image Generator
+- IDE/Code Editor like Visual Studio Code (VSCode)
 
-This Ai generates stable diffusion images that are gorgeous and pro with just basic instructions. making it useable by non-artist.
+- Svelte/Sveltekit (frontend)
 
-- [Starryai Stable Diffusion](https://starryai.com/stable-diffusion?ref=AiHiPUniversity.com "Starryai Stable Diffusion Website")
+- ExpressJs (backend)
 
+- Web Hosting & Domain Hosting
 
-## 🚀 (6) NFT Art Generator AI
+**(4)** Optional Basic knowledge of:
+
+- Openai large language AI models and their API
+
+- Vercel (frontend hosting)
+
+- Render (backend hosting)
+
+### ✅ Intro To AiHiPUniversity Platform
+
+i. Artificial Intelligence + Human Intelligence + Programming = AiHiPUniversity
+
+ii. Free courses from Beginner, intermediate to Advanced courses for Pro developers.
+
+iii. Ai 24/7 support to enhance developer productivity
+
+iv. Support for students in their programming journey
+
+v. Access to community of like-mind developers across the World.
+
+vi. Web3/Blockchain development courses
+
+vii. Free certification (Exercises, Challenges  and Final Project is a must to receive certification).
+
+## 📝 Become A Successful Developer
+
+Master essential attitudes to become a lifetime successful developer:
+
+i. Embrace Ai like Foskaay Ai for coding and programming support always (before, during and after launching your project)
+
+ii. Security (Ai can help discover and patch security flaws in your project early before and during launching)
+
+iii. Start every project with Git Private (start with Opensource as beginner dev, close source only when become pro dev if essential for funding & IP protection)
+
+iv. Code Commenting
+
+v. Simplicity wins over complication/complexity (functions getting complex, break to simpler ones)
+
+vi. Leave local host quicker for Production Deployment and testing.
+
+vii. Listen to your project users feedbacks and tinker adjustment fast bit-by-bit
+
+viii. Keep the programming spirit high and alive by doing good to humanity and nature with your coding/progamming skill and not evil.
+
+### 📌 Course Target Audience
+
+#### i. 👷 Who Is This Course For?
+
+- Intermediate and
+- Advanced Developers
+
+#### ii. 📈 What You Will Learn In This Course?
+
+i. At the end of this course, students should have a solid understanding of how to build a chatbot website like chatGPT using Svelte/Sveltekit and the OpenAI API.
+
+ii. Students will also be able to design and implement an interactive user interface, make API calls and handle responses
+
+iii. Students will be able to deploy the AI powered chatbot website to a web server and add to your dev profile for potential partners, clients, sponsors and employers.
+
+## ⏪️ VIDEO
+
+If you prefer to watch the video where I guide you on Building  & Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT & OpenAI's GPT-3 API, then below is the full video.
+
+[![This a video about Building  & Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT & OpenAI's GPT-3 API](./AiHiPU-Vid000001a-7Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023.jpg)](https://www.youtube.com/watch?v=RmiLeS2bEuI&t=905s?ref=AiHiPUniversity.com)
+
+If not, continue to read the text format.
+
+Though its adviseable to combine the two course materials (Video & text) because some info are not 100% converted as text but explained in details in the video).
+
+## 📚 Lesson 1: Planning and Designing
+
+Planning and Designing the Ai Chatbot with Foskaay AI
+
+### 📚 1. Planning the layout & functionality
+
+Planning the layout and functionality of the AI chatbot interface
+
+### 📚 2. Designing the UI and UX
+
+Designing the user interface and user experience
+
+### 📚 3. Understand best practices building AI Chatbot
+
+Understanding best practices for building an AI Chatbot
+
+### 📚 4. Planning project folder structure
+
+Planning project folder structure (Backend server and frontend)
+
+### 📚 5. Deciding web development techstack to use
+
+### 📚 Exercise
+
+Plan and design the chatbot interface and layout. Submit screenshot in your course exercise repo.
+
+#### 📚 Challenge
+
+Research and apply best practices for building an AI Chatbot.
+
+## 🎨 Lesson 2: Setup Project with Git
 
 These are Ai that generates NFT Arts.
 
 - [Starryai Art Ai](https://starryai.com/create-nft-art-with-artificial-intelligence?ref=AiHiPUniversity.com "Starryai Art Ai Website")
 
-## 📚 (5) Avatar Generator AI
+## 🔖 Lesson 3: Backend (ExpressJs) With OpenAI API
 
-These are Ai that can help you to generate Avatars for your social media and profile picture.
+Backend (ExpressJs)- Connecting to the OpenAI API With ExpressJs
 
-- [Starryai Avatar Ai](https://www.starryai.com/starrytars?ref=AiHiPUniversity.com "Starryai Art Ai Website")
+## 🔥 Lesson 4: Frontend - Building the Chatbot Interface
 
-## 🚀 (4) Coding AI
-
-These are Ai that enhances programmers in their coding. While some generate complete codes and logic, others serve as Ai pair programmer.
-
-- [OpenAi Codex Ai](https://openai.com/blog/openai-codex?ref=AiHiPUniversity.com "OpenAi Codex Ai Website")
-- [Github Copilot Ai](https://github.com/features/copilot?ref=AiHiPUniversity.com "Github Copilot Ai Website")
+Frontend - Building the Chatbot Interface
 
 
-## 📚 (3) Text To Speech/Speach to Text and Translation AI
+## 🔒️ Lesson 5: Adding Security Features to AI ChatBot
 
-This Ai can transcribe audio to text and even translate to/from multiple languages.
+Adding Security Features to AI ChatBot Website
 
-- [OpenAi Whisper Ai](https://github.com/openai/whisper?ref=AiHiPUniversity.com "OpenAi Whisper Ai Website")
+## 🎉 Lesson 6: Deployment of ChatGPT-like Ai Chatbot
 
-## 🚀 (2) Image Generator AI
+Deployment of ChatGPT-like Ai Chatbot Website to Vercel and Render.
 
-These are Ai that can generate realistic images just by following human plain text descriptions of how the image should look like.
+## 🔨 FINAL PROJECT
 
-For example, I used one of the Images generating AI called DALL-E to generate the image used for this post above by simply describing it in text.
+Build an AI chatbot website using Svelte/Sveltekit and OpenAI's API. This could be a simple chatbot website or more complex chatbot website that uses advanced features such as user account.
 
-- [OpenAi DALL-E Ai](https://labs.openai.com/e?ref=AiHiPUniversity.com "OpenAi DALL-E Ai Website")
-- [Midjourney Ai](https://midjourney.com?ref=AiHiPUniversity.com "Midjourney Ai Website")
+## 🦺 CERTIFICATION
 
+Kindly complete all exercises including the challenges and final project in this course to qualify for Certificate. Submit the repo containing them for review.
 
-## 👍 (1) Text To Speech/Speach to Text and Translation AI
+If approved, you will get notification in our discord.
+
+Aside, that you will also be upgraded on our Discord to course Graduates only discussion private channels.
+
+## 💥 Course Git Repository
 
 These are Ai that can mimic human-like conversation during chat.
 
 - [OpenAi ChatGPT Ai](https://chat.openai.com/chat?ref=AiHiPUniversity.com "OpenAi ChatGPT Ai Website")
 
-
+## 👍 Credit & Referencies
