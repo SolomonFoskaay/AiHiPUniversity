@@ -65,8 +65,15 @@
     <p>
       <strong>(1)</strong>
       <a href="https://nodejs.org/en/download?ref=AiHiPUniversity.com" rel="external" title="Nodejs Website">Nodejs</a>
-       (Install if not having it yet latest LTS version)
     </p>
+    <p>Lets check if you have it already</p>
+    <p>
+      Open your terminal and run this command <code class="inline-code-block">node -v</code>
+      if it return something like
+      <code class="inline-code-block">v18.4.0</code>
+       hurray you have nodejs installed and you can move to next tool.
+    </p>
+    <p>If it shows error or nothing, then you need to install latest LTS version)</p>
     <p>
       <strong>(2)</strong>
       <a href="https://pnpm.io/installation?ref=AiHiPUniversity.com" rel="external" title="PNPM Website">PNPM</a>
@@ -102,6 +109,24 @@
         Windows (You may need to setup and use Linux Sub-System to avoid issues when using Windows OS for development)
       </li>
     </ul>
+    <h3 id="demo-chatgpt-clone-ai-chatbot-demo">
+      <a href="#demo-chatgpt-clone-ai-chatbot-demo">👷 DEMO: ChatGPT Clone AI ChatBot Demo</a>
+    </h3>
+    <p>
+      This is what you will be able to build and ship at the end of this course. A ChatGPT human-like conversational AI
+      chatbot of your own as seen in this demo below:
+    </p>
+    <p>
+      <a
+        href="https://Foskaay.AiHiPUniversity.com?ref=AiHiPUniversity.com"
+        rel="external"
+        title="Foskaay AI For Coding Website">
+        Foskaay Coding AI
+      </a>
+       (the demo might reflect a more advanced version to what this course cover by the time you will be checking it in future.
+      Don&#39;t worry, i will also be releasing another course to cover the upgrades done to it. So, ask in our discord to
+      be pointed to the new)
+    </p>
     <h3 id="intro-to-aihipuniversity-platform">
       <a href="#intro-to-aihipuniversity-platform">✅ Intro To AiHiPUniversity Platform</a>
     </h3>
@@ -112,6 +137,69 @@
     <p>v. Access to community of like-mind developers across the World.</p>
     <p>vi. Web3/Blockchain development courses</p>
     <p>vii. Free certification (Exercises, Challenges and Final Project is a must to receive certification).</p>
+    <h2 id="recomended-coding-ai-support-tools">
+      <a href="#recomended-coding-ai-support-tools">👽️ Recomended - CODING AI Support Tools</a>
+    </h2>
+    <p>
+      In my daily programming tasks, projects and throughout this course, I used combination of 2(two) or more coding AI
+      to enhance my productivity as a programmer and recommend you try them out to 10x your programming skill and
+      productivity too.
+    </p>
+    <p>
+      This is my own opinion from personal experience and doesn&#39;t mean the only AIs to help you as programmer
+      (Infact you can suggest me any other one you are currently using via our discord server and if tested okay, may
+      include it in this list for students to use.).
+    </p>
+    <p>
+      Also, if you develop one, you can become a sponsor of this free course platform and your programming AI will be
+      added as well.
+    </p>
+    <h3 id="free-coding-ai-support-tools">
+      <a href="#free-coding-ai-support-tools">👽️ FREE- CODING AI Support Tools</a>
+    </h3>
+    <p>
+      <strong>(1)</strong>
+      <a
+        href="https://Foskaay.AiHiPUniversity.com?ref=AiHiPUniversity.com"
+        rel="external"
+        title="Foskaay AI For Coding Website">
+        Foskaay
+      </a>
+      (Our AiHiPUniversity Official Programmers Coding Support AI called
+      <code class="inline-code-block">Foskaay</code>
+       Coding AI - Still in development and need your suggestion for features to add + funding support to release for production
+      use by programmers)
+    </p>
+    <p>
+      <strong>(2)</strong>
+      <a href="https://chat.openai.com?ref=AiHiPUniversity.com" rel="external" title="Foskaay AI Website">ChatGPT</a>
+       (Openai&#39;s general purpose AI chatbot with support for coding. But, now most times unrelable due to frequently
+      going over-capacity in handling huge influx of users - Infact I tried it just while writing this and it dening me access
+      - I think its important for Foskaay coding AI to move to production soon if well funded)
+    </p>
+    <h3 id="free-premium-coding-ai-support-tools">
+      <a href="#free-premium-coding-ai-support-tools">👽️ FREE+PREMIUM- CODING AI Support Tools</a>
+    </h3>
+    <p>
+      <strong>(1)</strong>
+      <a href="https://github.com/features/copilot?ref=AiHiPUniversity.com" rel="external" title="Foskaay AI Website">
+        GitHub Copilot
+      </a>
+       (Official GitHub&#39;s coding support AI)
+    </p>
+    <p>
+      <strong>(2)</strong>
+      <a
+        href="https://beta.openai.com/playground?model=code-davinci-002?ref=AiHiPUniversity.com"
+        rel="external"
+        title="Foskaay AI Website">
+        Codex
+      </a>
+       (Openai&#39;s coding AI, though with less capacity in my own opinion to ChatGPT &amp; Text-Davinci-003 which is what
+      you will use to build your AI chatbot in this course and currently using to testrun our own coding support AI Foskaay.
+      I added it to Freemium because you are using your Openai API credit each time you use it and if you exhuast the free
+      initial $18 giving, you will have to upgrade to paid AI API plan of Openai to continue to access it.)
+    </p>
     <h2 id="become-a-successful-developer-tips">
       <a href="#become-a-successful-developer-tips">📝 Become A Successful Developer Tips</a>
     </h2>
@@ -189,13 +277,13 @@
     <h4 id="done-features"><a href="#done-features">🔊 DONE FEATURES</a></h4>
     <div class="code-block  ">
       <CodeCopy>
-        <pre><code>{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    1. Connect with Openai API for different AI Models</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    2. Inputbox and submit button for user to ask question</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    3. User get response from the Ai chatbot</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    4. Setup backend server with Expressjs, cors, dotenv, openai</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    5. Connect with backend Expressjs to Sveltekit frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    6. Instanciate new chat when user click "Create New Chat" or "Start New Chat" button</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    7. List old chats in sidebar</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    8. User can access previous chat conversation to continue later</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    9. User can swap from one conversation to another</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    10. When old chat list is upto certain amount or height, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    it should include scroll bar for users to access old chats</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    11. Old chats get pushed up when new chat instance is created </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    and place at the below the chat list</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    12. Chat conversations are saved to user local storage to ensure </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    they can re-access it later even in a week or more time. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Means conversation not lost even if close browser until user delete</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    conversation via the old chat list label titles.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    13. Hide inputbox/submit form until user click "Create New Chat" </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    or "Start New Chat" button</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    14. Make viewport/webpage 3 columns (left side bar for adverts, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    center column for the chat conversation and right column for chat title label navigation and "Create New Caht" </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    or "Start New Chat" button</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    15. Messages/chat conversation scrollbar when get to a long lenght</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">     as desired by the developer.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    16. Secure API endpoint from frontend user access/discovery </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        via web browser tool like Network and console    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div>`}</code></pre>
+        <pre><code>{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    1. Connect with Openai API for different AI Models</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    2. Inputbox and submit button for user to ask question</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    3. User get response from the Ai chatbot</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    4. Setup backend server with Expressjs, cors, dotenv, openai</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    5. Connect with backend Expressjs to Sveltekit frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    6. Instanciate new chat when user click "Create New Chat" or "Start New Chat" button</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    7. List old chats in sidebar</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    8. User can access previous chat conversation to continue later</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    9. User can swap from one conversation to another</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    10. When old chat list is upto certain amount or height, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    it should include scroll bar for users to access old chats</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    11. Old chats get pushed up when new chat instance is created </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    and place at the below the chat list</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    12. Chat conversations are saved to user local storage to ensure </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    they can re-access it later even in a week or more time. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Means conversation not lost even if close browser until user delete</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    conversation via the old chat list label titles.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    13. Hide inputbox/submit form until user click "Create New Chat" </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    or "Start New Chat" button</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    14. Make viewport/webpage 3 columns (left side bar for adverts, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    center column for the chat conversation and right column for chat title label navigation and "Create New Caht" </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    or "Start New Chat" button</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    15. Messages/chat conversation scrollbar when get to a long lenght</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">     as desired by the developer.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    16. Secure API endpoint from frontend user access/discovery </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        via web browser tool like Network and console  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">17. Unique chat id for each chat conversation appended to the url automatically </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    (I used a UUID node package to generate the unique IDs randomly each time</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">     new chat is initialized with the #Create New Chat" button )  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    </div></div>`}</code></pre>
       </CodeCopy>
     </div>
     <h4 id="pending-features"><a href="#pending-features">🔊 PENDING FEATURES</a></h4>
     <div class="code-block  ">
       <CodeCopy>
-        <pre><code>{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    1. Join our discord and send your desired features. Also, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        use issues to suggest improvements.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    2. User can edit old and current chat instance title label as desired</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    3. Initially, the chat label title gets auto renamed </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        based on user first query/question asked the AI.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    4. User can delete unwanted saved old or current chat instance</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    5. Floating Up and Down arrow sidebar to navigate page from top to bottom.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    6. Light and Dark theme enabled</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    7. User create account to access</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    8. Chat saved on remote account database storage not local storage</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    9. Chat can save on both local and remote storage</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    10. Code highlighting with prism or highlightjs when responding with code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    11. Search feature: user quick searches chat history by particular </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        keyword(s) can bind search to url with sveltekit search node package</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    12. User can click to scroll down or up whoe page with right floating up </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        and down arrows</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    13. Use NFT to unlock the AI chatBot app (Web3 integration)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    14. Some modern user experience features you could </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        add to your AI chatbot include:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        i. Conversational context: keep track of the conversation's context to</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">         		understand the user's intent, for example: </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            The user had been asking about the weather and the next query</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                 if the user says "what about tomorrow", </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            Your chatbot should be able to understand that the user is still </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                asking about the weather.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            Here is a sample code snippet that you can use to implement</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">             context in your Chatbot:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            Copy code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // A context object to keep track of conversation context</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            let context = {};</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // Update the context object based on the user's message</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            function updateContext(message) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // Assume the user is asking for the weather</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            context.topic = 'weather';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // Extract the location from the message</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            const locationRegex = /(?:in|for|near|at) ([\w\s]+)/i;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            const match = message.match(locationRegex);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            if (match) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            context.location = match[1];</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // use this on your onSubmit function before calling the api</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            updateContext(message);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // pass context object on the fetch request to save context</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            const response = await fetch('http://localhost:5000', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            headers: {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                'Content-Type': 'application/json',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            }, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            body: JSON.stringify({ prompt: message, context }),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            });                </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        ii. Multimodal input: support different ways of receiving user input,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">             for example: voice, text, and touch.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        iii. Adaptive learning: allow the chatbot to learn from user</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">         	interactions and improve over time.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        iv. Personalization: allow the user to set preferences and personalize</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">             the experience, for example: the chatbot could greet the user</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">              by name and ask how they're doing.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        v. Multi-Language support: allow the user to switch between </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            different languages.</div></div>`}</code></pre>
+        <pre><code>{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    1. Join our discord and send your desired features. Also, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        use issues to suggest improvements.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    2. User can edit old and current chat instance title label as desired</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    3. Initially, the chat label title gets auto renamed </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        based on user first query/question asked the AI.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    4. User can delete unwanted saved old or current chat instance</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    5. Floating Up and Down arrow sidebar to navigate page from top to bottom.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    6. Light and Dark theme enabled</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    7. User create account to access</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    8. Chat saved on remote account database storage not local storage</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    9. Chat can save on both local and remote storage</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    10. Code highlighting with prism or highlightjs when responding with code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    11. Search feature: user quick searches chat history by particular </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        keyword(s) can bind search to url with sveltekit search node package</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    12. User can click to scroll down or up the page with right floating up </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        and down arrows</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    13. Use NFT to unlock the AI chatBot app (Web3 integration)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    14. Some modern user experience features you could </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        add to your AI chatbot include:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        i. Conversational context: keep track of the conversation's context to</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">         		understand the user's intent, for example: </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            The user had been asking about the weather and the next query</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                 if the user says "what about tomorrow", </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            Your chatbot should be able to understand that the user is still </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                asking about the weather.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            Here is a sample code snippet that you can use to implement</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">             context in your Chatbot:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            Copy code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // A context object to keep track of conversation context</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            let context = {};</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // Update the context object based on the user's message</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            function updateContext(message) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // Assume the user is asking for the weather</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            context.topic = 'weather';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // Extract the location from the message</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            const locationRegex = /(?:in|for|near|at) ([\w\s]+)/i;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            const match = message.match(locationRegex);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            if (match) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            context.location = match[1];</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // use this on your onSubmit function before calling the api</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            updateContext(message);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            // pass context object on the fetch request to save context</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            const response = await fetch('http://localhost:5000', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            headers: {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                'Content-Type': 'application/json',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            }, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            body: JSON.stringify({ prompt: message, context }),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            });                </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        ii. Multimodal input: support different ways of receiving user input,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">             for example: voice, text, and touch.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        iii. Adaptive learning: allow the chatbot to learn from user</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">         	interactions and improve over time.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        iv. Personalization: allow the user to set preferences and personalize</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">             the experience, for example: the chatbot could greet the user</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">              by name and ask how they're doing.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        v. Multi-Language support: allow the user to switch between </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            different languages.</div></div>`}</code></pre>
       </CodeCopy>
     </div>
     <h3 id="2-designing-the-ui-and-ux"><a href="#2-designing-the-ui-and-ux">📚 2. Designing the UI and UX</a></h3>
@@ -456,6 +544,138 @@
       unauthorized app. Good news, I have prepared some practical tips to safe guide your API KEY even further under the
       security section of this course below.
     </p>
+    <h4 id="quick-sidenote-1"><a href="#quick-sidenote-1">🚩Quick Sidenote 1</a></h4>
+    <p>
+      Before we leave the Openai API website lets play around a bit with the super advanced Large Language AI Models
+      like GTP-3 and others under the <code class="inline-code-block">Overview</code>
+      and
+      <code class="inline-code-block">Example</code>
+       pages.
+    </p>
+    <ul>
+      <li>When sending prompt to the Openai API will need specify some things like:</li>
+    </ul>
+    <p>The Ai model,</p>
+    <p>Prompt,</p>
+    <p>Temperature,</p>
+    <p>and more as seen here (example code at):</p>
+    <p>
+      <a
+        href="https://beta.openai.com/examples?ref=AiHiPUniversity.com"
+        rel="external"
+        title="Visit Openai API Call Examples Website">
+        Openai API Examples
+      </a>
+    </p>
+    <ul>
+      <li>
+        Search <code class="inline-code-block">Code</code>
+         and
+      </li>
+    </ul>
+    <p>
+      select <code class="inline-code-block">Natural language to OpenAI API</code>
+    </p>
+    <p>then open in the Openai AI test Playground.</p>
+    <p>Lets play around first before we choose my prefered model for this course.</p>
+    <p>
+      Select <code class="inline-code-block">code-danvinci-002</code>
+      <code class="inline-code-block">Codex</code>
+       model
+    </p>
+    <p>
+      This model powers <code class="inline-code-block">Codex</code>
+       the coding focused AI model trained with huge dataset of opensource codes on platforms like GitHub.
+    </p>
+    <p>But, have got a even power powerful GTP-3 model for us to checkout and compare the results together.</p>
+    <p>
+      Give the <code class="inline-code-block">Codex</code>
+      &#39;s
+      <code class="inline-code-block">code-danvinci-002</code>
+       model a coding question
+    </p>
+    <p>
+      set the <code class="inline-code-block">Temperature</code>
+       to 0 and then later to 1
+    </p>
+    <p>observe the responses.</p>
+    <p>Then switch to another model under .</p>
+    <p>
+      Select <code class="inline-code-block">text-danvinci-003</code>
+       model
+    </p>
+    <p>
+      set the <code class="inline-code-block">Temperature</code>
+       to 0 and then later to 1
+    </p>
+    <p>
+      This <code class="inline-code-block">text-danvinci-003</code>
+       GPT3 AI model is the most intelligent and a top large language Ai model from Openai for now as at the time of writing
+      this course material, that may have changed,
+    </p>
+    <p>
+      To ensure students taking this course are uptodate, have created a section at the end of the course where I plan
+      to be giving update of current Openai model to use for your chatGPT AI chatbot app to ensure you get the best AI
+      responses for your app users.
+    </p>
+    <p>observe the responses.</p>
+    <p>
+      and it will be clear to you that even though <code class="inline-code-block">Codex</code>
+      was trained mainly on
+      <code class="inline-code-block">codes</code>
+      , the quality of its output doesn&#39;t rival the general purpose natural language text focuse GTP-3 model.
+    </p>
+    <p>
+      GTP-3 model <code class="inline-code-block">test-davinci-003</code>
+       wins with more quality code output
+    </p>
+    <p>
+      and ability to follow instructions in natural language and translate it into <code class="inline-code-block">
+        code
+      </code>
+      to enhance
+      <code class="inline-code-block">developer</code>
+    </p>
+    <p>
+      the same powerful AI model is what <code class="inline-code-block">Foskaay</code>
+       coding AI is been built and experimented on.
+    </p>
+    <ul>
+      <li>
+        <p>Test the Ai temperature 0 and 1 to see differences in the response given if asked the same questions</p>
+      </li>
+      <li>
+        <p>
+          Click on <code class="inline-code-block">view code</code>
+           and here we go
+        </p>
+      </li>
+    </ul>
+    <p>the needed parameter to add up to our Express.js server when making call to Openai API later below.</p>
+    <p>
+      You may need to change the option from <code class="inline-code-block">python</code>
+      to
+      <code class="inline-code-block">node.js</code>
+      , copy and safe this somewhere.
+    </p>
+    <p>
+      It should look like or similar to this <code class="inline-code-block">javascript</code>
+      <code class="inline-code-block">node.js</code>
+      and
+      <code class="inline-code-block">POST request</code>
+       API call code:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">POST /v1/completions</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">node.js</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const { Configuration, OpenAIApi } = require("openai");</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const configuration = new Configuration({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  apiKey: process.env.OPENAI_API_KEY,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">});</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const openai = new OpenAIApi(configuration);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const response = await openai.createCompletion({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  model: "text-davinci-003",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  prompt: "\"\"\"\nUtil exposes the following:\nutil.openai() -&gt; authenticates &amp; returns the openai module, which has the following functions:\nopenai.Completion.create(\n    prompt=\"&lt;my prompt&gt;\", # The prompt to start completing from\n    max_tokens=123, # The max number of tokens to generate\n    temperature=1.0 # A measure of randomness\n    echo=True, # Whether to return the prompt in addition to the generated completion\n)\n\"\"\"\nimport util\n\"\"\"\nCreate an OpenAI completion starting from the prompt \"Once upon an AI\", no more than 5 tokens. Does not include the prompt.\n\"\"\"\ncompletion = util.openai().Completion.create(\n    prompt=\"Once upon an AI\",\n    max_tokens=5,\n    echo=False\n)\nprint(completion.choices[0].text)\n\n\n",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  temperature: 0.7,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  max_tokens: 64,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  top_p: 1,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  frequency_penalty: 0,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  presence_penalty: 0,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  stop: ["\"\"\""],</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">});</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      When using the above, we will adjust and even remove some parameters we don&#39;t need to run our own chatbot but
+      feel free to experiment with any of the features even if not used in this course.
+    </p>
+    <p>yeah next...</p>
     <h3 id="2-setting-up-expressjs-server">
       <a href="#2-setting-up-expressjs-server">🔖 2. Setting up ExpressJs Server</a>
     </h3>
@@ -468,25 +688,38 @@
       <code class="inline-code-block">README.md</code>
        files in the root folder and pushed to GitHub.
     </p>
+    <h4 id="create-sever-folder"><a href="#create-sever-folder">🚧 Create sever folder</a></h4>
     <p>
       <em><strong>1.</strong></em>
-       Create a new folder 1 (server) for Expressjs server to handle API key and API request) inside the root folder named
-      &quot;server&quot; ../ai-chatbot-app:
+      Create a new folder and name it
+      <code class="inline-code-block">server</code>
+       for Expressjs server to handle API key and API request inside the root folder ../ai-chatbot-app:
     </p>
     <p>By now your folder in VSCode should look something like this ../ai-chatbot-app :</p>
     <div class="code-block  ">
       <CodeCopy>
         <pre><code
-            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      - ai-chatbot-app "root folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - server "backend folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - .gitignore</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - README.md</div></div>`}</code></pre>
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      - ai-chatbot-app "root folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - server "backend folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - .gitignore</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - README.md</div></div>`}</code></pre>
       </CodeCopy>
     </div>
+    <p>Next step.</p>
+    <h4 id="inside-the-server-folder"><a href="#inside-the-server-folder">🚧 Inside the server folder</a></h4>
     <p>
       <em><strong>2.</strong></em>
       Inside server folder, create a
       <code class="inline-code-block">.env</code>
-       file (or rename .env.example to .env if you are using the full repo of this course) and put the Openai API KEY we
-      created earlier in side following the format below (do ensure .gitignore in the root folder prevent commiting your
-      .env file to avoid exposing your Openai API kEY to the public&quot;).
+       file,
+    </p>
+    <p>(or rename .env.example to .env if you are using the full repo of this course).</p>
+    <p>
+      Put the Openai API KEY we created earlier inside the <code class="inline-code-block">.env</code>
+       file following the format below:
+    </p>
+    <p>
+      (🚩 Please, do ensure .gitignore in the root folder prevents commiting your <code class="inline-code-block">
+        .env
+      </code>
+       file publicly to GitHub, to avoid exposing your Openai API kEY to the public).
     </p>
     <div class="code-block  ">
       <CodeCopy>
@@ -494,17 +727,22 @@
             class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  # COPY AND PAST YOUR OPENAI's API KEY BELOW WITHIN THE QOUTAION MARKS. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  # WARNING: Your API Key is confidencial and must not be exposed on frontend or commited to public places like Github:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  # To avoid exposing your API key, kindly rename this file from .evn.example to .env to avoid any errors accessing it by the server,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  # and it will also ensure that .gitinore rules help prevent exposing your API KEY by removing it from your commit files to send to github. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  OPENAI_API_KEY= "COPY AND PASTE TO REPLACE THIS TEXT WITH YOUR OPENAI's API KEY"</div></div>`}</code></pre>
       </CodeCopy>
     </div>
-    <p>You can close the .env file and move to next step.</p>
+    <p>
+      You can close the <code class="inline-code-block">.env</code>
+       file,
+    </p>
+    <p>and move to next step.</p>
+    <h4 id="create-package-json-in-server-folder">
+      <a href="#create-package-json-in-server-folder">🚧 Create package.json in server folder</a>
+    </h4>
     <p>
       <em><strong>3.</strong></em>
       Create
       <code class="inline-code-block">package.json</code>
        file to manage the server script, dependences and other essential things for the Express.js server to run successfully.
     </p>
-    <p>
-      You can&#39;t just create this file as usual, instead we will set it up by runing some commands in the VSCode
-      terminal.
-    </p>
+    <p>You can not just create this file as usual like previously created files,</p>
+    <p>instead we will set it up by runing some commands in the VSCode terminal.</p>
     <ul>
       <li>
         Open the VSCode terminal and go into the server folder <code class="inline-code-block">../ai-chatbot-app</code>
@@ -531,16 +769,40 @@
     </div>
     <p>
       The above command helps to create the needed <code class="inline-code-block">package.json</code>
-      file and set it up with essential initial/basic
-      <code class="inline-code-block">json object</code>
-       data and configuration so that we don&#39;t need to do it manually.
+       file
     </p>
-    <ul>
-      <li>
-        Still working on the <code class="inline-code-block">package.json</code>
-         file. We need to setup some essential node packages to run the server. Run command:
-      </li>
-    </ul>
+    <p>
+      and set it up with essential initial/basic <code class="inline-code-block">json object</code>
+       data and configuration,
+    </p>
+    <p>so that we don&#39;t need to do it manually.</p>
+    <p>
+      Your default generated <code class="inline-code-block">package.json</code>
+       file may look like this:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "name": "servertest",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "version": "1.0.0",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "description": "",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "main": "index.js",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "scripts": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "keywords": [],</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "author": "",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "license": "ISC"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>We will adjust it down the line.</p>
+    <p>No time to waste time,</p>
+    <p>Lets keep moving.</p>
+    <h4 id="install-node-packages-in-package-json">
+      <a href="#install-node-packages-in-package-json">🚧 Install Node Packages in package.json</a>
+    </h4>
+    <p>
+      We are still working on the <code class="inline-code-block">package.json</code>
+       file.
+    </p>
+    <p>
+      We need to install and setup some essential <code class="inline-code-block">Node Packages</code>
+      in
+      <code class="inline-code-block">package.json</code>
+       in server folder to run the server.
+    </p>
+    <p>Run command:</p>
     <div class="code-block  ">
       <CodeCopy>
         <pre><code
@@ -551,21 +813,60 @@
       The above command <code class="inline-code-block">i</code>
       represent
       <code class="inline-code-block">install</code>
-       (you can use either of it will work just fine) helps to install five (5) essential node packages which are:
+       (you can use either of it will work just fine).
     </p>
+    <p>If successfully installed the 5 node packages,</p>
+    <p>you will see something like this in your VSCode terminal:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">pnpm i express dotenv openai nodemon cors</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> WARN  GET https://registry.npmjs.org/express error (ECONNRESET). Will retry in 10 seconds. 2 retries left.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> ERR_PNPM_META_FETCH_FAIL  GET https://registry.npmjs.org/pnpm: request to https://registry.npmjs.org/pnpm failed, reason: read ECONNRESET</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   ╭──────────────────────────────────────────────────────────────────╮</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │                                                                  │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │                Update available! 7.24.3 → 7.25.0.                │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │   Changelog: https://github.com/pnpm/pnpm/releases/tag/v7.25.0   │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │                Run "pnpm add -g pnpm" to update.                 │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │                                                                  │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │      Follow @pnpmjs for updates: https://twitter.com/pnpmjs      │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   │                                                                  │</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   ╰──────────────────────────────────────────────────────────────────╯</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> WARN  GET https://registry.npmjs.org/nodemon error (ECONNRESET). Will retry in 10 seconds. 2 retries left.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> WARN  GET https://registry.npmjs.org/cors error (ECONNRESET). Will retry in 10 seconds. 2 retries left.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> WARN  GET https://registry.npmjs.org/dotenv error (ECONNRESET). Will retry in 10 seconds. 2 retries left.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> WARN  GET https://registry.npmjs.org/openai error (ECONNRESET). Will retry in 10 seconds. 2 retries left.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Packages: +98</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Packages are hard linked from the content-addressable store to the virtual store.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  Content-addressable store is at: /home/foskaay/.local/share/pnpm/store/v3</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  Virtual store is at:             node_modules/.pnpm</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Progress: resolved 99, reused 97, downloaded 1, added 98, done</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">dependencies:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ cors 2.8.5</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ dotenv 16.0.3</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ express 4.18.2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ nodemon 2.0.20</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ openai 3.1.0</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Done in 2m 4.7s</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h5 id="quick-sidenote-2"><a href="#quick-sidenote-2">🚩Quick Sidenote 2</a></h5>
+    <p>
+      I intentionally did not cut away the update box part of the terminal message above because it doesn&#39;t display
+      it always but whenever you are installing or setting up new <code class="inline-code-block">node package</code>
+      with
+      <code class="inline-code-block">pnpm</code>
+      and see the update box similar to this above
+      <code class="inline-code-block">Update available! 7.24.3 → 7.25.0.</code>
+      ,
+    </p>
+    <p>please, don&#39;t cancel the current process.</p>
+    <p>Allow it to install or setup completely.</p>
+    <p>Imediately after that, run the command:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    pnpm add -g pnpm</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      This will ensure you always have the latest recommended version of the <code class="inline-code-block">pnpm</code>
+       node package manager in use.
+    </p>
+    <p>That aside,</p>
+    <h5 id="next-step"><a href="#next-step">🚧 Next step</a></h5>
+    <p>Now back to our just completed node packages installations.</p>
+    <p><strong>It helps to install five (5) essential node packages which are:</strong></p>
     <p>
       <em><strong>i.</strong></em>
       <code class="inline-code-block">express</code>
-       - the Express.js node package
+       - the Express.js node package for the AI chatbot backend server setup
     </p>
     <p>
       <em><strong>ii.</strong></em>
       <code class="inline-code-block">dotenv</code>
       - that name should be familiar from previous
       <code class="inline-code-block">.env</code>
-      file we setup earlier. It helps to ensure the ExpressJs server can pickup and process the Openai API KEY stored in
-      the
-      <code class="inline-code-block">.env</code>
+       file we setup earlier.
+    </p>
+    <p>
+      It helps to ensure the ExpressJs server can pickup and process the Openai API KEY stored in the <code
+        class="inline-code-block">
+        .env
+      </code>
        file without actually exposing it to the public. Because without the API KEY added, our request to Openai API endpoint
       will be outrightly rejected as unauthorized.
     </p>
@@ -578,15 +879,20 @@
     <p>
       <em><strong>iv.</strong></em>
       <code class="inline-code-block">nodemon</code>
-       - hmmm not family maybe, but no worries. All that this node package does for us is to ensure that we are able to have
-      the server auto refresh whenever we make new changes and save them. If not, its annoying process to always have to
-      manually stop the backend server, and then restart each time we make changes and save them.
+       - hmmm not family maybe, but no worries.
     </p>
     <p>
-      Imaging how it will feel like if we will be making atleast 30 changes and saving it, then need to manually stop
-      server and restart 30 times. boring and annoying right - yeeeh a million time.
+      All that the <code class="inline-code-block">nodemon</code>
+       node package does for us is to ensure that we are able to have the server auto refresh whenever we make new changes
+      and save them. If not, its annoying process to always have to manually stop the backend server, and then restart each
+      time we make changes and save them.
     </p>
-    <p>As devs we always look for easier way out for boring repititve task 1000% of time.</p>
+    <p>
+      Imaging how it will feel like if we will be making atleast 50 changes and saving it in the process of building the
+      server, then need to manually stop server and restart 50 times.
+    </p>
+    <p>boring and annoying 💩 right - yeeeh a million times🧐.</p>
+    <p>As devs we always look for easier way out for boring repititve task 1000% of times✅.</p>
     <p>
       <em><strong>v.</strong></em>
       <code class="inline-code-block">cors</code>
@@ -602,9 +908,30 @@
        node package to tighten the security of the Expressjs backend even further against attackers.
     </p>
     <p>
-      Yeah time to move away from the <code class="inline-code-block">package,json</code>
-       land and head back to the forest
+      Yeah time to move away from the <code class="inline-code-block">package.json</code>
+       file land 🚚 and head back to the forest 🌱
     </p>
+    <p>
+      But before we do, cross check your <code class="inline-code-block">package.json</code>
+       content,
+    </p>
+    <p>it should be similar to this:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "name": "server",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "version": "1.0.0",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "description": "",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "main": "index.js",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "scripts": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "test": "echo \"Error: no test specified\" &amp;&amp; exit 1"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "keywords": [],</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "author": "",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "license": "ISC",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "dependencies": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "cors": "^2.8.5",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "dotenv": "^16.0.3",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "express": "^4.18.2",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "nodemon": "^2.0.20",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      "openai": "^3.1.0"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Also,</p>
+    <p>By now your chatGPT clone AI chatbot folder in VSCode should look something like this ../ai-chatbot-app :</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      - ai-chatbot-app "root folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - server "backend folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - .env</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - package.json </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - .gitignore</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - README.md</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>If all set,</p>
+    <p>we can now proceed.</p>
     <h3 id="3-using-expressjs-to-make-api-request">
       <a href="#3-using-expressjs-to-make-api-request">🔖 3. Using ExpressJs to make API Request</a>
     </h3>
@@ -612,21 +939,309 @@
       Using ExpressJs Post Reqest to make API calls and handle responses to create endpoint for our AI chatbot app
       frontend.
     </p>
+    <p>
+      To achieve this we need to create another file inside the <code class="inline-code-block">server</code>
+       folder
+    </p>
+    <p>
+      called <code class="inline-code-block">server.js</code>
+      .
+    </p>
+    <p>
+      This is the actual <code class="inline-code-block">Express.js Javascript</code>
+       file that will help us to make API calls with our API KEY to Openai&#39;s API anytime a user send questions in form
+      of request/prompt from the SvelteKit Ai chatbot frontend
+    </p>
+    <p>And get back AI responses from our Express.js server.</p>
+    <p>
+      Put the code below inside the <code class="inline-code-block">server.js</code>
+       file,
+    </p>
+    <p>or watch the video for explaination how it was created.</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import express from 'express' //backend server framework</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import * as dotenv from 'dotenv' // access and use API KEY stored in .env file</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import cors from 'cors' //allow make cross origin API request to server from frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import { Configuration, OpenAIApi } from 'openai' //Openai API wrapper</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//call config function to give access to .env API KEY variable</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">dotenv.config() </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//Openai API wrapper function which accepts API KEY as object parameter</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const configuration = new Configuration({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  apiKey: process.env.OPENAI_API_KEY,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">});</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// create instance of Openai and pass in the configuration object created above</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const openai = new OpenAIApi(configuration);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// initialize expressjs server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const app = express()</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// configure the cors middleware to allow accepting and processing request from allowed domains</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.use(cors());</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//middleware: allows the backend to recieve and acces request from frontend as a json object</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// rather than just a string. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// This is necessary in the following POST request route code: </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// app.post('/', async (req, res) =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// try {const prompt = req.body.prompt; </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// where it uses req.body to get the prompt data/question sent in the post request</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// from our chatGPT Ai chatBot SvelteKit powered frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.use(express.json())</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// routes/endpoint to expose expressjs backend to frontend "GET" request</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// with a return statement of info to show user visiting the route</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.get('/', async (req, res) =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  res.status(200).send({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    message: 'Hello Web3 AI World from Foskaay AI',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  })</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">})</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//route/endpoint which allows Expressjs backend to recieve and process</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// the request sent from users of our chatGPT Ai chatBot SvelteKit powered frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.post('/', async (req, res) =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  try {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    const prompt = req.body.prompt; //access user question submited as prompt</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //Initiate an API call to Openai's API to recieve response for user questions </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //from Openai's AI</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // But while making the call we bundle the user question/prompt and other</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // instructions to ensure we get the best response from the AI back to user</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    const response = await openai.createCompletion({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      model: "text-davinci-002", //most powerful openai large language Ai model for now</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      prompt: &#96;&#36;{prompt}&#96;, //input text value of the form input box in sveltekit app ui</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      max_tokens: 3000, // If not specified, it auto limit reponses usually less than 50 character (thats about 50 words)The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support over 8,000).</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      top_p: 1, // alternative to sampling with temperature, called nucleus sampling</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      // user: "user123456", // optional but can be useful to detect user abusing your API request. You can use session ID or hash email/psw so each user is unique but still not individually identificable for openai</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //Send the AI response back to user of </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // our chatGPT Ai chatBot SvelteKit powered frontend </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //in json format with a success status code of 200. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    res.status(200).send({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      ai: response.data.choices[0].text</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // logs error to the console and sends it back our chatGPT Ai chatBot SvelteKit powered frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //with a status of 500 if there is any error caught in try block.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  } catch (error) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    console.error(error)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    res.status(500).send(error || 'Something went wrong communicating with Ai Foskaay');</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">})</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// start the server on specified port on localhost</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// this get overriden when deployed to web server by the server url</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// "started on http://localhost:5001" makes the port link clickable from terminal</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.listen(5001, () =&gt; console.log('Foskaay Ai server started on http://localhost:5001'))</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h4 id="quick-sidenote-3"><a href="#quick-sidenote-3">🚩Quick Sidenote 3</a></h4>
+    <p>Now that we have moved to coding aspect,</p>
+    <p>
+      just a reminder to always comment your code even before you write it or alteast before you leave it for other
+      codes.
+    </p>
+    <p>Incase you are too lazy to write code comments when coding (don&#39;t know why though🙈),</p>
+    <p>
+      then you can feed your code into coding AI under the recommended AI coding tools above at the top of this course,
+    </p>
+    <p>
+      ask the coding Ai you decide to use, to explain the code and when you are convinced and satisfied that it
+      understood what the code does.
+    </p>
+    <p>Simply tell it to add comments to the code and send it back.</p>
+    <p>Gbam💥 you done with a well commented code without writting a single line of comment yourself.</p>
+    <p>What a lazy🏗️ way to be a developer - but anyways its AI world - ENJOY🤡!</p>
+    <h4 id="back-to-our-server-js-file"><a href="#back-to-our-server-js-file">🔖 Back to our server.js file</a></h4>
+    <p>
+      A brief summary of the <code class="inline-code-block">server.js</code>
+       above.
+    </p>
+    <p>It already self explainatory enough based on been a well commented code</p>
+    <p>yet here is a summary of what the code does:</p>
+    <p>
+      Import all the 5 <code class="inline-code-block">node packages</code>
+       we installed previously
+    </p>
+    <p>initialize and use them</p>
+    <p>
+      use <code class="inline-code-block">middleware</code>
+      in Express.js to access some functions of the installed packages like
+      <code class="inline-code-block">cors</code>
+       (cross origin)
+    </p>
+    <p>
+      Then create a GET route and POST route, the post route is used to bundle user request in <code
+        class="inline-code-block">
+        input
+      </code>
+       box in the chatGPT AI chatbot SvelteKit app UI.
+    </p>
+    <p>
+      package it with other essential configuration like the API KEY in <code class="inline-code-block">.env</code>
+       file to access GPT-3 AI and await the response.
+    </p>
+    <p>Once the GTP-3 AI responds, forward the response to the frontend</p>
+    <p>and if not response due to error, also inform user in the frontend about the unsuccessful request to the AI.</p>
+    <p>next please....</p>
     <h3 id="4-creating-api-endpoint-for-sveltkit-frontend">
       <a href="#4-creating-api-endpoint-for-sveltkit-frontend">🔖 4. Creating API Endpoint for SveltKit Frontend</a>
     </h3>
     <p>Creating an API endpoint for Frontend to access the AI chatbot&#39;s responses from Openai API</p>
+    <p>We have already create the endpoint for our frontend to access from above code.</p>
+    <p>Since we are still going to test this on local server temporarity</p>
+    <p>untill both backend and frontend are working.</p>
+    <p>
+      this code in the last part of our server.js file will help create the needed local server via <code
+        class="inline-code-block">
+        localhost
+      </code>
+      specified
+      <code class="inline-code-block">port</code>
+       below:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// start the server on specified port on localhost</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// this get overriden when deployed to web server by the server url</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.listen(5001, () =&gt; console.log('Foskaay Ai server started on http://localhost:5001'))</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Yeah, good job</p>
+    <p>You have come this far</p>
+    <p>let keep moving until goal🥅 of a chatGPT clone AI chatbot app</p>
+    <p>is achieved</p>
     <h3 id="5-run-server-to-test-expressjs-backend">
       <a href="#5-run-server-to-test-expressjs-backend">🔖 5. Run Server to Test ExpressJs Backend</a>
     </h3>
     <p>Testing the ExpressJs backend by runing the server</p>
+    <p>Yeah, its time to test our backend Express.js server</p>
+    <p>But, before we do that,</p>
+    <p>
+      there is need to do some cleanup in the <code class="inline-code-block">package.json</code>
+       file
+    </p>
+    <p>or else it will likely output error and server will not run smoothly as expected.</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">{</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "name": "foskaay-ai-server",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "private": true,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "version": "1.0.0",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "type": "module",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "scripts": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "server": "nodemon server"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "dependencies": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "cors": "^2.8.5",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "dotenv": "^16.0.3",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "express": "^4.18.2",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "nodemon": "^2.0.20",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "openai": "^3.1.0"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <ul>
+      <li>
+        You will notice some adjustment compared to the previous object data in the <code class="inline-code-block">
+          package.json
+        </code>
+         file as follows:
+      </li>
+    </ul>
+    <p>
+      <code class="inline-code-block">&quot;name&quot;:</code>
+       changed (can be name of choice)
+    </p>
+    <p>
+      <code class="inline-code-block">&quot;version&quot;:</code>
+       unchanged (can be number of choice)
+    </p>
+    <p>
+      <code class="inline-code-block">&quot;description&quot;:</code>
+       removed (since its empty)
+    </p>
+    <p>
+      <code class="inline-code-block">&quot;main&quot;: &quot;index.js&quot;,</code>
+       removed (it may cause confusing on which file to run when starting the server)
+    </p>
+    <p>
+      <code class="inline-code-block">
+        &quot;test&quot;: &quot;echo \&quot;Error: no test specified\&quot; &amp;&amp; exit 1&quot;
+      </code>
+      inside
+      <code class="inline-code-block">&quot;scripts&quot;</code>
+      removed and was replaced with
+      <code class="inline-code-block">&quot;server&quot;: &quot;nodemon server&quot;</code>
+       because we are not runing the test script,
+    </p>
+    <p>
+      instead, remember the <code class="inline-code-block">nodemon</code>
+       node package we installed earlier,
+    </p>
+    <p>
+      this is where it is been used to ensure it monitors the <code class="inline-code-block">server.js</code>
+       file for any saved changes. Stops and automatically restarts the server to ensure we don&#39;t have to do that stressful
+      💩 manually each time.
+    </p>
+    <p>
+      remeber to change the <code class="inline-code-block">nodemon server</code>
+      to whatever if you decide to name your
+      <code class="inline-code-block">server.js</code>
+       any other thing.
+    </p>
+    <p>
+      let say you name your <code class="inline-code-block">server.js</code>
+      as
+      <code class="inline-code-block">index.js</code>
+      or
+      <code class="inline-code-block">appserver.js</code>
+    </p>
+    <p>
+      you also need to rename <code class="inline-code-block">&quot;server&quot;: &quot;nodemon server&quot;</code>
+      to
+      <code class="inline-code-block">&quot;server&quot;: &quot;nodemon index&quot;</code>
+    </p>
+    <p>
+      or <code class="inline-code-block">&quot;server&quot;: &quot;nodemon appserver&quot;</code>
+       or whatever.
+    </p>
+    <ul>
+      <li>
+        other things like <code class="inline-code-block">
+          &quot;keywords&quot;: [], &quot;author&quot;: &quot;&quot;,
+        </code>
+        and
+        <code class="inline-code-block">&quot;license&quot;: &quot;ISC&quot;,</code>
+      </li>
+    </ul>
+    <p>were removed (it totally optional)</p>
+    <ul>
+      <li>
+        While some new key value peer were included to the <code class="inline-code-block">package.json</code>
+         object:
+      </li>
+    </ul>
+    <p>
+      <code class="inline-code-block">&quot;private&quot;: true,</code>
+      and
+      <code class="inline-code-block">&quot;type&quot;: &quot;module&quot;,</code>
+       - what do they do? why are they added? Are they essential or optional?
+    </p>
+    <p>
+      Sincerely before now am not sure but I did ask one of the AI I recommended above as your coding support AI and
+      here comes the answer from ChatGPT about the code and full breakdown of the <code class="inline-code-block">
+        package.json
+      </code>
+       file:
+    </p>
+    <h4 id="my-coding-question-to-chatgpt-ai">
+      <a href="#my-coding-question-to-chatgpt-ai">📝 My Coding Question to ChatGPT AI</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">this is the package.json file for the expressjs server file complete code sent earlier. can you explain what each of this key value pair does in the code:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">{</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "name": "foskaay-ai-server",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "private": true,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "version": "1.0.0",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "type": "module",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "scripts": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "server": "nodemon server2"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "dependencies": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "cors": "^2.8.5",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "dotenv": "^16.0.3",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "express": "^4.18.2",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "nodemon": "^2.0.20",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "openai": "^3.1.0"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h4 id="chatgpt-response-to-my-code"><a href="#chatgpt-response-to-my-code">✅ ChatGPT Response to my code</a></h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"name": "foskaay-ai-server" is the name of the project, it can be any name of your choice</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"private": true means this package won't accidentally be published to npm, it's intended for use as a dependency of other projects or for local development only.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"version": "1.0.0" is the version of the package. This can be updated as the package is updated and changed.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"type": "module" indicates that the package contains ECMAScript modules.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"scripts" is an object that contains commands that can be run with npm. In this case, the "server": "nodemon server2" command runs the server file using nodemon package and server2 is the file name.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"dependencies" is an object that lists the package dependencies of the project. These packages are required for the project to run and are automatically installed when you run npm install. In this case, the dependencies are:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"cors": "^2.8.5" is used to configure cross-origin resource sharing in the Express app.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"dotenv": "^16.0.3" is used to load environment variables from a .env file.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"express": "^4.18.2" is the Express.js framework used to create the server.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"nodemon": "^2.0.20" is used to automatically restart the server when changes are made to the code.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"openai": "^3.1.0" is a package that provides a simple API for interacting with the OpenAI API.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Please note that the version numbers may change with updates.</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Hurray, atleast if I know nothing,</p>
+    <p>
+      I have different coding AI buddy that always come to my resque before you laungh📸 at me - yeah i can see🧐 you
+      did when i said that i didn&#39;t know what the added code do in server easier.
+    </p>
+    <p>Cool,</p>
+    <p>time to testrun the server</p>
+    <p>are you ready?</p>
+    <p>Yeah 101% excited.</p>
+    <h4 id="testing-the-express-js-backend-server">
+      <a href="#testing-the-express-js-backend-server">⚗️ Testing the Express.js backend server</a>
+    </h4>
+    <p>May its just an experiment⚗️ or a working code</p>
+    <p>Its time to test and validate things for real</p>
+    <p>
+      Incase you have forgotten, let me remind you that your VSCode trminal should still remain open (if closed time to
+      re-open it)
+    </p>
+    <p>
+      Click the <code class="inline-code-block">+</code>
+       icon to create to instance of the terminal in VScode
+    </p>
+    <p>
+      the first terminal lets call it <code class="inline-code-block">terminal 1</code>
+    </p>
+    <p>go into the server folder by runing command:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      cd server</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      then when sure your terminal is at <code class="inline-code-block">../ai-chatbot-app/server</code>
+      ,
+    </p>
+    <p>run command:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      pnpm run server</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>if all goes fine,</p>
+    <p>you should see this in your VSCode terminal:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&#36; pnpm run server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&gt; foskaay-ai-server@1.0.0 server ../ai-chatbot-app/server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&gt; nodemon server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] 2.0.20</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] to restart at any time, enter &#96;rs&#96;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] watching path(s): *.*</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] watching extensions: js,mjs,json</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] starting &#96;node server2.js&#96;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Foskaay Ai server started on http://localhost:5001</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Meanwhile,</p>
+    <p>By now your chatGPT clone AI chatbot folder in VSCode should look something like this ../ai-chatbot-app :</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      - ai-chatbot-app "root folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - server "backend folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - .env</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - package.json </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - server.js "Express.js server with API call, Post/Get routes"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - .gitignore</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - README.md</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
     <h3 id="exercise-3"><a href="#exercise-3">🔖 Exercise 3</a></h3>
     <p>
       Implement the API calls and handle the responses and test the endpoint with your name as the custom response on
       the get request. Screenshot and add to your exercises repo for submition.
     </p>
     <h4 id="challenge-3"><a href="#challenge-3">🍻 Challenge 3</a></h4>
-    <p>Experiment with different API parameters to customize the chatbot&#39;s responses.</p>
+    <p>Push your code to GitHub, with a commit message that says:</p>
+    <p>
+      &quot;I, Your Full Name setup Server for my ChatGPT AI ChatBot App Powered by Openai GPT-3 AI API via
+      AiHiPUniversity Free Advanced Developer Course&quot;
+    </p>
+    <p>
+      NOTE: Change <code class="inline-code-block">Your Full Name</code>
+       to your actual Full Name that will be on your Certificate for this course.
+    </p>
+    <p>And submit for check before you move on to other stages.</p>
+    <p>🚩Reminder to always commit and pust to your project GitHub repo after minor or major changes</p>
     <h2 id="stuck-get-support-here"><a href="#stuck-get-support-here">💬 STUCK? GET SUPPORT HERE</a></h2>
     <p><strong>NEED HELP?</strong></p>
     <p>
@@ -642,18 +1257,92 @@
     </h2>
     <p>Frontend - Building the Chatbot Interface with SvelteKit.</p>
     <h3 id="exercise-4"><a href="#exercise-4">🔥 Exercise 4</a></h3>
-    <p>
-      Create a new project in Git using Github, clone it to your PC, and set up the project folder in your IDE/Code
-      Editor (VSCode).
-    </p>
+    <ol>
+      <li><p>a</p></li>
+      <li><p>Experiment with different Open API parameters to customize the chatbot&#39;s responses.</p></li>
+    </ol>
     <h4 id="challenge-4"><a href="#challenge-4">🍻 Challenge 4</a></h4>
-    <p>Research and implement a version control workflow for your project using Git and Github.</p>
     <h2 id="lesson-5-adding-security-features-to-ai-chatbot">
       <a href="#lesson-5-adding-security-features-to-ai-chatbot">
         🔒️ Lesson 5: Adding Security Features to AI ChatBot
       </a>
     </h2>
     <p>Adding Security Features to AI ChatBot Website</p>
+    <p>
+      As it is now lets try it, anyone using the Ai chatbot app frontend can easy use <code class="inline-code-block">
+        inspect tool
+      </code>
+       in browsers like Chrome, Firefox and more to see our Express.js backend endpoint url
+    </p>
+    <p>
+      though it looks harmless until you think deeply and ask yourself this question I asked myself after developing to
+      this point.
+    </p>
+    <p>
+      What if someone get the backend endpoint url, and just use it in their on chatbots, how will my backend or openai
+      different that the API call isn&#39;t actually from me?
+    </p>
+    <p>hmmm scary</p>
+    <p>
+      Yeah - anyone at this point can hook up to our backend server and use it to abuse our Openai API and even exhaust
+      all our API balance in our Openai API account.
+    </p>
+    <p>Painful right?</p>
+    <p>Yeah, but all hope not lost,</p>
+    <p>In my quest for solution</p>
+    <p>I turned to my coding AI buddies and personal porgramming assitants</p>
+    <p>They spit out different solutions but</p>
+    <p>
+      I was pleased with just 2 because that was what I had in mind but at that point didn&#39;t just know how to
+      implement it with code
+    </p>
+    <p>It simple,</p>
+    <p>I got the idea from my experience with Google API platforms years ago</p>
+    <p>When I do use Google API, they have a place i can list allowed domains</p>
+    <p>what this does it to ensure even if someone get access to my API KEY,</p>
+    <p>and attempt to make API request to Google API server from their own app</p>
+    <p>
+      Google will say yes, I see you have the correct API but you are making request from a domain I don&#39;t know
+      (means not added to the allow list)
+    </p>
+    <p>Google server will outrightly reject the request as unauthorized</p>
+    <p>
+      What this meant is that for an hacker or anyone to successfully use my Google API key, they also need to
+      compromide my website and be making the request directly from my website and domain.
+    </p>
+    <p>Anything outside that will not be process by Google API endpoint.</p>
+    <p>
+      I even tweeted at Openai official handle to consider adding such helpsul security layer to their API platform. Got
+      no response to my tweet
+    </p>
+    <p>
+      So, I decided to retry and solve things myself afterall thats while am a developer right - solving problems is my
+      hubby as a dev.
+    </p>
+    <p>Cool, as mentioned earlier, I explained same to my AI coding friends and viola</p>
+    <p>
+      the same could be implemented without the help of Openai and things will be much secured as long as I do not
+      expose my Openai API KEY (since they have not implemented this at their own end, its not secure to have your API
+      leak to Public. if it ever happens. once you are aware, go to your Openai API dashboard, revoke and generate a new
+      API KEY instantly without further delay)
+    </p>
+    <p>but as long as your API KEY not leaked,</p>
+    <p>
+      then this method is safe even if your Express.js POST request API endpoint is visible in your frontend like we
+      have now
+    </p>
+    <p>
+      Anyone that pick it must also make call to your AI chatbot Express.js backend not just with the endpoint url but
+      also from your website/domain or any other domains you allow.
+    </p>
+    <p>if not it will be percieved as unauthorized request and instantly and outrightly rejected.</p>
+    <p>Cool.</p>
+    <p>
+      So, lets adjust our <code class="inline-code-block">server</code>
+      folder and
+      <code class="inline-code-block">server.js</code>
+       file to implement this 2 layer security features.
+    </p>
     <h3 id="exercise-5"><a href="#exercise-5">🔒️ Exercise 5</a></h3>
     <p>
       Create a new project in Git using Github, clone it to your PC, and set up the project folder in your IDE/Code

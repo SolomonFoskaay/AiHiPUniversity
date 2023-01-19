@@ -14,6 +14,6 @@
     <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
     <base target="_blank" />
 
-    <p>For Enquiry, Partnership or Grant. Kindly reach us via: .</p>
+    <p>For Enquiry, Partnership or Grant. Kindly reach us via: Foskaay @ AiHiPUniversity .com</p>
   </article>
 </Post>

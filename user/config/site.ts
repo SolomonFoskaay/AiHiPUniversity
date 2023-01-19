@@ -119,7 +119,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
   },
   {
     name: '📚Courses',
-    url: '/?tags=Courses',
+    url: '/?tags-0.00.-Courses-Category=All-Courses',
   },
   {
     name: '🚀Foskaay AI Dev Support',
@@ -127,7 +127,7 @@ export const navConfig: (DD.Nav | DD.Link)[] = [
   },
   {
     name: '✨Blog',
-    url: '/?tags=Blog',
+    url: '/?tags-1.0.-All-Blog-Category=Blog',
   }, 
 ];
 
@@ -144,7 +144,7 @@ export const mobilenavConfig: DD.Nav = {
     },
     {
       name: '📚Courses',
-      url: '/?tags=Courses',
+      url: '/?tags-0.00.-Courses-Category=All-Courses',
     },
     {
       name: '🚀Foskaay AI Dev Support',
@@ -152,7 +152,7 @@ export const mobilenavConfig: DD.Nav = {
     },
     {
       name: '✨Blog',
-      url: '/?tags=Blog',
+      url: '/?tags-1.0.-All-Blog-Category=Blog',
     },
   ],
 };
