@@ -3,7 +3,7 @@ title: SVELTE/SVELTEKIT 303 (Advanced) - Build  & Deploy AI CHATBOT Website Like
 description: Demonstrates How To Build and Deploy AI chatbot Website Like chatGPT With Sveltekit, ExpressJs and Openai API. 
 summary: ✨ Build and Deploy AI chatbot Website Like chatGPT With Sveltekit, ExpressJs and Openai API
 published: '2023-01-17T00:00:00.000+00:00'
-updated: '2023-01-19T20:00:00.000+00:00'
+updated: '2023-01-20T20:00:00.000+00:00'
 cover: ./AiHiPU-Img0000004a-robot-human-programmer-image.png
 coverStyle: 'TOP'
 coverCaption: Photo by <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a> on <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a>
@@ -58,7 +58,6 @@ tags:
 <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
 <base target="_blank">
 
-
 ## ✨ INTRODUCTION
 
 In this course, I will be guiding you step by step through how to build and deploy AI powered chatbot like ChatGPT using Svelte, Sveltkit (for Frontend), ExpressJs (for Backend) and Openai API.
@@ -83,7 +82,7 @@ Prerequisites for taking this course:
 
 **(1)** [Nodejs](https://nodejs.org/en/download?ref=AiHiPUniversity.com "Nodejs Website")
 
-Lets check if you have it already
+Let us check if you have it already
 
 Open your terminal and run this command `node -v` if it return something like `v18.4.0` hurray you have nodejs installed and you can move to next tool. 
 
@@ -91,27 +90,49 @@ If it shows error or nothing, then you need to install latest LTS version)
 
 **(2)** [PNPM](https://pnpm.io/installation?ref=AiHiPUniversity.com "PNPM Website") Node package manager preferable over NPM and YARN (Install if not having it yet)
 
-**(3)** Essential Basic knowledge of:
+#### 💫 (3) Required Basic knowledge
+
+Essential Basic knowledge of:
   
-- Using CLI
+**i.** Using CLI
 
-- Git/Github
+**ii.** Git/Github
 
-- IDE/Code Editor like Visual Studio Code (VSCode)
+**iii.** IDE/Code Editor like Visual Studio Code (VSCode)
 
-- Svelte/Sveltekit (frontend)
+**iv.** Svelte/Sveltekit (frontend)
 
-- ExpressJs (backend)
+**v.** ExpressJs (backend)
 
-- Web Hosting & Domain Hosting
+**vi.** Web Hosting & Domain Hosting
 
-**(4)** Optional Basic knowledge of:
+#### 🔍️ (4) Optional Basic knowledge
 
-- Openai large language AI models and their API
+Optional Basic knowledge of:
 
-- Vercel (frontend hosting)
+**i.** Openai large language AI models and their API
 
-- Render (backend hosting)
+**ii.** Vercel (frontend hosting)
+
+**iii.** Render (backend hosting)
+
+### 🏷️ Recommended VSCode Extensions
+
+Recommended VSCode Extensions For This Course
+
+**i.** *GitLens VSCode Extention* - for tracking GitHub commit and other related things to Git
+
+**ii.** *Grammarly  VSCode Extention* - spell checker
+
+**iii.** *Prettier  VSCode Extention* - code formatter
+
+**iv.** *Svelte for VS Code VSCode Extention* - get access to Svelte pre made elements and auto corrections when using Svelte/SvelteKit
+
+**v.** *Svelte Component Extractor VSCode Extention* - extract and create Svelte component from existing svelte component to create modular codes
+
+**vi.** *SvelteKit-Snippets VSCode Extention* - this is an extension that give you access to snippets for common patterns in SvelteKit and Vanilla Svelte component, logic blocks, endpoints and load functions
+
+**vii.** *Todo Tree VSCode Extention* - Easily add a todo list to your code to get back to where you stopped later or have collaborators easily know what to do and where to do it in your code.
 
 ### 👷 Recommended OS
 
@@ -183,20 +204,20 @@ vii. Listen to your project users feedbacks and tinker adjustment fast bit-by-bi
 
 viii. Keep the programming spirit high and alive by doing good to humanity and nature with your coding/progamming skill and not evil.
 
-### 📌 Course Target Audience
+## 📌 Course Target Audience
 
-#### i. 👷 Who Is This Course For?
+### i. 👷 Who Is This Course For?
 
 - Intermediate and
 - Advanced Developers
 
-#### ii. 📈 What You Will Learn In This Course?
+### ii. 📈 What You Will Learn In This Course?
 
-i. At the end of this course, students should have a solid understanding of how to build a chatbot website like chatGPT using Svelte/Sveltekit and the OpenAI API.
+**i.** At the end of this course, students should have a solid understanding of how to build a chatbot website like chatGPT using Svelte/Sveltekit and the OpenAI API.
 
-ii. Students will also be able to design and implement an interactive user interface, make API calls and handle responses
+**ii.** Students will also be able to design and implement an interactive user interface, make API calls and handle responses
 
-iii. Students will be able to deploy the AI powered chatbot website to a web server and add to your dev profile for potential partners, clients, sponsors and employers.
+**iii.** Students will be able to deploy the AI-powered chatbot website to a web server and add it to your dev profile for potential partners, clients, sponsors and employers.
 
 ## ⏪️ VIDEO
 
@@ -944,7 +965,7 @@ we can now proceed.
 
 ### 🔖 3. Using ExpressJs to make API Request
 
-Using ExpressJs Post Reqest to make API calls and handle responses to create endpoint for our AI chatbot app frontend.
+Using ExpressJs Post Request to make API calls and handle responses to create an endpoint for our AI chatbot app frontend.
 
 To achieve this we need to create another file inside the `server` folder
 
@@ -1099,11 +1120,11 @@ next please....
 
 Creating an API endpoint for Frontend to access the AI chatbot's responses from Openai API
 
-We have already create the endpoint for our frontend to access from above code.
+We have already created the endpoint for our frontend to access from the above code.
 
 Since we are still going to test this on local server temporarity
 
-untill both backend and frontend are working.
+until both backend and frontend are working.
 
 this code in the last part of our server.js file will help create the needed local server via `localhost` specified `port` below:
 
@@ -1119,21 +1140,21 @@ Yeah, good job
 
 You have come this far
 
-let keep moving until goal🥅 of a chatGPT clone AI chatbot app 
+let's keep moving until goal🥅 of a chatGPT clone AI chatbot app 
 
 is achieved
 
 ### 🔖 5. Run Server to Test ExpressJs Backend
 
-Testing the ExpressJs backend by runing the server
+Testing the ExpressJs backend by running the server
 
-Yeah, its time to test our backend Express.js server
+Yeah, it's time to test our backend Express.js server
 
 But, before we do that,
 
-there is need to do some cleanup in the `package.json` file
+there is a need to do some cleanup in the `package.json` file
 
-or else it will likely output error and server will not run smoothly as expected.
+or else it will likely output an error and the server will not run smoothly as expected.
 
 ```javascript
 
@@ -1156,17 +1177,17 @@ or else it will likely output error and server will not run smoothly as expected
 
 ```
 
-- You will notice some adjustment compared to the previous object data in the `package.json` file as follows:
+- You will notice some adjustments compared to the previous object data in the `package.json` file as follows:
 
-`"name":` changed (can be name of choice)
+`"name":` changed (can be any name of choice)
 
-`"version":` unchanged (can be number of choice)
+`"version":` unchanged (can be any number of choice)
 
-`"description":` removed (since its empty)
+`"description":` removed (since it's empty)
 
-`"main": "index.js",` removed (it may cause confusing on which file to run when starting the server)
+`"main": "index.js",` removed (it may cause confusion on which file to run when starting the server)
 
- `"test": "echo \"Error: no test specified\" && exit 1"` inside `"scripts"` removed and was replaced with `"server": "nodemon server"` because we are not runing the test script,
+ `"test": "echo \"Error: no test specified\" && exit 1"` inside `"scripts"` removed and was replaced with `"server": "nodemon server"` because we are not running the test script,
 
  instead, remember the `nodemon` node package we installed earlier,
 
@@ -1190,7 +1211,7 @@ or else it will likely output error and server will not run smoothly as expected
 
 Sincerely before now am not sure but I did ask one of the AI I recommended above as your coding support AI and here comes the answer from ChatGPT about the code and full breakdown of the `package.json` file:
 
-#### 📝 My Coding Question to ChatGPT AI
+#### 📝 My Coding Questions to ChatGPT AI
 
 ```javascript
 
@@ -1214,50 +1235,32 @@ this is the package.json file for the expressjs server file complete code sent e
 
 ```
 
-#### ✅ ChatGPT Response to my code
+#### ✅ ChatGPT Response to My Coding Questions
 
-```javascript
+Hurray, at least if I know nothing
 
-"name": "foskaay-ai-server" is the name of the project, it can be any name of your choice
-"private": true means this package won't accidentally be published to npm, it's intended for use as a dependency of other projects or for local development only.
-"version": "1.0.0" is the version of the package. This can be updated as the package is updated and changed.
-"type": "module" indicates that the package contains ECMAScript modules.
-"scripts" is an object that contains commands that can be run with npm. In this case, the "server": "nodemon server2" command runs the server file using nodemon package and server2 is the file name.
-"dependencies" is an object that lists the package dependencies of the project. These packages are required for the project to run and are automatically installed when you run npm install. In this case, the dependencies are:
-"cors": "^2.8.5" is used to configure cross-origin resource sharing in the Express app.
-"dotenv": "^16.0.3" is used to load environment variables from a .env file.
-"express": "^4.18.2" is the Express.js framework used to create the server.
-"nodemon": "^2.0.20" is used to automatically restart the server when changes are made to the code.
-"openai": "^3.1.0" is a package that provides a simple API for interacting with the OpenAI API.
-Please note that the version numbers may change with updates.
-
-```
-
-Hurray, atleast if I know nothing,
-
-I have different coding AI buddy that always come to my resque before you laungh📸 at me - yeah i can see🧐 you did when i said that i didn't know what the added code do in server easier.
+I have different coding AI buddies that always come to my rescue before you laugh📸 at me - yeah can see🧐 you did when I said that I didn't know what the added codes does in `package.json` earlier.
 
 Cool,
-
-time to testrun the server
+time to test run the server
 
 are you ready?
 
-Yeah 101% excited.
+Yeah, 101% excited.
 
 #### ⚗️ Testing the Express.js backend server
 
-May its just an experiment⚗️ or a working code
+Maybe all we have been doing so far is just an experiment⚗️ or a working code?
 
-Its time to test and validate things for real
+Its time to test and validate things in real time
 
-Incase you have forgotten, let me remind you that your VSCode trminal should still remain open (if closed time to re-open it)
+In case you have forgotten, let me remind you that your VSCode trminal should remain open (if closed, its time to re-open it)
 
-Click the `+` icon to create to instance of the terminal in VScode
+Click the `+` icon at the top-right corner of the terminal to create two instances of the terminal in VScode.
 
-the first terminal lets call it `terminal 1`
+The first terminal let's call it `terminal 1`
 
-go into the server folder by runing command:
+go into the server folder by running the command:
 
 ```javascript
       cd server
@@ -1291,6 +1294,18 @@ Foskaay Ai server started on http://localhost:5001
 
 ```
 
+- Click to view the server at
+
+[http://localhost:5001](http://localhost:5001?ref=AiHiPUniversity.com "Express.js Server Endpoint")
+
+and if successful it should output our default get route setup message in the Expressjs `serve.js` file which was:
+
+```javascript
+
+    {"message: 'Hello Web3 AI World from Foskaay AI"}
+
+```
+
 Meanwhile,
 
 By now your chatGPT clone AI chatbot folder in VSCode should look something like this ../ai-chatbot-app :
@@ -1308,10 +1323,9 @@ By now your chatGPT clone AI chatbot folder in VSCode should look something like
           - README.md
 ```
 
-
 ### 🔖 Exercise 3
 
-Implement the API calls and handle the responses and test the endpoint with your name as the custom response on the get request. Screenshot and add to your exercises repo for submition.
+Implement the API calls and handle the responses and test the endpoint with your name as the custom response on the get request. Screenshot and add to your exercises repo for submission.
 
 #### 🍻 Challenge 3
 
@@ -1319,26 +1333,59 @@ Implement the API calls and handle the responses and test the endpoint with your
 
 "I, Your Full Name setup Server for my ChatGPT AI ChatBot App Powered by Openai GPT-3 AI API via AiHiPUniversity Free Advanced Developer Course"
 
-NOTE: Change `Your Full Name` to your actual Full Name that will be on your Certificate for this course.
+NOTE: Change `Your Full Name` to the actual Full Name that will be on your Certificate for this course.
 
 And submit for check before you move on to other stages.
 
-🚩Reminder to always commit and pust to your project GitHub repo after minor or major changes
+🚩Reminder to always commit and push your project to GitHub repo after minor or major changes,
+
+as part of a good developer habits.
 
 ## 💬 STUCK? GET SUPPORT HERE
 
 **NEED HELP?**
 
-If you are stuck, remember to watch the video because it may explained indepth what is confusing in the text version.
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained indepth what is confusing in the text version.
 
-**ISSUES STILL UNRESOLVED?**
+**ARE ISSUES STILL UNRESOLVED?**
 
-Then, reachout to me for support via our discord server (at the top or footer of this course).
+Then, reach out to the course instructor(s) for support via our discord server (at the top or footer of this course).
 
 ## 🔥 Lesson 4: Frontend - Building the Chatbot Interface
 
 Frontend - Building the Chatbot Interface with SvelteKit.
 
+### 🔥 1. Setting up Sveltekit for Ai chatBot frontend
+
+Setting up Sveltekit for Ai chatBot frontend
+
+### 🔥 2. Creating the user interface using Svelte components
+
+Creating the user interface using Svelte components
+
+### 🔥 3. Connecting the user interface to the ExpressJs Backend
+
+Connecting the user interface to the ExpressJs Backend
+
+### 🔥 4. Handling user input and sending it to the OpenAI API via ExpressJs backend
+
+Handling user input and sending it to the OpenAI API via ExpressJs backend
+
+### 🔥 5. Displaying User questions & AI chatbot's responses from Openai API
+
+Displaying User questions & AI chatbot's responses from Openai API
+
+### 🔥 6. Storing User questions & AI chatbot's responses in Local storage (to old retrieve old chats later)
+
+Storing User questions & AI chatbot's responses in Local storage (to old retrieve old chats later)
+
+### 🔥 7. Designing the chatbot interface to make it user-friendly and visually appealing
+
+Designing the chatbot interface to make it user-friendly and visually appealing
+
+### 🔥 8. Testing the Sveltekit Frontend in localhost
+
+Testing the Sveltekit Frontend in localhost
 
 ### 🔥 Exercise 4
 
@@ -1354,7 +1401,7 @@ Frontend - Building the Chatbot Interface with SvelteKit.
 
 Adding Security Features to AI ChatBot Website
 
-As it is now lets try it, anyone using the Ai chatbot app frontend can easy use `inspect tool` in browsers like Chrome, Firefox and more to see our Express.js backend endpoint url
+As it is now let's try it, anyone using the Ai chatbot app frontend can easy use `inspect tool` in browsers like Chrome, Firefox and more to see our Express.js backend endpoint url
 
 though it looks harmless until you think deeply and ask yourself this question I asked myself after developing to this point.
 
@@ -1455,3 +1502,163 @@ These are Ai that can mimic human-like conversation during chat.
 - [OpenAi ChatGPT Ai](https://chat.openai.com/chat?ref=AiHiPUniversity.com "OpenAi ChatGPT Ai Website")
 
 ## 👍 Credit & Referencies
+
+Giving credits to whom is due is essential to acknowledging others contributions to making this course possible and a reality for you to benefit:
+
+- [Build chatGPT with Vanilla Javascript by Adrian Hajdin (JSMatery)](https://github.com/adrianhajdin/project_openai_codex?ref=AiHiPUniversity.com "Visit Build chatGPT with Vanilla Javascript Github Repository")
+
+- Thanks to my AI coding support friends - (see under recommended coding AI section at the top of this course to see and try them out in your daily programming journey to enhance and 10x your dev skill and productivity)
+
+## 📚 SUB-REFERENCES - Openai API Updates
+
+Due to Openai continious imporvement to their large language model and embeding models like the ones used in this app. I have decided to create this section. Always check it out to see the latest improvement and current recommended Ai model to use in this app for better performance.
+
+### 👽️ 1. Text Danvinci 003
+
+Usually in our server we calls to the text-davinci-003 model (presumably the most powerful of all the text model. Text model take natural language, read instruction and generate responses accordingly).
+
+Introduction Date: 15th December 2022
+
+Max Token: 4,000 Tokens (Prompt and Response)
+
+Price: Costly model
+
+Sample call using it below:
+
+```javascript
+
+        const response = await openai.createCompletion({
+        model: "text-davinci-003", //most powerful openai large language Ai model for now
+        prompt: `${prompt}`, //input text value of the form input box in sveltekit app ui
+        temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.
+        max_tokens: 4000, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).
+        top_p: 1, // alternative to sampling with temperature, called nucleus sampling
+        frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.
+        presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.
+        });
+
+```
+
+### 👽️ 2. Text Embedding Ada 002
+
+Newly introduce text large language Ai model from Openai.
+
+Introduction Date: 15th December 2022
+
+Max Token: 8,190 Tokens (Prompt and Response).
+
+2x greater than text-davinci-003 making it suitable to handle longer text and document between the prompt and response.
+
+Price: 99.8% lower price when compared to Text Danvinci Models
+
+Sample call using it below:
+
+```javascript
+
+        const response = await openai.createCompletion({
+        model: "text-embedding-ada-002", //most powerful, yet cheaper openai large language Ai model for now
+        prompt: `${prompt}`, //input text value of the form input box in sveltekit app ui
+        temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.
+        max_tokens: 7000, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 8,190).
+        top_p: 1, // alternative to sampling with temperature, called nucleus sampling
+        frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.
+        presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.
+        });
+
+```
+
+Announcement|Details: See detailed official announcement at [Text Ada 002 New and Improved Embedding Model](https://openai.com/blog/new-and-improved-embedding-model?ref=AiHiPUniversity.com "Visit Text Ada 002 New and Improved Embedding Model Official Announment Website")
+
+Conclusion on Model: In my personal test with the current setup for this Sveltekit chatGPT-like chabot app I found the response quality of this model still lower then text-davinci-003.
+
+I gave it simple text prompt like:
+
+Propmt:
+
+```javascript
+
+12 cats names in list for example 1. catname 1 2. catname 2
+
+```
+
+Response(text-embedding-ada-002):
+
+```javascript
+
+12th 12th 2 12 12:12,12:12 12In12In12In12In12 (12,12,12cU12C6c12C 12 (12A12C12A,12C2c 12 12 12212c1cat 12The12c 1212:12p12p 12 12 12c12C12a1212 12c 12 ( 12a 1212 11 12c 1212a...12,
+ 12 12C12C12C12m12m12m12 12o (12C12cIc-12C12 12C12c...12c 12c 1212@121211an 12(12a12l1 2 12 12-12c12A12,12M12A12C12 12We12c12C12 12c 1212p12-In"12 12C12c12c 12 12C12 12C12c12C12A12n12iN12in12C 
+ .12...12i 12c12...121S12S 12 12iR12C1, 12 12 412mcst 12 12c12c12a...12.....12 a12p12s12s...12...C12e12C12 -12a-12c 12 12 12... 1212c12C12d12a12a12a12andM 2 c12 12A12a12e212B 12 12 -1212,12C12cO12..12C12In12d1212......12 12 12 12in12a12c2 
+ 1212....1212c1212c 12 12...1212 1213 12C12c12From12...12C12...s12B1212 An12c 12 12 12 12a,.112 1212c 12 12a3412 12C12c 12c12the12i1215 12 12a12+12 1212C 12p12a12-12 1212 at 12 121112In12a112C 12b12C12r (1212T12C12 12-12p12 -1212...12,12c12t12Cn13 12C12S12S12N12f12 1212...12...12c12C12A12... 1212For121212M12mcm12Cthe C12...12,12C12d1 
+ ...-12 12C12In1212c12t12C12S 12C12a12C12 12cetc12,12c12C12L12C1212 12c12a1212c1212211 12@,12...12d12C1212 12This12In121212m12C12A1212c1212 1210C 1212c12c12C 12c,C12,12C112c2 (12C 12cA 12T12,12 12C12c11acat12a,12... 12 12c12j 12c12C12...12a12...12 12c12C1212cCat1212, 12 12C12e12C1212c 12l12 1212 12c12The 12 12C12c12C12 12c(122112 12c2 12c 12a,12c:1 
+ 12 12C12In1212o12t12c 12 12cS12S112S12 12c2a1212in12c(12 13 12p1212 12c:-12...1213C12...121212...12C12The12The1112 12C12c12(12a12 c.12...12.. 121212c1 12tS1212S12S1212C12c 12a...11cat:12w 12-12s12cT 12 12c12s12a1212C 1212 i 12 11212in7a 12C 12Cat6a 12c 
+ 12c1 12 12a12c 12 12a1212a1212 12 (12c12p12 12...12 12e12a12..12s1212c 12cMC 1212s11c12...12c12c12St12st12........ 12...12...A1213...12...n 12 12C1c12C1t12...Sa12...12...12l...
+ 12c...12 12c12...12D112M12C12In12C12..e1 11C12 12...(12es1214c12 12 12 12,12c12h1t12C1t12S12...,12)12c12C 12p12a12c...12...12...12In12..12...12f1239 12l12 12c12...12the12C12...12,12...12...1212u 12en 12......, (..., 121 1212C12,12a12c... 12 12 12c12s12d12...,1212c1212....12...12c 12...1212a1212c 12...12 12c...1212d,1212...12a....1
+ 212.....12g 12...12C12A...121112 12c12C12c12C12,15c 12 12C12c12C12 12C12in12c 1212......12C12em12m12C12C112 12C12c,12c12C12...12C12...........1212c12f12t11C12t12S,12C12c12C12 
+ 12C...112a1212c...1212... 1212A12cT12 12c12 12....1212This12i12l11...12C1212C12...12 12. 12C12c12n,12c12C12c 1212...12c 12...12...12...i1..12... 12c......12...1212c...1212...12C...12c8c12And1212...12which12i...C12S12S12t12CThe12C12p12h124 12c12m12...1212C12m12R12S12S12t1C12t 12...12S21C1212c12...12C12...In12C12a12,
+ 12 12cand12 12c12... 12,12C1201212Number12c,12 12c11C12A12C12,13C12p,12c12C12c12En 12 12 12e12The1212s12s12s 1212c (12T12l12c2 1211....12c2An12C 1212n 12c12 121212C12l12...12E12a1212C 11212C12 12C12e12c1212C#12C12a12...12 1212cC1 (12C12H12c12--121212a.
+ .2c12C12C12c12S12C12d12c...12 12C12l12d1212C12c12M1213In121212a12c12 12C12c12c1212C12,12d1212i-1212c12cIn12A
+ ...1212c12 12N11a12... 1212c(12C,12 c-12C(1212in1212c :12 12S12S'12C12t12c 12C12not12C...12c12s...12-1212c 12Cat11a1212r 1212The212 12C12st12a1212 12C12...12...1212a12-12 12 12C12c12c1212c 1212c12,
+ 12C12A12n1212N12C12C121312c......12C1212c-1212...12dA12c12s12C 12c12 12c12C12 12C12...12a12T12.12g12 1212c12c12C12b 12C12a12C12...123c12a12C...12t12S12C...12 12c12a12C12a12c
+ ...12M12...12c12c 12...12...12C12a...12 12c12a12C1212c12...1211 1212C12in12c12... 12C12a12C1212C12c1c2C 12C12No12C12 12c12m12C1212c12thS12C12s12c12s 
+ 12c12C12a12-12 12 12c12The212c12C12 number 12"12C12..12...12-0in1212cWith1212M12c12c 
+ 12c12C12A12C12a1212s12C12sC12c1-12c1210f1312e12c12c1212c 12b12C12,12a12G12a1212c 12 1a12121 1212n 12 12a12a12c12 12C12c12in1212c12C12,12c12c12C12c12.......12in12 
+ 1212....1212i2C12A12l 12number12No12i12 1212t1212S12e1S12S12c12n12Cg1 12C12c12c12,12c12 12tr12a12c112,12S 12c12 12C12a12,1212C12,12c12B12C12P12c12,12...1212a12 12,12a12 14a1212Cf1 12a112C 12 12C12c12a12...12..1212C,The12The1212Cs12C12C12C12 12Ab12...12Catc12C12...12C13 12cA....12RO 12Number,12 12...12a12 12 12S... 
+ 12t1...12A1212...12C12The12The,12Drp1212C12 12.... 12...12...12...12......12l...12...12o 1212...12...13...a12...12 12...12...1...12Cat1212......12...12s...12w1212,12...1212 12 
+ (12...12...12......12.............12...12......1212.....12..12..12...12...1212C12c...12...12...c...........12C12...12...12......12...12c 12...12...12...12a12c11 12...12...12...12a12...12......12...12...12...12...12...12...12......12c...12... 12It12..
+ .1D1212C12the121 12 12...12a12v1112...12..12...12...12C12A12S12S 12t12c1212C12...12...12... 12C12c12...12 12...12...12c212...12c12C12...12...12....in12...12...12v1212...12...12...12...12C12S 12S12c "12w 12 12s12s1312...12c12C 1212C1...
+ .12.....12...n12C12N12a1212...12 ...12c 12......12-12A12C12c12C12...12c12...12m12Here12 12 121212.....12my12C12c12C12...12C12...12c...12...12...12c...12s12s12s12a1212Ia1212c 
+ 1212...121212.......12...12 12c12(12 12C12....12....1212...12To12c,C12c...12c...12c 12S......12t1212...12m12...1C 12C..c12C11 12C12...12c1212.C1,12...12St12C12n12...12...12ac...12lI12c12...12C 12...s 12c,1212n12a-12C6c12cC12cD112c..
+ 12c (12C12the12c,12C7a12Anumber212C12A12-1212 12C12a12c12 12p12a12c1212ch
+
+```
+
+Response(text-davinc-003):  
+
+```javascript
+
+1. Max 2. Charlie 3. Simon 
+4. Oliver 5. Lily 6. Mia 
+7. Tigger 8. Smokey 9. Jasper 
+10. Milo 11. Monty 12. Sammy
+
+```
+
+The difference is very clear with similar prompt but got less aligning response to text input from `Text-Embedding-Ada-002`.
+
+`Text-Davinci-003` will remain in use for this project until am able to understand how to get resonanble quality responses better than it from other models like the `Text-Embedding-Ada-002`.
+
+## 🏗️👍 Behind-The-Scene Dev Fun Facts
+
+This section isn't main part of the course but created it to give students idea what efforts is put in to get this course done.
+
+I hope it achieve at least 1 goal, which is to:
+
+- Let students realized that to be a successful developer is not just by word of mouth, setting goals or making resolutions and getting excited of the possiblity/ideas💡 of what can be achieve technically and financially as a developer.
+
+- You got to rise up and get your hands dirty🔨 in the coding 💩 and be encouraged to pursue your programming career productively either you are going through the
+
+👷builders path,
+
+🧑‍💻dev educators path
+
+or both 👷➕🧑‍💻 paths combined just like me🤡, Solomon Foskaay🔧.
+
+It took me about 4days to have the first complete version of this course (text only) to be created and organized for the first time even before the video was recorded at all and published.
+
+### 🏗️ Phase 1
+
+**Started:** 17th January 2023
+
+**Stage 1:** 17th January 2023 (completed Intro-Lesson2)
+
+**Stage 2:** 18th-19th January 2023 (started completed Lesson3 Express.js backend part)
+
+**Stage 2:** In progress
+
+### 🚧 Phase 2
+
+It work in progress, 
+
+this stage is infinite as long as this course need an update in future, even if its correct a typo error which am sure I have millions of them you enduring understandably already
+
+Thank YOU!!!

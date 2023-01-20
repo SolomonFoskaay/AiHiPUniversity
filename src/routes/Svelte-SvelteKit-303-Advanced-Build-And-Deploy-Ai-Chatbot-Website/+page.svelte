@@ -66,7 +66,7 @@
       <strong>(1)</strong>
       <a href="https://nodejs.org/en/download?ref=AiHiPUniversity.com" rel="external" title="Nodejs Website">Nodejs</a>
     </p>
-    <p>Lets check if you have it already</p>
+    <p>Let us check if you have it already</p>
     <p>
       Open your terminal and run this command <code class="inline-code-block">node -v</code>
       if it return something like
@@ -79,27 +79,87 @@
       <a href="https://pnpm.io/installation?ref=AiHiPUniversity.com" rel="external" title="PNPM Website">PNPM</a>
        Node package manager preferable over NPM and YARN (Install if not having it yet)
     </p>
+    <h4 id="3-required-basic-knowledge"><a href="#3-required-basic-knowledge">💫 (3) Required Basic knowledge</a></h4>
+    <p>Essential Basic knowledge of:</p>
     <p>
-      <strong>(3)</strong>
-       Essential Basic knowledge of:
+      <strong>i.</strong>
+       Using CLI
     </p>
-    <ul>
-      <li><p>Using CLI</p></li>
-      <li><p>Git/Github</p></li>
-      <li><p>IDE/Code Editor like Visual Studio Code (VSCode)</p></li>
-      <li><p>Svelte/Sveltekit (frontend)</p></li>
-      <li><p>ExpressJs (backend)</p></li>
-      <li><p>Web Hosting &amp; Domain Hosting</p></li>
-    </ul>
     <p>
-      <strong>(4)</strong>
-       Optional Basic knowledge of:
+      <strong>ii.</strong>
+       Git/Github
     </p>
-    <ul>
-      <li><p>Openai large language AI models and their API</p></li>
-      <li><p>Vercel (frontend hosting)</p></li>
-      <li><p>Render (backend hosting)</p></li>
-    </ul>
+    <p>
+      <strong>iii.</strong>
+       IDE/Code Editor like Visual Studio Code (VSCode)
+    </p>
+    <p>
+      <strong>iv.</strong>
+       Svelte/Sveltekit (frontend)
+    </p>
+    <p>
+      <strong>v.</strong>
+       ExpressJs (backend)
+    </p>
+    <p>
+      <strong>vi.</strong>
+       Web Hosting &amp; Domain Hosting
+    </p>
+    <h4 id="4-optional-basic-knowledge"><a href="#4-optional-basic-knowledge">🔍️ (4) Optional Basic knowledge</a></h4>
+    <p>Optional Basic knowledge of:</p>
+    <p>
+      <strong>i.</strong>
+       Openai large language AI models and their API
+    </p>
+    <p>
+      <strong>ii.</strong>
+       Vercel (frontend hosting)
+    </p>
+    <p>
+      <strong>iii.</strong>
+       Render (backend hosting)
+    </p>
+    <h3 id="recommended-vscode-extensions">
+      <a href="#recommended-vscode-extensions">🏷️ Recommended VSCode Extensions</a>
+    </h3>
+    <p>Recommended VSCode Extensions For This Course</p>
+    <p>
+      <strong>i.</strong>
+      <em>GitLens VSCode Extention</em>
+       - for tracking GitHub commit and other related things to Git
+    </p>
+    <p>
+      <strong>ii.</strong>
+      <em>Grammarly VSCode Extention</em>
+       - spell checker
+    </p>
+    <p>
+      <strong>iii.</strong>
+      <em>Prettier VSCode Extention</em>
+       - code formatter
+    </p>
+    <p>
+      <strong>iv.</strong>
+      <em>Svelte for VS Code VSCode Extention</em>
+       - get access to Svelte pre made elements and auto corrections when using Svelte/SvelteKit
+    </p>
+    <p>
+      <strong>v.</strong>
+      <em>Svelte Component Extractor VSCode Extention</em>
+       - extract and create Svelte component from existing svelte component to create modular codes
+    </p>
+    <p>
+      <strong>vi.</strong>
+      <em>SvelteKit-Snippets VSCode Extention</em>
+       - this is an extension that give you access to snippets for common patterns in SvelteKit and Vanilla Svelte component,
+      logic blocks, endpoints and load functions
+    </p>
+    <p>
+      <strong>vii.</strong>
+      <em>Todo Tree VSCode Extention</em>
+       - Easily add a todo list to your code to get back to where you stopped later or have collaborators easily know what
+      to do and where to do it in your code.
+    </p>
     <h3 id="recommended-os"><a href="#recommended-os">👷 Recommended OS</a></h3>
     <p>Recommended OS (Operating System) to follow this course are:</p>
     <ul>
@@ -225,26 +285,28 @@
       viii. Keep the programming spirit high and alive by doing good to humanity and nature with your coding/progamming
       skill and not evil.
     </p>
-    <h3 id="course-target-audience"><a href="#course-target-audience">📌 Course Target Audience</a></h3>
-    <h4 id="i-who-is-this-course-for"><a href="#i-who-is-this-course-for">i. 👷 Who Is This Course For?</a></h4>
+    <h2 id="course-target-audience"><a href="#course-target-audience">📌 Course Target Audience</a></h2>
+    <h3 id="i-who-is-this-course-for"><a href="#i-who-is-this-course-for">i. 👷 Who Is This Course For?</a></h3>
     <ul>
       <li>Intermediate and</li>
       <li>Advanced Developers</li>
     </ul>
-    <h4 id="ii-what-you-will-learn-in-this-course">
+    <h3 id="ii-what-you-will-learn-in-this-course">
       <a href="#ii-what-you-will-learn-in-this-course">ii. 📈 What You Will Learn In This Course?</a>
-    </h4>
+    </h3>
     <p>
-      i. At the end of this course, students should have a solid understanding of how to build a chatbot website like
-      chatGPT using Svelte/Sveltekit and the OpenAI API.
+      <strong>i.</strong>
+       At the end of this course, students should have a solid understanding of how to build a chatbot website like chatGPT
+      using Svelte/Sveltekit and the OpenAI API.
     </p>
     <p>
-      ii. Students will also be able to design and implement an interactive user interface, make API calls and handle
-      responses
+      <strong>ii.</strong>
+       Students will also be able to design and implement an interactive user interface, make API calls and handle responses
     </p>
     <p>
-      iii. Students will be able to deploy the AI powered chatbot website to a web server and add to your dev profile
-      for potential partners, clients, sponsors and employers.
+      <strong>iii.</strong>
+       Students will be able to deploy the AI-powered chatbot website to a web server and add it to your dev profile for
+      potential partners, clients, sponsors and employers.
     </p>
     <h2 id="video"><a href="#video">⏪️ VIDEO</a></h2>
     <p>
@@ -936,7 +998,7 @@
       <a href="#3-using-expressjs-to-make-api-request">🔖 3. Using ExpressJs to make API Request</a>
     </h3>
     <p>
-      Using ExpressJs Post Reqest to make API calls and handle responses to create endpoint for our AI chatbot app
+      Using ExpressJs Post Request to make API calls and handle responses to create an endpoint for our AI chatbot app
       frontend.
     </p>
     <p>
@@ -1017,9 +1079,9 @@
       <a href="#4-creating-api-endpoint-for-sveltkit-frontend">🔖 4. Creating API Endpoint for SveltKit Frontend</a>
     </h3>
     <p>Creating an API endpoint for Frontend to access the AI chatbot&#39;s responses from Openai API</p>
-    <p>We have already create the endpoint for our frontend to access from above code.</p>
+    <p>We have already created the endpoint for our frontend to access from the above code.</p>
     <p>Since we are still going to test this on local server temporarity</p>
-    <p>untill both backend and frontend are working.</p>
+    <p>until both backend and frontend are working.</p>
     <p>
       this code in the last part of our server.js file will help create the needed local server via <code
         class="inline-code-block">
@@ -1037,19 +1099,19 @@
     </div>
     <p>Yeah, good job</p>
     <p>You have come this far</p>
-    <p>let keep moving until goal🥅 of a chatGPT clone AI chatbot app</p>
+    <p>let&#39;s keep moving until goal🥅 of a chatGPT clone AI chatbot app</p>
     <p>is achieved</p>
     <h3 id="5-run-server-to-test-expressjs-backend">
       <a href="#5-run-server-to-test-expressjs-backend">🔖 5. Run Server to Test ExpressJs Backend</a>
     </h3>
-    <p>Testing the ExpressJs backend by runing the server</p>
-    <p>Yeah, its time to test our backend Express.js server</p>
+    <p>Testing the ExpressJs backend by running the server</p>
+    <p>Yeah, it&#39;s time to test our backend Express.js server</p>
     <p>But, before we do that,</p>
     <p>
-      there is need to do some cleanup in the <code class="inline-code-block">package.json</code>
+      there is a need to do some cleanup in the <code class="inline-code-block">package.json</code>
        file
     </p>
-    <p>or else it will likely output error and server will not run smoothly as expected.</p>
+    <p>or else it will likely output an error and the server will not run smoothly as expected.</p>
     <div class="code-block  ">
       <CodeCopy>
         <pre><code
@@ -1058,7 +1120,7 @@
     </div>
     <ul>
       <li>
-        You will notice some adjustment compared to the previous object data in the <code class="inline-code-block">
+        You will notice some adjustments compared to the previous object data in the <code class="inline-code-block">
           package.json
         </code>
          file as follows:
@@ -1066,19 +1128,19 @@
     </ul>
     <p>
       <code class="inline-code-block">&quot;name&quot;:</code>
-       changed (can be name of choice)
+       changed (can be any name of choice)
     </p>
     <p>
       <code class="inline-code-block">&quot;version&quot;:</code>
-       unchanged (can be number of choice)
+       unchanged (can be any number of choice)
     </p>
     <p>
       <code class="inline-code-block">&quot;description&quot;:</code>
-       removed (since its empty)
+       removed (since it&#39;s empty)
     </p>
     <p>
       <code class="inline-code-block">&quot;main&quot;: &quot;index.js&quot;,</code>
-       removed (it may cause confusing on which file to run when starting the server)
+       removed (it may cause confusion on which file to run when starting the server)
     </p>
     <p>
       <code class="inline-code-block">
@@ -1088,7 +1150,7 @@
       <code class="inline-code-block">&quot;scripts&quot;</code>
       removed and was replaced with
       <code class="inline-code-block">&quot;server&quot;: &quot;nodemon server&quot;</code>
-       because we are not runing the test script,
+       because we are not running the test script,
     </p>
     <p>
       instead, remember the <code class="inline-code-block">nodemon</code>
@@ -1150,8 +1212,8 @@
       </code>
        file:
     </p>
-    <h4 id="my-coding-question-to-chatgpt-ai">
-      <a href="#my-coding-question-to-chatgpt-ai">📝 My Coding Question to ChatGPT AI</a>
+    <h4 id="my-coding-questions-to-chatgpt-ai">
+      <a href="#my-coding-questions-to-chatgpt-ai">📝 My Coding Questions to ChatGPT AI</a>
     </h4>
     <div class="code-block  ">
       <CodeCopy>
@@ -1159,39 +1221,37 @@
             class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">this is the package.json file for the expressjs server file complete code sent earlier. can you explain what each of this key value pair does in the code:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">{</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "name": "foskaay-ai-server",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "private": true,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "version": "1.0.0",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "type": "module",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "scripts": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "server": "nodemon server2"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  "dependencies": {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "cors": "^2.8.5",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "dotenv": "^16.0.3",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "express": "^4.18.2",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "nodemon": "^2.0.20",</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    "openai": "^3.1.0"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">}</div></div>`}</code></pre>
       </CodeCopy>
     </div>
-    <h4 id="chatgpt-response-to-my-code"><a href="#chatgpt-response-to-my-code">✅ ChatGPT Response to my code</a></h4>
-    <div class="code-block  ">
-      <CodeCopy>
-        <pre><code
-            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"name": "foskaay-ai-server" is the name of the project, it can be any name of your choice</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"private": true means this package won't accidentally be published to npm, it's intended for use as a dependency of other projects or for local development only.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"version": "1.0.0" is the version of the package. This can be updated as the package is updated and changed.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"type": "module" indicates that the package contains ECMAScript modules.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"scripts" is an object that contains commands that can be run with npm. In this case, the "server": "nodemon server2" command runs the server file using nodemon package and server2 is the file name.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"dependencies" is an object that lists the package dependencies of the project. These packages are required for the project to run and are automatically installed when you run npm install. In this case, the dependencies are:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"cors": "^2.8.5" is used to configure cross-origin resource sharing in the Express app.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"dotenv": "^16.0.3" is used to load environment variables from a .env file.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"express": "^4.18.2" is the Express.js framework used to create the server.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"nodemon": "^2.0.20" is used to automatically restart the server when changes are made to the code.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"openai": "^3.1.0" is a package that provides a simple API for interacting with the OpenAI API.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Please note that the version numbers may change with updates.</div></div>`}</code></pre>
-      </CodeCopy>
-    </div>
-    <p>Hurray, atleast if I know nothing,</p>
+    <h4 id="chatgpt-response-to-my-coding-questions">
+      <a href="#chatgpt-response-to-my-coding-questions">✅ ChatGPT Response to My Coding Questions</a>
+    </h4>
+    <p>Hurray, at least if I know nothing</p>
     <p>
-      I have different coding AI buddy that always come to my resque before you laungh📸 at me - yeah i can see🧐 you
-      did when i said that i didn&#39;t know what the added code do in server easier.
+      I have different coding AI buddies that always come to my rescue before you laugh📸 at me - yeah can see🧐 you did
+      when I said that I didn&#39;t know what the added codes does in <code class="inline-code-block">
+        package.json
+      </code>
+       earlier.
     </p>
-    <p>Cool,</p>
-    <p>time to testrun the server</p>
+    <p>Cool, time to test run the server</p>
     <p>are you ready?</p>
-    <p>Yeah 101% excited.</p>
+    <p>Yeah, 101% excited.</p>
     <h4 id="testing-the-express-js-backend-server">
       <a href="#testing-the-express-js-backend-server">⚗️ Testing the Express.js backend server</a>
     </h4>
-    <p>May its just an experiment⚗️ or a working code</p>
-    <p>Its time to test and validate things for real</p>
+    <p>Maybe all we have been doing so far is just an experiment⚗️ or a working code?</p>
+    <p>Its time to test and validate things in real time</p>
     <p>
-      Incase you have forgotten, let me remind you that your VSCode trminal should still remain open (if closed time to
+      In case you have forgotten, let me remind you that your VSCode trminal should remain open (if closed, its time to
       re-open it)
     </p>
     <p>
       Click the <code class="inline-code-block">+</code>
-       icon to create to instance of the terminal in VScode
+       icon at the top-right corner of the terminal to create two instances of the terminal in VScode.
     </p>
     <p>
-      the first terminal lets call it <code class="inline-code-block">terminal 1</code>
+      The first terminal let&#39;s call it <code class="inline-code-block">terminal 1</code>
     </p>
-    <p>go into the server folder by runing command:</p>
+    <p>go into the server folder by running the command:</p>
     <div class="code-block  ">
       <CodeCopy>
         <pre><code
@@ -1217,6 +1277,27 @@
             class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&#36; pnpm run server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&gt; foskaay-ai-server@1.0.0 server ../ai-chatbot-app/server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&gt; nodemon server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] 2.0.20</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] to restart at any time, enter &#96;rs&#96;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] watching path(s): *.*</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] watching extensions: js,mjs,json</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[nodemon] starting &#96;node server2.js&#96;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Foskaay Ai server started on http://localhost:5001</div></div>`}</code></pre>
       </CodeCopy>
     </div>
+    <ul>
+      <li>Click to view the server at</li>
+    </ul>
+    <p>
+      <a href="http://localhost:5001?ref=AiHiPUniversity.com" rel="external" title="Express.js Server Endpoint">
+        http://localhost:5001
+      </a>
+    </p>
+    <p>
+      and if successful it should output our default get route setup message in the Expressjs <code
+        class="inline-code-block">
+        serve.js
+      </code>
+       file which was:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    {"message: 'Hello Web3 AI World from Foskaay AI"}</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
     <p>Meanwhile,</p>
     <p>By now your chatGPT clone AI chatbot folder in VSCode should look something like this ../ai-chatbot-app :</p>
     <div class="code-block  ">
@@ -1228,7 +1309,7 @@
     <h3 id="exercise-3"><a href="#exercise-3">🔖 Exercise 3</a></h3>
     <p>
       Implement the API calls and handle the responses and test the endpoint with your name as the custom response on
-      the get request. Screenshot and add to your exercises repo for submition.
+      the get request. Screenshot and add to your exercises repo for submission.
     </p>
     <h4 id="challenge-3"><a href="#challenge-3">🍻 Challenge 3</a></h4>
     <p>Push your code to GitHub, with a commit message that says:</p>
@@ -1238,24 +1319,74 @@
     </p>
     <p>
       NOTE: Change <code class="inline-code-block">Your Full Name</code>
-       to your actual Full Name that will be on your Certificate for this course.
+       to the actual Full Name that will be on your Certificate for this course.
     </p>
     <p>And submit for check before you move on to other stages.</p>
-    <p>🚩Reminder to always commit and pust to your project GitHub repo after minor or major changes</p>
+    <p>🚩Reminder to always commit and push your project to GitHub repo after minor or major changes,</p>
+    <p>as part of a good developer habits.</p>
     <h2 id="stuck-get-support-here"><a href="#stuck-get-support-here">💬 STUCK? GET SUPPORT HERE</a></h2>
     <p><strong>NEED HELP?</strong></p>
     <p>
-      If you are stuck, remember to watch the video because it may explained indepth what is confusing in the text
-      version.
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained indepth
+      what is confusing in the text version.
     </p>
-    <p><strong>ISSUES STILL UNRESOLVED?</strong></p>
-    <p>Then, reachout to me for support via our discord server (at the top or footer of this course).</p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (at the top or footer of this
+      course).
+    </p>
     <h2 id="lesson-4-frontend-building-the-chatbot-interface">
       <a href="#lesson-4-frontend-building-the-chatbot-interface">
         🔥 Lesson 4: Frontend - Building the Chatbot Interface
       </a>
     </h2>
     <p>Frontend - Building the Chatbot Interface with SvelteKit.</p>
+    <h3 id="1-setting-up-sveltekit-for-ai-chatbot-frontend">
+      <a href="#1-setting-up-sveltekit-for-ai-chatbot-frontend">🔥 1. Setting up Sveltekit for Ai chatBot frontend</a>
+    </h3>
+    <p>Setting up Sveltekit for Ai chatBot frontend</p>
+    <h3 id="2-creating-the-user-interface-using-svelte-components">
+      <a href="#2-creating-the-user-interface-using-svelte-components">
+        🔥 2. Creating the user interface using Svelte components
+      </a>
+    </h3>
+    <p>Creating the user interface using Svelte components</p>
+    <h3 id="3-connecting-the-user-interface-to-the-expressjs-backend">
+      <a href="#3-connecting-the-user-interface-to-the-expressjs-backend">
+        🔥 3. Connecting the user interface to the ExpressJs Backend
+      </a>
+    </h3>
+    <p>Connecting the user interface to the ExpressJs Backend</p>
+    <h3 id="4-handling-user-input-and-sending-it-to-the-openai-api-via-expressjs-backend">
+      <a href="#4-handling-user-input-and-sending-it-to-the-openai-api-via-expressjs-backend">
+        🔥 4. Handling user input and sending it to the OpenAI API via ExpressJs backend
+      </a>
+    </h3>
+    <p>Handling user input and sending it to the OpenAI API via ExpressJs backend</p>
+    <h3 id="5-displaying-user-questions-and-amp-ai-chatbot-and-39-s-responses-from-openai-api">
+      <a href="#5-displaying-user-questions-and-amp-ai-chatbot-and-39-s-responses-from-openai-api">
+        🔥 5. Displaying User questions &amp; AI chatbot&#39;s responses from Openai API
+      </a>
+    </h3>
+    <p>Displaying User questions &amp; AI chatbot&#39;s responses from Openai API</p>
+    <h3
+      id="6-storing-user-questions-and-amp-ai-chatbot-and-39-s-responses-in-local-storage-to-old-retrieve-old-chats-later">
+      <a
+        href="#6-storing-user-questions-and-amp-ai-chatbot-and-39-s-responses-in-local-storage-to-old-retrieve-old-chats-later">
+        🔥 6. Storing User questions &amp; AI chatbot&#39;s responses in Local storage (to old retrieve old chats later)
+      </a>
+    </h3>
+    <p>Storing User questions &amp; AI chatbot&#39;s responses in Local storage (to old retrieve old chats later)</p>
+    <h3 id="7-designing-the-chatbot-interface-to-make-it-user-friendly-and-visually-appealing">
+      <a href="#7-designing-the-chatbot-interface-to-make-it-user-friendly-and-visually-appealing">
+        🔥 7. Designing the chatbot interface to make it user-friendly and visually appealing
+      </a>
+    </h3>
+    <p>Designing the chatbot interface to make it user-friendly and visually appealing</p>
+    <h3 id="8-testing-the-sveltekit-frontend-in-localhost">
+      <a href="#8-testing-the-sveltekit-frontend-in-localhost">🔥 8. Testing the Sveltekit Frontend in localhost</a>
+    </h3>
+    <p>Testing the Sveltekit Frontend in localhost</p>
     <h3 id="exercise-4"><a href="#exercise-4">🔥 Exercise 4</a></h3>
     <ol>
       <li><p>a</p></li>
@@ -1269,7 +1400,8 @@
     </h2>
     <p>Adding Security Features to AI ChatBot Website</p>
     <p>
-      As it is now lets try it, anyone using the Ai chatbot app frontend can easy use <code class="inline-code-block">
+      As it is now let&#39;s try it, anyone using the Ai chatbot app frontend can easy use <code
+        class="inline-code-block">
         inspect tool
       </code>
        in browsers like Chrome, Firefox and more to see our Express.js backend endpoint url
@@ -1383,5 +1515,168 @@
       </li>
     </ul>
     <h2 id="credit-and-amp-referencies"><a href="#credit-and-amp-referencies">👍 Credit &amp; Referencies</a></h2>
+    <p>
+      Giving credits to whom is due is essential to acknowledging others contributions to making this course possible
+      and a reality for you to benefit:
+    </p>
+    <ul>
+      <li>
+        <p>
+          <a
+            href="https://github.com/adrianhajdin/project_openai_codex?ref=AiHiPUniversity.com"
+            rel="external"
+            title="Visit Build chatGPT with Vanilla Javascript Github Repository">
+            Build chatGPT with Vanilla Javascript by Adrian Hajdin (JSMatery)
+          </a>
+        </p>
+      </li>
+      <li>
+        <p>
+          Thanks to my AI coding support friends - (see under recommended coding AI section at the top of this course to
+          see and try them out in your daily programming journey to enhance and 10x your dev skill and productivity)
+        </p>
+      </li>
+    </ul>
+    <h2 id="sub-references-openai-api-updates">
+      <a href="#sub-references-openai-api-updates">📚 SUB-REFERENCES - Openai API Updates</a>
+    </h2>
+    <p>
+      Due to Openai continious imporvement to their large language model and embeding models like the ones used in this
+      app. I have decided to create this section. Always check it out to see the latest improvement and current
+      recommended Ai model to use in this app for better performance.
+    </p>
+    <h3 id="1-text-danvinci-003"><a href="#1-text-danvinci-003">👽️ 1. Text Danvinci 003</a></h3>
+    <p>
+      Usually in our server we calls to the text-davinci-003 model (presumably the most powerful of all the text model.
+      Text model take natural language, read instruction and generate responses accordingly).
+    </p>
+    <p>Introduction Date: 15th December 2022</p>
+    <p>Max Token: 4,000 Tokens (Prompt and Response)</p>
+    <p>Price: Costly model</p>
+    <p>Sample call using it below:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        const response = await openai.createCompletion({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        model: "text-davinci-003", //most powerful openai large language Ai model for now</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        prompt: &#96;&#36;{prompt}&#96;, //input text value of the form input box in sveltekit app ui</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        max_tokens: 4000, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 4096).</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        top_p: 1, // alternative to sampling with temperature, called nucleus sampling</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        });</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h3 id="2-text-embedding-ada-002"><a href="#2-text-embedding-ada-002">👽️ 2. Text Embedding Ada 002</a></h3>
+    <p>Newly introduce text large language Ai model from Openai.</p>
+    <p>Introduction Date: 15th December 2022</p>
+    <p>Max Token: 8,190 Tokens (Prompt and Response).</p>
+    <p>
+      2x greater than text-davinci-003 making it suitable to handle longer text and document between the prompt and
+      response.
+    </p>
+    <p>Price: 99.8% lower price when compared to Text Danvinci Models</p>
+    <p>Sample call using it below:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        const response = await openai.createCompletion({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        model: "text-embedding-ada-002", //most powerful, yet cheaper openai large language Ai model for now</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        prompt: &#96;&#36;{prompt}&#96;, //input text value of the form input box in sveltekit app ui</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        max_tokens: 7000, // The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support 8,190).</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        top_p: 1, // alternative to sampling with temperature, called nucleus sampling</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        });</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      Announcement|Details: See detailed official announcement at <a
+        href="https://openai.com/blog/new-and-improved-embedding-model?ref=AiHiPUniversity.com"
+        rel="external"
+        title="Visit Text Ada 002 New and Improved Embedding Model Official Announment Website">
+        Text Ada 002 New and Improved Embedding Model
+      </a>
+    </p>
+    <p>
+      Conclusion on Model: In my personal test with the current setup for this Sveltekit chatGPT-like chabot app I found
+      the response quality of this model still lower then text-davinci-003.
+    </p>
+    <p>I gave it simple text prompt like:</p>
+    <p>Propmt:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">12 cats names in list for example 1. catname 1 2. catname 2</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Response(text-embedding-ada-002):</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">12th 12th 2 12 12:12,12:12 12In12In12In12In12 (12,12,12cU12C6c12C 12 (12A12C12A,12C2c 12 12 12212c1cat 12The12c 1212:12p12p 12 12 12c12C12a1212 12c 12 ( 12a 1212 11 12c 1212a...12,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12 12C12C12C12m12m12m12 12o (12C12cIc-12C12 12C12c...12c 12c 1212@121211an 12(12a12l1 2 12 12-12c12A12,12M12A12C12 12We12c12C12 12c 1212p12-In"12 12C12c12c 12 12C12 12C12c12C12A12n12iN12in12C </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> .12...12i 12c12...121S12S 12 12iR12C1, 12 12 412mcst 12 12c12c12a...12.....12 a12p12s12s...12...C12e12C12 -12a-12c 12 12 12... 1212c12C12d12a12a12a12andM 2 c12 12A12a12e212B 12 12 -1212,12C12cO12..12C12In12d1212......12 12 12 12in12a12c2 </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 1212....1212c1212c 12 12...1212 1213 12C12c12From12...12C12...s12B1212 An12c 12 12 12 12a,.112 1212c 12 12a3412 12C12c 12c12the12i1215 12 12a12+12 1212C 12p12a12-12 1212 at 12 121112In12a112C 12b12C12r (1212T12C12 12-12p12 -1212...12,12c12t12Cn13 12C12S12S12N12f12 1212...12...12c12C12A12... 1212For121212M12mcm12Cthe C12...12,12C12d1 </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> ...-12 12C12In1212c12t12C12S 12C12a12C12 12cetc12,12c12C12L12C1212 12c12a1212c1212211 12@,12...12d12C1212 12This12In121212m12C12A1212c1212 1210C 1212c12c12C 12c,C12,12C112c2 (12C 12cA 12T12,12 12C12c11acat12a,12... 12 12c12j 12c12C12...12a12...12 12c12C1212cCat1212, 12 12C12e12C1212c 12l12 1212 12c12The 12 12C12c12C12 12c(122112 12c2 12c 12a,12c:1 </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12 12C12In1212o12t12c 12 12cS12S112S12 12c2a1212in12c(12 13 12p1212 12c:-12...1213C12...121212...12C12The12The1112 12C12c12(12a12 c.12...12.. 121212c1 12tS1212S12S1212C12c 12a...11cat:12w 12-12s12cT 12 12c12s12a1212C 1212 i 12 11212in7a 12C 12Cat6a 12c </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12c1 12 12a12c 12 12a1212a1212 12 (12c12p12 12...12 12e12a12..12s1212c 12cMC 1212s11c12...12c12c12St12st12........ 12...12...A1213...12...n 12 12C1c12C1t12...Sa12...12...12l...</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12c...12 12c12...12D112M12C12In12C12..e1 11C12 12...(12es1214c12 12 12 12,12c12h1t12C1t12S12...,12)12c12C 12p12a12c...12...12...12In12..12...12f1239 12l12 12c12...12the12C12...12,12...12...1212u 12en 12......, (..., 121 1212C12,12a12c... 12 12 12c12s12d12...,1212c1212....12...12c 12...1212a1212c 12...12 12c...1212d,1212...12a....1</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 212.....12g 12...12C12A...121112 12c12C12c12C12,15c 12 12C12c12C12 12C12in12c 1212......12C12em12m12C12C112 12C12c,12c12C12...12C12...........1212c12f12t11C12t12S,12C12c12C12 </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12C...112a1212c...1212... 1212A12cT12 12c12 12....1212This12i12l11...12C1212C12...12 12. 12C12c12n,12c12C12c 1212...12c 12...12...12...i1..12... 12c......12...1212c...1212...12C...12c8c12And1212...12which12i...C12S12S12t12CThe12C12p12h124 12c12m12...1212C12m12R12S12S12t1C12t 12...12S21C1212c12...12C12...In12C12a12,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12 12cand12 12c12... 12,12C1201212Number12c,12 12c11C12A12C12,13C12p,12c12C12c12En 12 12 12e12The1212s12s12s 1212c (12T12l12c2 1211....12c2An12C 1212n 12c12 121212C12l12...12E12a1212C 11212C12 12C12e12c1212C#12C12a12...12 1212cC1 (12C12H12c12--121212a.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> .2c12C12C12c12S12C12d12c...12 12C12l12d1212C12c12M1213In121212a12c12 12C12c12c1212C12,12d1212i-1212c12cIn12A</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> ...1212c12 12N11a12... 1212c(12C,12 c-12C(1212in1212c :12 12S12S'12C12t12c 12C12not12C...12c12s...12-1212c 12Cat11a1212r 1212The212 12C12st12a1212 12C12...12...1212a12-12 12 12C12c12c1212c 1212c12,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12C12A12n1212N12C12C121312c......12C1212c-1212...12dA12c12s12C 12c12 12c12C12 12C12...12a12T12.12g12 1212c12c12C12b 12C12a12C12...123c12a12C...12t12S12C...12 12c12a12C12a12c</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> ...12M12...12c12c 12...12...12C12a...12 12c12a12C1212c12...1211 1212C12in12c12... 12C12a12C1212C12c1c2C 12C12No12C12 12c12m12C1212c12thS12C12s12c12s </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12c12C12a12-12 12 12c12The212c12C12 number 12"12C12..12...12-0in1212cWith1212M12c12c </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12c12C12A12C12a1212s12C12sC12c1-12c1210f1312e12c12c1212c 12b12C12,12a12G12a1212c 12 1a12121 1212n 12 12a12a12c12 12C12c12in1212c12C12,12c12c12C12c12.......12in12 </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 1212....1212i2C12A12l 12number12No12i12 1212t1212S12e1S12S12c12n12Cg1 12C12c12c12,12c12 12tr12a12c112,12S 12c12 12C12a12,1212C12,12c12B12C12P12c12,12...1212a12 12,12a12 14a1212Cf1 12a112C 12 12C12c12a12...12..1212C,The12The1212Cs12C12C12C12 12Ab12...12Catc12C12...12C13 12cA....12RO 12Number,12 12...12a12 12 12S... </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12t1...12A1212...12C12The12The,12Drp1212C12 12.... 12...12...12...12......12l...12...12o 1212...12...13...a12...12 12...12...1...12Cat1212......12...12s...12w1212,12...1212 12 </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> (12...12...12......12.............12...12......1212.....12..12..12...12...1212C12c...12...12...c...........12C12...12...12......12...12c 12...12...12...12a12c11 12...12...12...12a12...12......12...12...12...12...12...12...12......12c...12... 12It12..</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> .1D1212C12the121 12 12...12a12v1112...12..12...12...12C12A12S12S 12t12c1212C12...12...12... 12C12c12...12 12...12...12c212...12c12C12...12...12....in12...12...12v1212...12...12...12...12C12S 12S12c "12w 12 12s12s1312...12c12C 1212C1...</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> .12.....12...n12C12N12a1212...12 ...12c 12......12-12A12C12c12C12...12c12...12m12Here12 12 121212.....12my12C12c12C12...12C12...12c...12...12...12c...12s12s12s12a1212Ia1212c </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 1212...121212.......12...12 12c12(12 12C12....12....1212...12To12c,C12c...12c...12c 12S......12t1212...12m12...1C 12C..c12C11 12C12...12c1212.C1,12...12St12C12n12...12...12ac...12lI12c12...12C 12...s 12c,1212n12a-12C6c12cC12cD112c..</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> 12c (12C12the12c,12C7a12Anumber212C12A12-1212 12C12a12c12 12p12a12c1212ch</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Response(text-davinc-003):</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">1. Max 2. Charlie 3. Simon </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">4. Oliver 5. Lily 6. Mia </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">7. Tigger 8. Smokey 9. Jasper </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">10. Milo 11. Monty 12. Sammy</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      The difference is very clear with similar prompt but got less aligning response to text input from <code
+        class="inline-code-block">
+        Text-Embedding-Ada-002
+      </code>
+      .
+    </p>
+    <p>
+      <code class="inline-code-block">Text-Davinci-003</code>
+      will remain in use for this project until am able to understand how to get resonanble quality responses better
+      than it from other models like the
+      <code class="inline-code-block">Text-Embedding-Ada-002</code>
+      .
+    </p>
+    <h2 id="behind-the-scene-dev-fun-facts">
+      <a href="#behind-the-scene-dev-fun-facts">🏗️👍 Behind-The-Scene Dev Fun Facts</a>
+    </h2>
+    <p>
+      This section isn&#39;t main part of the course but created it to give students idea what efforts is put in to get
+      this course done.
+    </p>
+    <p>I hope it achieve at least 1 goal, which is to:</p>
+    <ul>
+      <li>
+        <p>
+          Let students realized that to be a successful developer is not just by word of mouth, setting goals or making
+          resolutions and getting excited of the possiblity/ideas💡 of what can be achieve technically and financially
+          as a developer.
+        </p>
+      </li>
+      <li>
+        <p>
+          You got to rise up and get your hands dirty🔨 in the coding 💩 and be encouraged to pursue your programming
+          career productively either you are going through the
+        </p>
+      </li>
+    </ul>
+    <p>👷builders path,</p>
+    <p>🧑‍💻dev educators path</p>
+    <p>or both 👷➕🧑‍💻 paths combined just like me🤡, Solomon Foskaay🔧.</p>
+    <p>
+      It took me about 4days to have the first complete version of this course (text only) to be created and organized
+      for the first time even before the video was recorded at all and published.
+    </p>
+    <h3 id="phase-1"><a href="#phase-1">🏗️ Phase 1</a></h3>
+    <p>
+      <strong>Started:</strong>
+       17th January 2023
+    </p>
+    <p>
+      <strong>Stage 1:</strong>
+       17th January 2023 (completed Intro-Lesson2)
+    </p>
+    <p>
+      <strong>Stage 2:</strong>
+       18th-19th January 2023 (started completed Lesson3 Express.js backend part)
+    </p>
+    <p>
+      <strong>Stage 2:</strong>
+       In progress
+    </p>
+    <h3 id="phase-2"><a href="#phase-2">🚧 Phase 2</a></h3>
+    <p>It work in progress,</p>
+    <p>
+      this stage is infinite as long as this course need an update in future, even if its correct a typo error which am
+      sure I have millions of them you enduring understandably already
+    </p>
+    <p>Thank YOU!!!</p>
   </article>
 </Post>
