@@ -1237,6 +1237,30 @@ this is the package.json file for the expressjs server file complete code sent e
 
 #### ✅ ChatGPT Response to My Coding Questions
 
+```javascript
+"name": This is the name of your package. It is used to identify your package when it's installed as a dependency by another project.
+
+"private": This flag indicates that the package should not be published to the npm registry.
+
+"version": This is the version number of your package. It follows semantic versioning (major.minor.patch) and is used to track and manage updates to your package.
+
+"type": This is the ECMAScript module type. It tells the JavaScript runtime how to handle the imports and exports.
+
+"scripts": This is a list of scripts that can be run by npm. In this case, 
+"server" script runs "nodemon server2" which is a command that runs the server file using nodemon.
+
+"dependencies": This is a list of the packages that your package depends on. These packages will be installed when your package is installed.
+
+"cors": This is a package that provides Express middleware for handling CORS (Cross-Origin Resource Sharing) requests.
+
+"dotenv": This is a package that loads environment variables from a .env file.
+"express": This is a popular web framework for Node.js that is used to build web applications and APIs.
+
+"nodemon": This is a utility that automatically restarts the Node.js server when changes are detected in the source code.
+
+"openai": This is the package to access OpenAI's GPT-3 API.
+```
+
 Hurray, at least if I know nothing
 
 I have different coding AI buddies that always come to my rescue before you laugh📸 at me - yeah can see🧐 you did when I said that I didn't know what the added codes does in `package.json` earlier.
@@ -1351,50 +1375,950 @@ If you are stuck, remember to watch the video because the course instructor(s) m
 
 Then, reach out to the course instructor(s) for support via our discord server (at the top or footer of this course).
 
-## 🔥 Lesson 4: Frontend - Building the Chatbot Interface
+## 🔥 Lesson 4: Frontend (SvelteKit)- Build Chatbot UI
 
 Frontend - Building the Chatbot Interface with SvelteKit.
 
-### 🔥 1. Setting up Sveltekit for Ai chatBot frontend
+### 🔥 1. Setting up Sveltekit for frontend
 
 Setting up Sveltekit for Ai chatBot frontend
 
-### 🔥 2. Creating the user interface using Svelte components
+To use SvelteKit for our ChatGPT clone AI Chatbot App powered by Openai GTP-3 AI's API,
 
-Creating the user interface using Svelte components
+We need to first setup SvelteKit by following the steps below:
 
-### 🔥 3. Connecting the user interface to the ExpressJs Backend
+- Install SvelteKIt
+- Install SvelteKit dependencies
+- Install any other `node packages` needed
+- Create a Svelte component for the UI
+
+Let us get started.
+
+A brief reminder that we now have our Express.js powered backend server setup done successfully and working from a test done in previous lesson in this course
+
+#### 🔧 Install SvelteKIt
+
+In our ai chatbot app root folder, create a folder for the user interface named `ui` but before you do it, you need to know that it is not like the usual folder,
+
+so we will create it from the terminal not directly.
+
+To do that, open the VSCode terminal and ensure you are in the root folder like .../ai-chatbot-app:
+
+Run this command to install SvelteKit:
+
+```javascript
+
+    pnpm create svelte@latest ui
+
+```
+
+What the above command does is initialize the process of setting up the SvelteKit app in a folder called `ui` (User Interface - some do name this folder as a `client` but I prefer naming it as a `ui`).
+
+It will display some pre-setup options for you to decide what features to add or remove from the SvelteKit and if given an option to start with `skeleton template` or `premade templates` - chose `skeleton template`.
+
+Like this:
+
+```javascript
+
+Welcome to SvelteKit!
+
+? Which Svelte app template? › - Use arrow-keys. Return to submit.
+
+    SvelteKit demo app
+    A demo app showcasing some of the features of SvelteKit
+   - play a word guessing game that works without
+   JavaScript!
+
+❯   Skeleton project
+    Barebones scaffolding for your new SvelteKit app
+
+    Library skeleton project
+    Barebones scaffolding for your new Svelte library
+
+```
+
+- Select the Option for the `Skeleton project` Sveltekit app template
+
+- Select `Yes, using TypeScript syntax` for Typescript enabled
+
+```javascript
+
+Welcome to SvelteKit!
+
+✔ Which Svelte app template? › Skeleton project
+
+? Add type checking with TypeScript? › - Use arrow-keys. Return to submit.
+    Yes, using JavaScript with JSDoc comments
+❯   Yes, using TypeScript syntax
+    No
+
+```
+
+- Select `YES` for other options
+
+```javascript
+
+Welcome to SvelteKit!
+
+✔ Which Svelte app template? › Skeleton project
+✔ Add type checking with TypeScript? › Yes, using TypeScript syntax
+✔ Add ESLint for code linting? … No / Yes
+✔ Add Prettier for code formatting? … No / Yes
+✔ Add Playwright for browser testing? … No / Yes
+? Add Vitest for unit testing? › No / Yes
+
+```
+
+(in future you can pick `No` if you don't want any of the features like Typescript but to follow this course, let's just do it `YES` for now)
+
+SvelteKit will be setup successfully based the above selected features.
+
+Like this:
+
+```javascript
+
+Welcome to SvelteKit!
+
+✔ Which Svelte app template? › Skeleton project
+✔ Add type checking with TypeScript? › Yes, using TypeScript syntax
+✔ Add ESLint for code linting? … No / Yes
+✔ Add Prettier for code formatting? … No / Yes
+✔ Add Playwright for browser testing? … No / Yes
+✔ Add Vitest for unit testing? … No / Yes
+
+Your project is ready!
+✔ Typescript
+  Inside Svelte components, use <script lang="ts">
+✔ ESLint
+  https://github.com/sveltejs/eslint-plugin-svelte3
+✔ Prettier
+  https://prettier.io/docs/en/options.html
+  https://github.com/sveltejs/prettier-plugin-svelte#options
+✔ Playwright
+  https://playwright.dev
+✔ Vitest
+  https://vitest.dev
+
+Install community-maintained integrations:
+  https://github.com/svelte-add/svelte-adders
+
+Next steps:
+  1: cd uitest
+  2: npm install (or pnpm install, etc)
+  3: git init && git add -A && git commit -m "Initial commit" (optional)
+  4: npm run dev -- --open
+
+To close the dev server, hit Ctrl-C
+
+Stuck? Visit us at https://svelte.dev/chat
+
+../ai-chatbot-app:
+
+```
+
+Before we move on, check to ensure you have the right file structure.
+
+If not adjust it before moving ahead to avoid errors later down the line.
+
+By now your chatGPT clone AI chatbot folder in VSCode should look something like this ../ai-chatbot-app :
+
+```javascript
+
+      - ai-chatbot-app "root folder"
+
+          - server "backend folder"
+                - .env
+                - package.json 
+                - server.js "Express.js server with API call, Post/Get routes"
+
+          - ui "frontend folder - sveltekit"
+
+          - .gitignore
+
+          - README.md
+
+```
+
+next...
+
+#### 🔧 Install SvelteKit dependencies
+
+Prepare the Sveltekit and install the necessary dependencies
+
+by runing this commands:
+
+First make sure you are in the `ui` folder before installing the dependencies.
+
+To do that run command:
+
+```javascript
+    cd ui
+```
+
+Once your VSCode terminal now at ../ai-chatbot-app/ui:
+
+run command:
+
+```javascript
+    pnpm i
+```
+
+The above `pnpm install` command will go through the SvelteKit `package.json` to understand the `node packages` it requires to run.
+
+Locate them and install them all for us.
+
+Similar to this:
+
+```javascript
+../ai-chatbot-app/uitest $ pnpm i
+
+Packages: +223
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Packages are hard linked from the content-addressable store to the virtual store
+
+devDependencies:
++ @playwright/test 1.29.2
++ @sveltejs/adapter-auto 1.0.2
++ @sveltejs/kit 1.2.0
++ @typescript-eslint/eslint-plugin 5.48.2
++ @typescript-eslint/parser 5.48.2
++ eslint 8.32.0
++ eslint-config-prettier 8.6.0
++ eslint-plugin-svelte3 4.0.0
++ prettier 2.8.3
++ prettier-plugin-svelte 2.9.0
++ svelte 3.55.1
++ svelte-check 3.0.2
++ tslib 2.4.1
++ typescript 4.9.4
++ vite 4.0.4
++ vitest 0.25.8 (0.27.2 is available)
+
+The integrity of 2400 files was checked. This might have caused installation to take longer.
+Done in 6m 28.3s
+```
+
+Before doing anythingelse.
+
+It's a good practice to confirm that the SvelteKit is setup correctly without issues.
+
+To test it, run command (still inside the `ui` folder in our terminal):
+
+```javascript
+    pnpm run dev
+```
+
+It will spine up a local version of the SvelteKit app and make it accessible locally via localhost.
+
+Just observe the terminal, it will tell you the localhost port it set it up on and output the full url like this:
+
+```javascript
+> ui@0.0.1 dev ../ai-chatbot-app/ui
+> vite dev
+
+Port 5173 is in use, trying another one...
+
+  VITE v4.0.4  ready in 9094 ms
+
+  ➜  Local:   http://localhost:5174/
+  ➜  Network: use --host to expose
+  ➜  press h to show help
+```
+
+Click letter `o` on your keyboard to automatically open the url in your browser or manualy click the link in the terminal.
+
+For now it should open up in your browser (I used `Google chrome` browser for this course)
+
+When it opens in the browser, it usuall just a dummy text about SvelteKit, nothing much.
+
+Yeah, the SvelteKit app is setup successfull and runing smoothly as expected.
+
+Next is to move to customizing it from the dummy text to our ChatGPT-like Ai Chatbot UI. But, before that less setup some other `node package` for our `CSS` and other essential things.
+
+##### Overview of SvelteKit File Structure
+
+Lets have a brief intro and overview of SvelteKit file structure to understand better where we need to adjust later and why.
+
+#### 🚩 Quick Sidenote 4
+
+REMINDER: Time to commit to GitHUb with commit message "UI folder setup with SvelteKit app"
+
+
+#### 🔧 Setup PostCSS and TailwindCSS
+
+Normally to add PostCSS and tailwindCSS we have some steps to follow,
+
+but we are going to go the easiest and faster route by using a node package called `svelte-add`.
+
+I prefer to keep the SvelteKit runing and put the VSCode and browser side by side to see my changes reflecting in the browser in realtime, thanks to Vitest powering SvelteKit to auto reload atany time we make changes and save it.
+
+Remember we had similar node package called `nodemon` used in our Expressjs backend server in previous lesson in this course.
+
+To ensure the SvelteKit server is kept running, don't stop that terminal, leave it and instead click the `+` icon at the top-right corner of the VSCode terminal to open another terminal instance.
+
+##### 🚩 Quick Sidenote 5
+
+By now you should have at least 5 VSCode terminals open:
+
+**1.** VSCode Terminal1 for Express.js backend server running locally (../ai-chatbot-app/server:)
+
+**2.** VSCode Terminal2 for Express.js backend to do other things in our `server` folder (../ai-chatbot-app/server:)
+
+**3.** VSCode Terminal3 for the SvelteKit frontend server running locally (../ai-chatbot-app/ui:)
+
+**4.** VSCode Terminal4 for the SvelteKit frontend to do other things in our `ui` folder like install new node packages (../ai-chatbot-app/ui:)
+
+**5.** VSCode Terminal5 for the root folder to do things in the `ai-chatbot-app` root folder like pushing commits to GitHub (../ai-chatbot-app:)
+
+##### 🔧 Back to CSS Setup
+
+Now, we will be working with the VSCode Terminal4,
+
+to install the PostCSS and Tailwind CSS in the SvelteKit app in our `ui` folder.
+
+Add Postcss and TailwindCSS with adder packages using the command below:
+
+```javascript
+    pnpx svelte-add@latest postcss tailwindcss
+```
+
+If successful you will likely see this:
+
+```javascript
+pnpx svelte-add@latest postcss tailwindcss
+
+PostCSS
+ ✅ successfully set up!
+Create or find an existing issue at https://github.com/svelte-add/svelte-add/issues if this is wrong.
+
+Tailwind CSS
+ ✅ successfully set up!
+Create or find an existing issue at https://github.com/svelte-add/svelte-add/issues if this is wrong.
+
+Run pnpm install to install new dependencies, and then reload your IDE before starting your app.
+```
+
+Then run pnpm install to install the 2 (two) new node packages we just added above:
+
+```javascript
+    pnpm i
+```
+
+Once it says successfully done. We need to reload the IDE before starting our app again.
+
+When you run the above `pnpm i` or `pnpm install`, it will also add the following devDependencies:
+
+```javascript
+devDependencies:
++ autoprefixer 10.4.13
++ postcss 8.4.20
++ postcss-load-config 4.0.1
++ svelte-preprocess 4.10.7 (5.0.0 is available)
++ tailwindcss 3.2.4
+
+Done in 2m 1.8s
+```
+
+***Time to restart/reload the IDE (VSCode):***
+
+To do that, click  `ctrl+shift+p` (`cmd+shift+p` on MacOS) and a window will popup at the top in VScode.
+
+Type in the window this text:
+
+`Reload Window"
+
+And select the option `Reload Window`
+
+(Kindly ensure you avoid clicking the option that says something like `reload window with extensions disabled` - that is not what is needed and will interupt your development process entirely - you don't want such expereince - do you?)
+
+If done correctly, the VSCode will reload and reopen without closing any of the running terminals and server.
+  
+and you will notice new pages like:
+
+`+layout`, `app.css` and more has been added to our SvelteKit app files in `ui` folder.
+
+You will likely also notice the default home page text become unstyled. Thats due to tailwindcss been added. it removes default style.
+
+We now have access to tailwind css classies to style our sveltekit chatGPT-like chatBot app whenever we decide to do so.
+
+For now, the ai chatbot ui may look similar to this:
+
+```javascript
+    Welcome to SvelteKit
+    Visit kit.svelte.dev to read the documentation
+```
+
+Let us move to create our chatbot UI....
+
+### 🔥 2. Create ChatGPT UI with Svelte Components
+
+Creating the user interface using Svelte components.
+
+Yeah, It's AI world and one of my goal with this platform is to help enhance developers with AI to at least 10x your dev skill and productivity.
+
+I have talk the talk,
+
+Now let me walk the talk as well.
+
+I will take you step by step on how to use some of the coding AI in kick starting your project no mater the programming language it is or the framework (as long as they are not invented just few months ago).
+
+Its all about `prompt engineering`
+
+#### 🔀 What Is Prompt Engineering in AI Development
+
+In a simple term `Prompt Engineering` means how well you can structure your questions/prompt to an AI to ensure it gives you as much accurate answer as it can possibly produce.
+
+Yet keeping it in your mind that AI is still an AI not a human beign.
+
+AI needs context to understand your situation and position itself right there to align with your intent beacause it respects clearity, simplicity and structural instruction based on it training dataset over complexity and ambiguity (unclear context or intent).
+
+The more you understand the AI, the better you can take advantage of `prompt engineering` to maximize the AI's responses as often as possible whenever you are using the AI.
+
+Let's go:
+
+#### 📝 SvelteKit Question1 to ChatGPT AI
+
+```javascript
+Create ChatGPT UI with Svelte Components for Sveltekit AI chatbot App connecting to an expressjs backend via https://localhost:5001
+
+The UI will have a form with 2 basic things:
+i. Input where user will put their prompt (question)
+ii. Submit button - when click, takes user prompt in the input box and send it to the expressjs backend (I have the expressjs backed set up already and the code is below to help understand how the UI should make request to the expressjs backend
+
+Complete expressjs backend code below:
+
+import express from 'express' //backend server framework
+import * as dotenv from 'dotenv' // access and use API KEY stored in .env file
+import cors from 'cors' //allow make cross origin API request to server from frontend
+import { Configuration, OpenAIApi } from 'openai' //Openai API wrapper
+
+
+//call config function to give access to .env API KEY variable
+dotenv.config() 
+
+
+//Openai API wrapper function which accepts API KEY as object parameter
+const configuration = new Configuration({
+  apiKey: process.env.OPENAI_API_KEY,
+});
+
+
+// create instance of Openai and pass in the configuration object created above
+const openai = new OpenAIApi(configuration);
+
+
+// initialize expressjs server
+const app = express()
+
+
+// configure the cors middleware to allow accepting and processing request from allowed domains
+app.use(cors());
+
+
+//middleware: allows the backend to recieve and acces request from frontend as a json object
+// rather than just a string. 
+// This is necessary in the following POST request route code: 
+// app.post('/', async (req, res) => {
+// try {const prompt = req.body.prompt; 
+// where it uses req.body to get the prompt data/question sent in the post request
+// from our chatGPT Ai chatBot SvelteKit powered frontend
+app.use(express.json())
+
+
+// routes/endpoint to expose expressjs backend to frontend "GET" request
+// with a return statement of info to show user visiting the route
+app.get('/', async (req, res) => {
+  res.status(200).send({
+    message: 'Hello Web3 AI World from Foskaay AI',
+  })
+})
+
+
+//route/endpoint which allows Expressjs backend to recieve and process
+// the request sent from users of our chatGPT Ai chatBot SvelteKit powered frontend
+app.post('/', async (req, res) => {
+  
+  try {
+    const prompt = req.body.prompt; //access user question submited as prompt
+
+    //Initiate an API call to Openai's API to recieve response for user questions 
+    //from Openai's AI
+    // But while making the call we bundle the user question/prompt and other
+    // instructions to ensure we get the best response from the AI back to user
+    const response = await openai.createCompletion({
+      model: "text-davinci-002", //most powerful openai large language Ai model for now
+      prompt: `${prompt}`, //input text value of the form input box in sveltekit app ui
+      temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.
+      max_tokens: 3000, // If not specified, it auto limit reponses usually less than 50 character (thats about 50 words)The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support over 8,000).
+      top_p: 1, // alternative to sampling with temperature, called nucleus sampling
+      frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.
+      presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.
+      // user: "user123456", // optional but can be useful to detect user abusing your API request. You can use session ID or hash email/psw so each user is unique but still not individually identificable for openai
+    });
+
+    //Send the AI response back to user of 
+    // our chatGPT Ai chatBot SvelteKit powered frontend 
+    //in json format with a success status code of 200. 
+    res.status(200).send({
+      ai: response.data.choices[0].text
+    });
+
+
+    // logs error to the console and sends it back our chatGPT Ai chatBot SvelteKit powered frontend
+    //with a status of 500 if there is any error caught in try block.
+  } catch (error) {
+    console.error(error)
+    res.status(500).send(error || 'Something went wrong communicating with Ai Foskaay');
+  }
+})
+
+
+// start the server on specified port on localhost
+// this get overriden when deployed to web server by the server url
+// "started on http://localhost:5001" makes the port link clickable from terminal
+app.listen(5001, () => console.log('Foskaay Ai server started on http://localhost:5001'))
+
+```
+
+#### ✅ ChatGPT Response to SvelteKit Question1
+
+```javascript
+To create the ChatGPT UI with Svelte Components for the Sveltekit AI chatbot App, you can use the Svelte framework to create a form with an input box and a submit button. The input box will be where the user can type their prompt or question and the submit button will be used to send the prompt to the expressjs backend.
+
+Here is an example of how you can create the form in a Svelte file:
+
+Copy code
+<form on:submit|preventDefault={submitForm}>
+  <input type="text" bind:value={prompt} placeholder="Type your prompt here"/>
+  <button type="submit">Submit</button>
+</form>
+In the script section of the Svelte file, you can create a function called "submitForm" that will handle sending the prompt to the expressjs backend via an HTTP request. Here is an example of how you can do this using the fetch API:
+
+Copy code
+import { onMount } from 'svelte';
+
+let prompt = '';
+
+onMount(async () => {
+  const res = await fetch('https://localhost:5001', {
+    method: 'POST',
+    body: JSON.stringify({prompt}),
+    headers: { 'Content-Type': 'application/json' },
+  });
+  const data = await res.json();
+  // Do something with the data returned from the expressjs backend
+});
+
+In the above example, the fetch API is used to send a POST request to the expressjs backend at the URL 'https://localhost:5001' with the prompt as the request body. The response from the backend is then processed and can be used to display the AI response to the user.
+
+Note: The actual connection and communication between the client and server should be done over https for security reasons.
+```
+
+#### 👽️ Using the AI Code 1
+
+Taking the AI response code above lets create a basic ai chabot UI in our SvelteKit app with svelte component.
+
+Open the `+page.svelte` inside `../ai-chatbot-app/ui/src/routes/+page.svelte`
+
+Create the structures `Script`, `HTML` and `Style` which forms our `svelte component` like this:
+
+```javascript
+<!-- Script Section -->
+<script>
+
+</script>
+
+
+<!-- HTML Section -->
+
+
+
+<!-- CSS/Style Section -->
+<style>
+
+</style>
+```
+
+It should now be:
+
+```javascript
+<!-- Script Section -->
+<script>
+import { onMount } from 'svelte';
+
+let prompt = '';
+
+onMount(async () => {
+  const res = await fetch('https://localhost:5001', {
+    method: 'POST',
+    body: JSON.stringify({prompt}),
+    headers: { 'Content-Type': 'application/json' },
+  });
+  const data = await res.json();
+  // Do something with the data returned from the expressjs backend
+});
+
+</script>
+
+
+<!-- HTML Section -->
+<form on:submit|preventDefault={submitForm}>
+    <input type="text" bind:value={prompt} placeholder="Type your prompt here"/>
+    <button type="submit">Submit</button>
+  </form>
+  
+
+
+<!-- CSS/Style Section -->
+<style>
+
+</style>
+```
+
+Save and check the browser, indeed we now have an input box with submit button but when submited, reloads page and do nothing.
+
+If you check the browser `console` it output the following errors:
+
+```javascript
+[HMR][Svelte] Unrecoverable HMR error in <Root>: next update will trigger a full reload
+logError @ proxy.js?v=da80d4ae:15
+Proxy<Root> @ proxy.js?v=da80d4ae:380
+initialize @ client.js?t=1674239611262&v=da80d4ae:375
+_hydrate @ client.js?t=1674239611262&v=da80d4ae:1643
+await in _hydrate (async)
+start @ start.js:38
+(anonymous) @ (index):436
++page.svelte:21 Uncaught (in promise) ReferenceError: submitForm is not defined
+    at mount (+page.svelte:21:33)
+    at targetCmp.$$.fragment.m (svelte-hooks.js?v=da80d4ae:291:24)
+    at mount_component (index.mjs:1949:26)
+    at Object.mount [as m] (root.svelte? [sm]:41:54)
+    at mount (+layout.svelte:2:25)
+    at targetCmp.$$.fragment.m (svelte-hooks.js?v=da80d4ae:291:24)
+    at mount_component (index.mjs:1949:26)
+    at Object.mount [as m] (root.svelte? [sm]:40:53)
+    at Object.mount [as m] (root.svelte? [sm]:47:13)
+    at mount_component (index.mjs:1949:26)
+mount @ +page.svelte:21
+targetCmp.$$.fragment.m @ svelte-hooks.js?v=da80d4ae:291
+mount_component @ index.mjs:1949
+mount @ root.svelte? [sm]:41
+mount @ +layout.svelte:2
+targetCmp.$$.fragment.m @ svelte-hooks.js?v=da80d4ae:291
+mount_component @ index.mjs:1949
+mount @ root.svelte? [sm]:40
+mount @ root.svelte? [sm]:47
+mount_component @ index.mjs:1949
+init @ index.mjs:2046
+Root @ root.svelte? [sm]:19
+createProxiedComponent @ svelte-hooks.js?v=da80d4ae:341
+ProxyComponent @ proxy.js?v=da80d4ae:242
+Proxy<Root> @ proxy.js?v=da80d4ae:349
+initialize @ client.js?t=1674239611262&v=da80d4ae:375
+_hydrate @ client.js?t=1674239611262&v=da80d4ae:1643
+await in _hydrate (async)
+(anonymous) @ (index):436
+localhost/:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+```
+
+I can go ahead and fix the errors because some of them are easy to spot in the code, like the `form` is `bind` to an undeclared function clled `submitForm` making the form to do nothing after submiting and refreshing the page. It ought to call the function in the script, which is expected to use the propt to make request to our Express.js backend.
+
+Not going to fix this just yet, because I want you to master `prompt engineering` to get the best from any coding Ai you are using at any point in your programming projects.
+
+So, let us headback to ask for more help on the code, may be we get something more functional out of the box this time around.
+
+### 🔥 3. Connecting SvelteKit to ExpressJs Backend
 
 Connecting the user interface to the ExpressJs Backend
 
-### 🔥 4. Handling user input and sending it to the OpenAI API via ExpressJs backend
+#### 📝 SvelteKit Question2 to ChatGPT AI
+
+```javascript
+can you create and send me a working full svelte component code to use for the ChatPGT ai chatbot
+```
+
+#### ✅ ChatGPT Response to SvelteKit Question2
+
+```javascript
+<script>
+    import { onMount } from 'svelte';
+    let prompt = '';
+
+    onMount(async () => {
+      const res = await fetch('https://localhost:5001', {
+        method: 'POST',
+        body: JSON.stringify({prompt}),
+        headers: { 'Content-Type': 'application/json' },
+      });
+      const data = await res.json();
+      // Do something with the data returned from the expressjs backend
+    });
+
+    function submitForm() {
+      // Make the request to the expressjs backend here
+    }
+</script>
+
+<form on:submit|preventDefault={submitForm}>
+    <input type="text" bind:value={prompt} placeholder="Type your prompt here"/>
+    <button type="submit">Submit</button>
+</form>
+<div>
+    <p>{data.message}</p>
+</div>
+
+```
+
+It seems you just package same previous code and out of the box I know there is error because the `submitForm` though now declared in the script still do nothing.
+
+So, let me engineer my prompt much better for the AI to correct its own code errors.
+
+Remember doing `prompt engineering` rightly as have taught you above demands realizing we are taking to a third-party whom is AI not even fellow human programmer that understood the challenge at hand.
+
+So, the more I can make the coding AI understand my code challenge context and intent, with simplified clearly outlined instructions, the better the quality of response I would likely get back from the coding AI.
+
+Let's try again:
+
+#### 📝 SvelteKit Question3 to ChatGPT AI
+
+```javascript
+There is error in the code you sent. 
+How this svelte component should work:
+i. user input prompt in the inbut box
+
+ii. Click submit button which triggers "submitForm()" function
+
+iii. The submit() function is the one expected to make the call to the express.js backend  (i sent your the express.js backend code earlier) with fetch() and not the onMount() as you did it.
+
+iv. When the backend process and respond to the prompt, the svelte component recieves it and destructure it to be displayed in console.log for now
+
+Can you rewrite me the chatGPT ai chatbot svelte component full code with above.
+```
+
+Here we go, what the AI have for us:
+
+#### ✅ ChatGPT Response to SvelteKit Question3
+
+```javascript
+I apologize for the confusion. Here is an updated version of the Svelte component that should work as you described:
+
+Copy code
+<script>
+    let prompt = '';
+    let data = {};
+
+    function submitForm() {
+        fetch('https://localhost:5001', {
+            method: 'POST',
+            body: JSON.stringify({prompt}),
+            headers: { 'Content-Type': 'application/json' },
+        })
+        .then(res => res.json())
+        .then(jsonRes => {
+            data = jsonRes;
+            console.log(data);
+        });
+    }
+</script>
+
+<form on:submit|preventDefault={submitForm}>
+    <input type="text" bind:value={prompt} placeholder="Type your prompt here"/>
+    <button type="submit">Submit</button>
+</form>
+<div>
+    <p>{data.message}</p>
+</div>
+In this updated version, the submitForm() function is called when the user submits the form. This function makes an HTTP request to the expressjs backend using the fetch API. The prompt is sent as part of the request body. The backend processes the prompt and sends a response, which is received by the Svelte component and destructured to be displayed in the console.log.
+
+It's important to note that, the actual connection and communication between the client and server should be done over https for security reasons. If your application is not running on https, you might need to set up ssl certificates and configure your express server to run over https
+
+Also, it's important to handle errors and loading state so that the user knows what is happening when they submit the form.
+```
+
+Interesting though there may still be errors, yet we got a much improved response ths time that fixed a lot of errors in the previous code the Ai generated for us.
+
+Based on the `prompt engineering` it discovered it mistakes, adjusted them like using completely removing onMount() previously used to make the fetch() API call to backend and replaced it with the submitForm() to make the call as expected. This ensures that nothing else can trigger the fetch() request to out backend except their is a prompt and submit button clicked.
+
+Can you also notice, it attempted to add additional variable to handle the response of the AI from backend and display it to the user.
+
+Cool we are getting better and for each `prompt`, the AI is understanding our project context and intent and will likely help better moving forward.
+
+Time to try the code together.
+
+Seems things is working but errorr making the fetch request successfully.
+
+Lets ask the ChatGPT AI for help further but this time I will give it even more context.
+
+Current errorr is:
+
+```javascript
+POST https://localhost:5001/ net::ERR_SSL_PROTOCOL_ERROR
+```
+
+So, I sent the error, it explained
+
+error due to `SSL`.
+
+after troubleshoting for a while, I discovered that the above error was caused because the code it generated earlier was calling `https` instead of `http`.
+
+I removed the `s` and the fetch() http call went through successfully.
+
+Hurray!
+
+Also, I got the AI to rewrite the component fetch() code and here is the update you can use to replace your current component too:
+
+```javascript
+<script>
+  let prompt = '';
+  let data = {};
+
+  async function submitForm() {
+    const response = await fetch('http://localhost:5001/', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ prompt }),
+    });
+
+    if (response.ok) {
+      data = await response.json();
+      console.log(data);
+    }
+  }
+</script>
+
+<form on:submit|preventDefault={submitForm}>
+  <input type="text" bind:value={prompt} placeholder="Type your prompt here" />
+  <button type="submit">Submit</button>
+</form>
+
+<div>
+  <p>{data.message}</p>
+</div>
+
+```
+
+Things is moving but the data recieved not handle well causing it to display `undefine`.
+
+Let's do more request to the AI...
+
+### 🔥 4. Send User Input to Openai GTP-3 AI API
 
 Handling user input and sending it to the OpenAI API via ExpressJs backend
 
-### 🔥 5. Displaying User questions & AI chatbot's responses from Openai API
+#### 📝 SvelteKit Question4 to ChatGPT AI
+
+```javascript
+the data. the message does not output the response from the ai, instead, it outputs undefine.
+
+based on the express.js server the returned JSON file has been reassigned to a variable called ai from this line of code I extracted from the express.js backend server:
+    //Send the AI response back to user of 
+    // our chatGPT Ai chatBot SvelteKit powered frontend 
+    //in json format with a success status code of 200. 
+    res.status(200).send({
+      ai: response.data.choices[0].text
+    });
+
+Can you rewrite the component to access the expressjs response correctly and display it back to the user on UI?
+```
+
+Let's see what it got for us
+#### ✅ ChatGPT Response to SvelteKit Question4
+
+```javascript
+<script>
+    let prompt = '';
+    let data = {};
+  
+    async function submitForm() {
+      try {
+        const response = await fetch('http://localhost:5001/', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ prompt }),
+        });
+  
+        if (response.ok) {
+          data = await response.json();
+          console.log(data);
+        } else {
+          throw new Error(response.statusText);
+        }
+      } catch (error) {
+        console.error(error);
+      }
+    }
+  </script>
+  
+  <form on:submit|preventDefault={submitForm}>
+    <input type="text" bind:value={prompt} placeholder="Type your prompt here" />
+    <button type="submit">Submit</button>
+  </form>
+  
+  <div>
+    <p>{data.ai}&lt;/p&gt;
+  </div>
+```
+
+yeah, the above AI generated code works just fine, it was able to send the request to backend server from our SvelteKit.
+
+
+### 🔥 5. Display User Questions/AI Chatbot Responses
 
 Displaying User questions & AI chatbot's responses from Openai API
 
-### 🔥 6. Storing User questions & AI chatbot's responses in Local storage (to old retrieve old chats later)
+When the previous code sends resquest GPT-3 AI's API endpoint via our Express.js backend with user question bundled as `prompt`
+
+It gets response from GPT-3 AI and display the response below the form to user in the UI.
+
+Nice one we now have both the frontend and backend connected successfully to process and respond to user questions with the AI chatbot.
+
+This is the basic needed and every other thing from here on is more of customizing the UI to our desire.
+
+but am glad you are able to make this work and can add to your `portfolio` but beyond that you know how to build it from scratch yourself and not just copy-paste code that you can't explain how it works.
+
+### 🔥 6. Store User/AI chatbot's Chats in Local Storage
 
 Storing User questions & AI chatbot's responses in Local storage (to old retrieve old chats later)
 
-### 🔥 7. Designing the chatbot interface to make it user-friendly and visually appealing
+This is an intesting feature I like the ai chatbot to have which help preserve the chat by saving it in the user's local storage persistently.
+
+### 🔥 7. ReDesigning ChatGPT Clone AI Chatbot UI
 
 Designing the chatbot interface to make it user-friendly and visually appealing
+
+There are lot of features you can add to this chatGPT clone AI chatbot to suite your use case or your clients demands.
+
+Go ahead and try them out.
+
+For inspiration on the features, make sure you go back to the Ai chatbot features list at the top of this course to see the once have worked on and those pending that i may implement as well later in the ready to use version of this app.
+
+Yeah, I have moved even further to make more `production` ready for you.
+
+Though that is just about `75%` ready not 100% production ready yet,
+
+you still need to work more on it to use it full in `production` as desired.
+
+See the `Demo` and `Git Repo` section to see the live demo and you can fork the repo and follow this course to use the template already done for you.
+
+Please don't forget to `star` the repo, share this course and support in `donation` or even recommending the platform for `web2/web3 dev education grants` for me to be able to produce more of this indepth, helpful step-by-step courses in future for `free`.
 
 ### 🔥 8. Testing the Sveltekit Frontend in localhost
 
 Testing the Sveltekit Frontend in localhost
 
+We have tested the basic UI design with backend and all works fine.
+
+If you fork the repo, you should also test it as well to ensure everything works fine as expected.
+
 ### 🔥 Exercise 4
 
-1. a
+1. Build the chatbot interface and connect it to the OpenAI API ExpressJs backend.
 
 2. Experiment with different Open API parameters to customize the chatbot's responses.
 
 #### 🍻 Challenge 4
 
+Design the chatbot interface to make it user-friendly and visually appealing.
 
 
 ## 🔒️ Lesson 5: Adding Security Features to AI ChatBot
@@ -1643,7 +2567,7 @@ I hope it achieve at least 1 goal, which is to:
 
 or both 👷➕🧑‍💻 paths combined just like me🤡, Solomon Foskaay🔧.
 
-It took me about 4days to have the first complete version of this course (text only) to be created and organized for the first time even before the video was recorded at all and published.
+It took me about 5days to have the first complete version of this course (text only) to be created and organized for the first time even before the video was recorded at all and published.
 
 ### 🏗️ Phase 1
 
@@ -1653,11 +2577,13 @@ It took me about 4days to have the first complete version of this course (text o
 
 **Stage 2:** 18th-19th January 2023 (started completed Lesson3 Express.js backend part)
 
-**Stage 2:** In progress
+**Stage 3:** 20th January 2023 (started completed Lesson4 Svelte/SvelteKit frontend part)
+
+**Stage 4:** In progress
 
 ### 🚧 Phase 2
 
-It work in progress, 
+It work in progress,
 
 this stage is infinite as long as this course need an update in future, even if its correct a typo error which am sure I have millions of them you enduring understandably already
 

@@ -1224,6 +1224,12 @@
     <h4 id="chatgpt-response-to-my-coding-questions">
       <a href="#chatgpt-response-to-my-coding-questions">✅ ChatGPT Response to My Coding Questions</a>
     </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"name": This is the name of your package. It is used to identify your package when it's installed as a dependency by another project.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"private": This flag indicates that the package should not be published to the npm registry.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"version": This is the version number of your package. It follows semantic versioning (major.minor.patch) and is used to track and manage updates to your package.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"type": This is the ECMAScript module type. It tells the JavaScript runtime how to handle the imports and exports.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"scripts": This is a list of scripts that can be run by npm. In this case, </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"server" script runs "nodemon server2" which is a command that runs the server file using nodemon.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"dependencies": This is a list of the packages that your package depends on. These packages will be installed when your package is installed.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"cors": This is a package that provides Express middleware for handling CORS (Cross-Origin Resource Sharing) requests.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"dotenv": This is a package that loads environment variables from a .env file.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"express": This is a popular web framework for Node.js that is used to build web applications and APIs.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"nodemon": This is a utility that automatically restarts the Node.js server when changes are detected in the source code.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">"openai": This is the package to access OpenAI's GPT-3 API.</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
     <p>Hurray, at least if I know nothing</p>
     <p>
       I have different coding AI buddies that always come to my rescue before you laugh📸 at me - yeah can see🧐 you did
@@ -1335,64 +1341,714 @@
       Then, reach out to the course instructor(s) for support via our discord server (at the top or footer of this
       course).
     </p>
-    <h2 id="lesson-4-frontend-building-the-chatbot-interface">
-      <a href="#lesson-4-frontend-building-the-chatbot-interface">
-        🔥 Lesson 4: Frontend - Building the Chatbot Interface
-      </a>
+    <h2 id="lesson-4-frontend-sveltekit-build-chatbot-ui">
+      <a href="#lesson-4-frontend-sveltekit-build-chatbot-ui">🔥 Lesson 4: Frontend (SvelteKit)- Build Chatbot UI</a>
     </h2>
     <p>Frontend - Building the Chatbot Interface with SvelteKit.</p>
-    <h3 id="1-setting-up-sveltekit-for-ai-chatbot-frontend">
-      <a href="#1-setting-up-sveltekit-for-ai-chatbot-frontend">🔥 1. Setting up Sveltekit for Ai chatBot frontend</a>
+    <h3 id="1-setting-up-sveltekit-for-frontend">
+      <a href="#1-setting-up-sveltekit-for-frontend">🔥 1. Setting up Sveltekit for frontend</a>
     </h3>
     <p>Setting up Sveltekit for Ai chatBot frontend</p>
-    <h3 id="2-creating-the-user-interface-using-svelte-components">
-      <a href="#2-creating-the-user-interface-using-svelte-components">
-        🔥 2. Creating the user interface using Svelte components
-      </a>
+    <p>To use SvelteKit for our ChatGPT clone AI Chatbot App powered by Openai GTP-3 AI&#39;s API,</p>
+    <p>We need to first setup SvelteKit by following the steps below:</p>
+    <ul>
+      <li>Install SvelteKIt</li>
+      <li>Install SvelteKit dependencies</li>
+      <li>
+        Install any other <code class="inline-code-block">node packages</code>
+         needed
+      </li>
+      <li>Create a Svelte component for the UI</li>
+    </ul>
+    <p>Let us get started.</p>
+    <p>
+      A brief reminder that we now have our Express.js powered backend server setup done successfully and working from a
+      test done in previous lesson in this course
+    </p>
+    <h4 id="install-sveltekit"><a href="#install-sveltekit">🔧 Install SvelteKIt</a></h4>
+    <p>
+      In our ai chatbot app root folder, create a folder for the user interface named <code class="inline-code-block">
+        ui
+      </code>
+       but before you do it, you need to know that it is not like the usual folder,
+    </p>
+    <p>so we will create it from the terminal not directly.</p>
+    <p>To do that, open the VSCode terminal and ensure you are in the root folder like .../ai-chatbot-app:</p>
+    <p>Run this command to install SvelteKit:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    pnpm create svelte@latest ui</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      What the above command does is initialize the process of setting up the SvelteKit app in a folder called <code
+        class="inline-code-block">
+        ui
+      </code>
+      (User Interface - some do name this folder as a
+      <code class="inline-code-block">client</code>
+      but I prefer naming it as a
+      <code class="inline-code-block">ui</code>
+      ).
+    </p>
+    <p>
+      It will display some pre-setup options for you to decide what features to add or remove from the SvelteKit and if
+      given an option to start with <code class="inline-code-block">skeleton template</code>
+      or
+      <code class="inline-code-block">premade templates</code>
+      - chose
+      <code class="inline-code-block">skeleton template</code>
+      .
+    </p>
+    <p>Like this:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Welcome to SvelteKit!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">? Which Svelte app template? › - Use arrow-keys. Return to submit.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    SvelteKit demo app</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    A demo app showcasing some of the features of SvelteKit</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   - play a word guessing game that works without</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">   JavaScript!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">❯   Skeleton project</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Barebones scaffolding for your new SvelteKit app</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Library skeleton project</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Barebones scaffolding for your new Svelte library</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <ul>
+      <li>
+        <p>
+          Select the Option for the <code class="inline-code-block">Skeleton project</code>
+           Sveltekit app template
+        </p>
+      </li>
+      <li>
+        <p>
+          Select <code class="inline-code-block">Yes, using TypeScript syntax</code>
+           for Typescript enabled
+        </p>
+      </li>
+    </ul>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Welcome to SvelteKit!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Which Svelte app template? › Skeleton project</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">? Add type checking with TypeScript? › - Use arrow-keys. Return to submit.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Yes, using JavaScript with JSDoc comments</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">❯   Yes, using TypeScript syntax</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    No</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <ul>
+      <li>
+        Select <code class="inline-code-block">YES</code>
+         for other options
+      </li>
+    </ul>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Welcome to SvelteKit!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Which Svelte app template? › Skeleton project</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add type checking with TypeScript? › Yes, using TypeScript syntax</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add ESLint for code linting? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add Prettier for code formatting? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add Playwright for browser testing? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">? Add Vitest for unit testing? › No / Yes</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      (in future you can pick <code class="inline-code-block">No</code>
+      if you don&#39;t want any of the features like Typescript but to follow this course, let&#39;s just do it
+      <code class="inline-code-block">YES</code>
+       for now)
+    </p>
+    <p>SvelteKit will be setup successfully based the above selected features.</p>
+    <p>Like this:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Welcome to SvelteKit!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Which Svelte app template? › Skeleton project</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add type checking with TypeScript? › Yes, using TypeScript syntax</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add ESLint for code linting? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add Prettier for code formatting? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add Playwright for browser testing? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Add Vitest for unit testing? … No / Yes</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Your project is ready!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Typescript</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  Inside Svelte components, use &lt;script lang="ts"&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ ESLint</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  https://github.com/sveltejs/eslint-plugin-svelte3</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Prettier</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  https://prettier.io/docs/en/options.html</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  https://github.com/sveltejs/prettier-plugin-svelte#options</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Playwright</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  https://playwright.dev</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">✔ Vitest</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  https://vitest.dev</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Install community-maintained integrations:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  https://github.com/svelte-add/svelte-adders</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Next steps:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  1: cd uitest</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  2: npm install (or pnpm install, etc)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  3: git init &amp;&amp; git add -A &amp;&amp; git commit -m "Initial commit" (optional)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  4: npm run dev -- --open</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">To close the dev server, hit Ctrl-C</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Stuck? Visit us at https://svelte.dev/chat</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">../ai-chatbot-app:</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Before we move on, check to ensure you have the right file structure.</p>
+    <p>If not adjust it before moving ahead to avoid errors later down the line.</p>
+    <p>By now your chatGPT clone AI chatbot folder in VSCode should look something like this ../ai-chatbot-app :</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      - ai-chatbot-app "root folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - server "backend folder"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - .env</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - package.json </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">                - server.js "Express.js server with API call, Post/Get routes"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - ui "frontend folder - sveltekit"</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - .gitignore</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          - README.md</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>next...</p>
+    <h4 id="install-sveltekit-dependencies">
+      <a href="#install-sveltekit-dependencies">🔧 Install SvelteKit dependencies</a>
+    </h4>
+    <p>Prepare the Sveltekit and install the necessary dependencies</p>
+    <p>by runing this commands:</p>
+    <p>
+      First make sure you are in the <code class="inline-code-block">ui</code>
+       folder before installing the dependencies.
+    </p>
+    <p>To do that run command:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    cd ui</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Once your VSCode terminal now at ../ai-chatbot-app/ui:</p>
+    <p>run command:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    pnpm i</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      The above <code class="inline-code-block">pnpm install</code>
+      command will go through the SvelteKit
+      <code class="inline-code-block">package.json</code>
+      to understand the
+      <code class="inline-code-block">node packages</code>
+       it requires to run.
+    </p>
+    <p>Locate them and install them all for us.</p>
+    <p>Similar to this:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">../ai-chatbot-app/uitest &#36; pnpm i</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Packages: +223</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Packages are hard linked from the content-addressable store to the virtual store</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">devDependencies:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ @playwright/test 1.29.2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ @sveltejs/adapter-auto 1.0.2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ @sveltejs/kit 1.2.0</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ @typescript-eslint/eslint-plugin 5.48.2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ @typescript-eslint/parser 5.48.2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ eslint 8.32.0</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ eslint-config-prettier 8.6.0</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ eslint-plugin-svelte3 4.0.0</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ prettier 2.8.3</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ prettier-plugin-svelte 2.9.0</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ svelte 3.55.1</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ svelte-check 3.0.2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ tslib 2.4.1</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ typescript 4.9.4</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ vite 4.0.4</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ vitest 0.25.8 (0.27.2 is available)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">The integrity of 2400 files was checked. This might have caused installation to take longer.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Done in 6m 28.3s</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Before doing anythingelse.</p>
+    <p>It&#39;s a good practice to confirm that the SvelteKit is setup correctly without issues.</p>
+    <p>
+      To test it, run command (still inside the <code class="inline-code-block">ui</code>
+       folder in our terminal):
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    pnpm run dev</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>It will spine up a local version of the SvelteKit app and make it accessible locally via localhost.</p>
+    <p>
+      Just observe the terminal, it will tell you the localhost port it set it up on and output the full url like this:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&gt; ui@0.0.1 dev ../ai-chatbot-app/ui</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&gt; vite dev</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Port 5173 is in use, trying another one...</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  VITE v4.0.4  ready in 9094 ms</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  ➜  Local:   http://localhost:5174/</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  ➜  Network: use --host to expose</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  ➜  press h to show help</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      Click letter <code class="inline-code-block">o</code>
+       on your keyboard to automatically open the url in your browser or manualy click the link in the terminal.
+    </p>
+    <p>
+      For now it should open up in your browser (I used <code class="inline-code-block">Google chrome</code>
+       browser for this course)
+    </p>
+    <p>When it opens in the browser, it usuall just a dummy text about SvelteKit, nothing much.</p>
+    <p>Yeah, the SvelteKit app is setup successfull and runing smoothly as expected.</p>
+    <p>
+      Next is to move to customizing it from the dummy text to our ChatGPT-like Ai Chatbot UI. But, before that less
+      setup some other <code class="inline-code-block">node package</code>
+      for our
+      <code class="inline-code-block">CSS</code>
+       and other essential things.
+    </p>
+    <h5 id="overview-of-sveltekit-file-structure">
+      <a href="#overview-of-sveltekit-file-structure">Overview of SvelteKit File Structure</a>
+    </h5>
+    <p>
+      Lets have a brief intro and overview of SvelteKit file structure to understand better where we need to adjust
+      later and why.
+    </p>
+    <h4 id="quick-sidenote-4"><a href="#quick-sidenote-4">🚩 Quick Sidenote 4</a></h4>
+    <p>REMINDER: Time to commit to GitHUb with commit message &quot;UI folder setup with SvelteKit app&quot;</p>
+    <h4 id="setup-postcss-and-tailwindcss">
+      <a href="#setup-postcss-and-tailwindcss">🔧 Setup PostCSS and TailwindCSS</a>
+    </h4>
+    <p>Normally to add PostCSS and tailwindCSS we have some steps to follow,</p>
+    <p>
+      but we are going to go the easiest and faster route by using a node package called <code
+        class="inline-code-block">
+        svelte-add
+      </code>
+      .
+    </p>
+    <p>
+      I prefer to keep the SvelteKit runing and put the VSCode and browser side by side to see my changes reflecting in
+      the browser in realtime, thanks to Vitest powering SvelteKit to auto reload atany time we make changes and save
+      it.
+    </p>
+    <p>
+      Remember we had similar node package called <code class="inline-code-block">nodemon</code>
+       used in our Expressjs backend server in previous lesson in this course.
+    </p>
+    <p>
+      To ensure the SvelteKit server is kept running, don&#39;t stop that terminal, leave it and instead click the <code
+        class="inline-code-block">
+        +
+      </code>
+       icon at the top-right corner of the VSCode terminal to open another terminal instance.
+    </p>
+    <h5 id="quick-sidenote-5"><a href="#quick-sidenote-5">🚩 Quick Sidenote 5</a></h5>
+    <p>By now you should have at least 5 VSCode terminals open:</p>
+    <p>
+      <strong>1.</strong>
+       VSCode Terminal1 for Express.js backend server running locally (../ai-chatbot-app/server:)
+    </p>
+    <p>
+      <strong>2.</strong>
+      VSCode Terminal2 for Express.js backend to do other things in our
+      <code class="inline-code-block">server</code>
+       folder (../ai-chatbot-app/server:)
+    </p>
+    <p>
+      <strong>3.</strong>
+       VSCode Terminal3 for the SvelteKit frontend server running locally (../ai-chatbot-app/ui:)
+    </p>
+    <p>
+      <strong>4.</strong>
+      VSCode Terminal4 for the SvelteKit frontend to do other things in our
+      <code class="inline-code-block">ui</code>
+       folder like install new node packages (../ai-chatbot-app/ui:)
+    </p>
+    <p>
+      <strong>5.</strong>
+      VSCode Terminal5 for the root folder to do things in the
+      <code class="inline-code-block">ai-chatbot-app</code>
+       root folder like pushing commits to GitHub (../ai-chatbot-app:)
+    </p>
+    <h5 id="back-to-css-setup"><a href="#back-to-css-setup">🔧 Back to CSS Setup</a></h5>
+    <p>Now, we will be working with the VSCode Terminal4,</p>
+    <p>
+      to install the PostCSS and Tailwind CSS in the SvelteKit app in our <code class="inline-code-block">ui</code>
+       folder.
+    </p>
+    <p>Add Postcss and TailwindCSS with adder packages using the command below:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    pnpx svelte-add@latest postcss tailwindcss</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>If successful you will likely see this:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">pnpx svelte-add@latest postcss tailwindcss</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">PostCSS</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> ✅ successfully set up!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Create or find an existing issue at https://github.com/svelte-add/svelte-add/issues if this is wrong.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Tailwind CSS</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"> ✅ successfully set up!</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Create or find an existing issue at https://github.com/svelte-add/svelte-add/issues if this is wrong.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Run pnpm install to install new dependencies, and then reload your IDE before starting your app.</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Then run pnpm install to install the 2 (two) new node packages we just added above:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    pnpm i</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Once it says successfully done. We need to reload the IDE before starting our app again.</p>
+    <p>
+      When you run the above <code class="inline-code-block">pnpm i</code>
+      or
+      <code class="inline-code-block">pnpm install</code>
+      , it will also add the following devDependencies:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">devDependencies:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ autoprefixer 10.4.13</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ postcss 8.4.20</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ postcss-load-config 4.0.1</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ svelte-preprocess 4.10.7 (5.0.0 is available)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+ tailwindcss 3.2.4</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Done in 2m 1.8s</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p><em><strong>Time to restart/reload the IDE (VSCode):</strong></em></p>
+    <p>
+      To do that, click <code class="inline-code-block">ctrl+shift+p</code>
+      (
+      <code class="inline-code-block">cmd+shift+p</code>
+       on MacOS) and a window will popup at the top in VScode.
+    </p>
+    <p>Type in the window this text:</p>
+    <p>`Reload Window&quot;</p>
+    <p>
+      And select the option <code class="inline-code-block">Reload Window</code>
+    </p>
+    <p>
+      (Kindly ensure you avoid clicking the option that says something like <code class="inline-code-block">
+        reload window with extensions disabled
+      </code>
+       - that is not what is needed and will interupt your development process entirely - you don&#39;t want such expereince
+      - do you?)
+    </p>
+    <p>If done correctly, the VSCode will reload and reopen without closing any of the running terminals and server.</p>
+    <p>and you will notice new pages like:</p>
+    <p>
+      <code class="inline-code-block">+layout</code>
+      ,
+      <code class="inline-code-block">app.css</code>
+      and more has been added to our SvelteKit app files in
+      <code class="inline-code-block">ui</code>
+       folder.
+    </p>
+    <p>
+      You will likely also notice the default home page text become unstyled. Thats due to tailwindcss been added. it
+      removes default style.
+    </p>
+    <p>
+      We now have access to tailwind css classies to style our sveltekit chatGPT-like chatBot app whenever we decide to
+      do so.
+    </p>
+    <p>For now, the ai chatbot ui may look similar to this:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Welcome to SvelteKit</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    Visit kit.svelte.dev to read the documentation</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Let us move to create our chatbot UI....</p>
+    <h3 id="2-create-chatgpt-ui-with-svelte-components">
+      <a href="#2-create-chatgpt-ui-with-svelte-components">🔥 2. Create ChatGPT UI with Svelte Components</a>
     </h3>
-    <p>Creating the user interface using Svelte components</p>
-    <h3 id="3-connecting-the-user-interface-to-the-expressjs-backend">
-      <a href="#3-connecting-the-user-interface-to-the-expressjs-backend">
-        🔥 3. Connecting the user interface to the ExpressJs Backend
-      </a>
+    <p>Creating the user interface using Svelte components.</p>
+    <p>
+      Yeah, It&#39;s AI world and one of my goal with this platform is to help enhance developers with AI to at least
+      10x your dev skill and productivity.
+    </p>
+    <p>I have talk the talk,</p>
+    <p>Now let me walk the talk as well.</p>
+    <p>
+      I will take you step by step on how to use some of the coding AI in kick starting your project no mater the
+      programming language it is or the framework (as long as they are not invented just few months ago).
+    </p>
+    <p>
+      Its all about <code class="inline-code-block">prompt engineering</code>
+    </p>
+    <h4 id="what-is-prompt-engineering-in-ai-development">
+      <a href="#what-is-prompt-engineering-in-ai-development">🔀 What Is Prompt Engineering in AI Development</a>
+    </h4>
+    <p>
+      In a simple term <code class="inline-code-block">Prompt Engineering</code>
+       means how well you can structure your questions/prompt to an AI to ensure it gives you as much accurate answer as
+      it can possibly produce.
+    </p>
+    <p>Yet keeping it in your mind that AI is still an AI not a human beign.</p>
+    <p>
+      AI needs context to understand your situation and position itself right there to align with your intent beacause
+      it respects clearity, simplicity and structural instruction based on it training dataset over complexity and
+      ambiguity (unclear context or intent).
+    </p>
+    <p>
+      The more you understand the AI, the better you can take advantage of <code class="inline-code-block">
+        prompt engineering
+      </code>
+       to maximize the AI&#39;s responses as often as possible whenever you are using the AI.
+    </p>
+    <p>Let&#39;s go:</p>
+    <h4 id="sveltekit-question1-to-chatgpt-ai">
+      <a href="#sveltekit-question1-to-chatgpt-ai">📝 SvelteKit Question1 to ChatGPT AI</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Create ChatGPT UI with Svelte Components for Sveltekit AI chatbot App connecting to an expressjs backend via https://localhost:5001</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">The UI will have a form with 2 basic things:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">i. Input where user will put their prompt (question)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">ii. Submit button - when click, takes user prompt in the input box and send it to the expressjs backend (I have the expressjs backed set up already and the code is below to help understand how the UI should make request to the expressjs backend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Complete expressjs backend code below:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import express from 'express' //backend server framework</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import * as dotenv from 'dotenv' // access and use API KEY stored in .env file</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import cors from 'cors' //allow make cross origin API request to server from frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import { Configuration, OpenAIApi } from 'openai' //Openai API wrapper</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//call config function to give access to .env API KEY variable</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">dotenv.config() </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//Openai API wrapper function which accepts API KEY as object parameter</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const configuration = new Configuration({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  apiKey: process.env.OPENAI_API_KEY,</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">});</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// create instance of Openai and pass in the configuration object created above</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const openai = new OpenAIApi(configuration);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// initialize expressjs server</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">const app = express()</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// configure the cors middleware to allow accepting and processing request from allowed domains</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.use(cors());</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//middleware: allows the backend to recieve and acces request from frontend as a json object</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// rather than just a string. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// This is necessary in the following POST request route code: </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// app.post('/', async (req, res) =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// try {const prompt = req.body.prompt; </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// where it uses req.body to get the prompt data/question sent in the post request</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// from our chatGPT Ai chatBot SvelteKit powered frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.use(express.json())</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// routes/endpoint to expose expressjs backend to frontend "GET" request</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// with a return statement of info to show user visiting the route</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.get('/', async (req, res) =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  res.status(200).send({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    message: 'Hello Web3 AI World from Foskaay AI',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  })</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">})</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">//route/endpoint which allows Expressjs backend to recieve and process</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// the request sent from users of our chatGPT Ai chatBot SvelteKit powered frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.post('/', async (req, res) =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  try {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    const prompt = req.body.prompt; //access user question submited as prompt</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //Initiate an API call to Openai's API to recieve response for user questions </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //from Openai's AI</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // But while making the call we bundle the user question/prompt and other</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // instructions to ensure we get the best response from the AI back to user</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    const response = await openai.createCompletion({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      model: "text-davinci-002", //most powerful openai large language Ai model for now</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      prompt: &#96;&#36;{prompt}&#96;, //input text value of the form input box in sveltekit app ui</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      temperature: 1, // Higher values means the model will take more risks and can change/modify response for same question when asked again.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      max_tokens: 3000, // If not specified, it auto limit reponses usually less than 50 character (thats about 50 words)The maximum number of tokens to generate in the completion. Most models have a context length of 2048 tokens (except for the newest models, which support over 8,000).</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      top_p: 1, // alternative to sampling with temperature, called nucleus sampling</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      frequency_penalty: 0.5, // Number between -2.0 and 2.0. Positive values penalize new tokens based on their existing frequency in the text so far, decreasing the model's likelihood to repeat the same line verbatim.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      presence_penalty: 0, // Number between -2.0 and 2.0. Positive values penalize new tokens based on whether they appear in the text so far, increasing the model's likelihood to talk about new topics.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      // user: "user123456", // optional but can be useful to detect user abusing your API request. You can use session ID or hash email/psw so each user is unique but still not individually identificable for openai</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //Send the AI response back to user of </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // our chatGPT Ai chatBot SvelteKit powered frontend </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //in json format with a success status code of 200. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    res.status(200).send({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      ai: response.data.choices[0].text</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // logs error to the console and sends it back our chatGPT Ai chatBot SvelteKit powered frontend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //with a status of 500 if there is any error caught in try block.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  } catch (error) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    console.error(error)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    res.status(500).send(error || 'Something went wrong communicating with Ai Foskaay');</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">})</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// start the server on specified port on localhost</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// this get overriden when deployed to web server by the server url</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">// "started on http://localhost:5001" makes the port link clickable from terminal</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">app.listen(5001, () =&gt; console.log('Foskaay Ai server started on http://localhost:5001'))</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h4 id="chatgpt-response-to-sveltekit-question1">
+      <a href="#chatgpt-response-to-sveltekit-question1">✅ ChatGPT Response to SvelteKit Question1</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">To create the ChatGPT UI with Svelte Components for the Sveltekit AI chatbot App, you can use the Svelte framework to create a form with an input box and a submit button. The input box will be where the user can type their prompt or question and the submit button will be used to send the prompt to the expressjs backend.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Here is an example of how you can create the form in a Svelte file:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Copy code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;form on:submit|preventDefault={submitForm}&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;input type="text" bind:value={prompt} placeholder="Type your prompt here"/&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;button type="submit"&gt;Submit&lt;/button&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/form&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">In the script section of the Svelte file, you can create a function called "submitForm" that will handle sending the prompt to the expressjs backend via an HTTP request. Here is an example of how you can do this using the fetch API:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Copy code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import { onMount } from 'svelte';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">let prompt = '';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">onMount(async () =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  const res = await fetch('https://localhost:5001', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    body: JSON.stringify({prompt}),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    headers: { 'Content-Type': 'application/json' },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  const data = await res.json();</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  // Do something with the data returned from the expressjs backend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">});</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">In the above example, the fetch API is used to send a POST request to the expressjs backend at the URL 'https://localhost:5001' with the prompt as the request body. The response from the backend is then processed and can be used to display the AI response to the user.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Note: The actual connection and communication between the client and server should be done over https for security reasons.</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h4 id="using-the-ai-code-1"><a href="#using-the-ai-code-1">👽️ Using the AI Code 1</a></h4>
+    <p>
+      Taking the AI response code above lets create a basic ai chabot UI in our SvelteKit app with svelte component.
+    </p>
+    <p>
+      Open the <code class="inline-code-block">+page.svelte</code>
+      inside
+      <code class="inline-code-block">../ai-chatbot-app/ui/src/routes/+page.svelte</code>
+    </p>
+    <p>
+      Create the structures <code class="inline-code-block">Script</code>
+      ,
+      <code class="inline-code-block">HTML</code>
+      and
+      <code class="inline-code-block">Style</code>
+      which forms our
+      <code class="inline-code-block">svelte component</code>
+       like this:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;!-- Script Section --&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;!-- HTML Section --&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;!-- CSS/Style Section --&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;style&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/style&gt;</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>It should now be:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;!-- Script Section --&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">import { onMount } from 'svelte';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">let prompt = '';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">onMount(async () =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  const res = await fetch('https://localhost:5001', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    body: JSON.stringify({prompt}),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    headers: { 'Content-Type': 'application/json' },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  const data = await res.json();</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  // Do something with the data returned from the expressjs backend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">});</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;!-- HTML Section --&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;form on:submit|preventDefault={submitForm}&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;input type="text" bind:value={prompt} placeholder="Type your prompt here"/&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;button type="submit"&gt;Submit&lt;/button&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;/form&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;!-- CSS/Style Section --&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;style&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/style&gt;</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      Save and check the browser, indeed we now have an input box with submit button but when submited, reloads page and
+      do nothing.
+    </p>
+    <p>
+      If you check the browser <code class="inline-code-block">console</code>
+       it output the following errors:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">[HMR][Svelte] Unrecoverable HMR error in &lt;Root&gt;: next update will trigger a full reload</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">logError @ proxy.js?v=da80d4ae:15</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Proxy&lt;Root&gt; @ proxy.js?v=da80d4ae:380</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">initialize @ client.js?t=1674239611262&amp;v=da80d4ae:375</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">_hydrate @ client.js?t=1674239611262&amp;v=da80d4ae:1643</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">await in _hydrate (async)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">start @ start.js:38</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">(anonymous) @ (index):436</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">+page.svelte:21 Uncaught (in promise) ReferenceError: submitForm is not defined</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at mount (+page.svelte:21:33)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at targetCmp.&#36;&#36;.fragment.m (svelte-hooks.js?v=da80d4ae:291:24)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at mount_component (index.mjs:1949:26)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at Object.mount [as m] (root.svelte? [sm]:41:54)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at mount (+layout.svelte:2:25)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at targetCmp.&#36;&#36;.fragment.m (svelte-hooks.js?v=da80d4ae:291:24)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at mount_component (index.mjs:1949:26)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at Object.mount [as m] (root.svelte? [sm]:40:53)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at Object.mount [as m] (root.svelte? [sm]:47:13)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    at mount_component (index.mjs:1949:26)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount @ +page.svelte:21</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">targetCmp.&#36;&#36;.fragment.m @ svelte-hooks.js?v=da80d4ae:291</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount_component @ index.mjs:1949</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount @ root.svelte? [sm]:41</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount @ +layout.svelte:2</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">targetCmp.&#36;&#36;.fragment.m @ svelte-hooks.js?v=da80d4ae:291</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount_component @ index.mjs:1949</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount @ root.svelte? [sm]:40</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount @ root.svelte? [sm]:47</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">mount_component @ index.mjs:1949</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">init @ index.mjs:2046</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Root @ root.svelte? [sm]:19</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">createProxiedComponent @ svelte-hooks.js?v=da80d4ae:341</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">ProxyComponent @ proxy.js?v=da80d4ae:242</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Proxy&lt;Root&gt; @ proxy.js?v=da80d4ae:349</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">initialize @ client.js?t=1674239611262&amp;v=da80d4ae:375</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">_hydrate @ client.js?t=1674239611262&amp;v=da80d4ae:1643</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">await in _hydrate (async)</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">(anonymous) @ (index):436</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">localhost/:1 Uncaught (in promise) Error: A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      I can go ahead and fix the errors because some of them are easy to spot in the code, like the <code
+        class="inline-code-block">
+        form
+      </code>
+      is
+      <code class="inline-code-block">bind</code>
+      to an undeclared function clled
+      <code class="inline-code-block">submitForm</code>
+       making the form to do nothing after submiting and refreshing the page. It ought to call the function in the script,
+      which is expected to use the propt to make request to our Express.js backend.
+    </p>
+    <p>
+      Not going to fix this just yet, because I want you to master <code class="inline-code-block">
+        prompt engineering
+      </code>
+       to get the best from any coding Ai you are using at any point in your programming projects.
+    </p>
+    <p>
+      So, let us headback to ask for more help on the code, may be we get something more functional out of the box this
+      time around.
+    </p>
+    <h3 id="3-connecting-sveltekit-to-expressjs-backend">
+      <a href="#3-connecting-sveltekit-to-expressjs-backend">🔥 3. Connecting SvelteKit to ExpressJs Backend</a>
     </h3>
     <p>Connecting the user interface to the ExpressJs Backend</p>
-    <h3 id="4-handling-user-input-and-sending-it-to-the-openai-api-via-expressjs-backend">
-      <a href="#4-handling-user-input-and-sending-it-to-the-openai-api-via-expressjs-backend">
-        🔥 4. Handling user input and sending it to the OpenAI API via ExpressJs backend
-      </a>
+    <h4 id="sveltekit-question2-to-chatgpt-ai">
+      <a href="#sveltekit-question2-to-chatgpt-ai">📝 SvelteKit Question2 to ChatGPT AI</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">can you create and send me a working full svelte component code to use for the ChatPGT ai chatbot</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <h4 id="chatgpt-response-to-sveltekit-question2">
+      <a href="#chatgpt-response-to-sveltekit-question2">✅ ChatGPT Response to SvelteKit Question2</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    import { onMount } from 'svelte';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    let prompt = '';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    onMount(async () =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      const res = await fetch('https://localhost:5001', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        body: JSON.stringify({prompt}),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        headers: { 'Content-Type': 'application/json' },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      const data = await res.json();</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      // Do something with the data returned from the expressjs backend</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    function submitForm() {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      // Make the request to the expressjs backend here</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;form on:submit|preventDefault={submitForm}&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;input type="text" bind:value={prompt} placeholder="Type your prompt here"/&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;button type="submit"&gt;Submit&lt;/button&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/form&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;div&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;p&gt;{data.message}&lt;/p&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/div&gt;</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      It seems you just package same previous code and out of the box I know there is error because the <code
+        class="inline-code-block">
+        submitForm
+      </code>
+       though now declared in the script still do nothing.
+    </p>
+    <p>So, let me engineer my prompt much better for the AI to correct its own code errors.</p>
+    <p>
+      Remember doing <code class="inline-code-block">prompt engineering</code>
+       rightly as have taught you above demands realizing we are taking to a third-party whom is AI not even fellow human
+      programmer that understood the challenge at hand.
+    </p>
+    <p>
+      So, the more I can make the coding AI understand my code challenge context and intent, with simplified clearly
+      outlined instructions, the better the quality of response I would likely get back from the coding AI.
+    </p>
+    <p>Let&#39;s try again:</p>
+    <h4 id="sveltekit-question3-to-chatgpt-ai">
+      <a href="#sveltekit-question3-to-chatgpt-ai">📝 SvelteKit Question3 to ChatGPT AI</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">There is error in the code you sent. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">How this svelte component should work:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">i. user input prompt in the inbut box</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">ii. Click submit button which triggers "submitForm()" function</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">iii. The submit() function is the one expected to make the call to the express.js backend  (i sent your the express.js backend code earlier) with fetch() and not the onMount() as you did it.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">iv. When the backend process and respond to the prompt, the svelte component recieves it and destructure it to be displayed in console.log for now</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Can you rewrite me the chatGPT ai chatbot svelte component full code with above.</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Here we go, what the AI have for us:</p>
+    <h4 id="chatgpt-response-to-sveltekit-question3">
+      <a href="#chatgpt-response-to-sveltekit-question3">✅ ChatGPT Response to SvelteKit Question3</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">I apologize for the confusion. Here is an updated version of the Svelte component that should work as you described:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Copy code</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    let prompt = '';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    let data = {};</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    function submitForm() {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        fetch('https://localhost:5001', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            body: JSON.stringify({prompt}),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            headers: { 'Content-Type': 'application/json' },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        })</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        .then(res =&gt; res.json())</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        .then(jsonRes =&gt; {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            data = jsonRes;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">            console.log(data);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;form on:submit|preventDefault={submitForm}&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;input type="text" bind:value={prompt} placeholder="Type your prompt here"/&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;button type="submit"&gt;Submit&lt;/button&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/form&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;div&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;p&gt;{data.message}&lt;/p&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/div&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">In this updated version, the submitForm() function is called when the user submits the form. This function makes an HTTP request to the expressjs backend using the fetch API. The prompt is sent as part of the request body. The backend processes the prompt and sends a response, which is received by the Svelte component and destructured to be displayed in the console.log.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">It's important to note that, the actual connection and communication between the client and server should be done over https for security reasons. If your application is not running on https, you might need to set up ssl certificates and configure your express server to run over https</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Also, it's important to handle errors and loading state so that the user knows what is happening when they submit the form.</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      Interesting though there may still be errors, yet we got a much improved response ths time that fixed a lot of
+      errors in the previous code the Ai generated for us.
+    </p>
+    <p>
+      Based on the <code class="inline-code-block">prompt engineering</code>
+       it discovered it mistakes, adjusted them like using completely removing onMount() previously used to make the fetch()
+      API call to backend and replaced it with the submitForm() to make the call as expected. This ensures that nothing else
+      can trigger the fetch() request to out backend except their is a prompt and submit button clicked.
+    </p>
+    <p>
+      Can you also notice, it attempted to add additional variable to handle the response of the AI from backend and
+      display it to the user.
+    </p>
+    <p>
+      Cool we are getting better and for each <code class="inline-code-block">prompt</code>
+      , the AI is understanding our project context and intent and will likely help better moving forward.
+    </p>
+    <p>Time to try the code together.</p>
+    <p>Seems things is working but errorr making the fetch request successfully.</p>
+    <p>Lets ask the ChatGPT AI for help further but this time I will give it even more context.</p>
+    <p>Current errorr is:</p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">POST https://localhost:5001/ net::ERR_SSL_PROTOCOL_ERROR</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>So, I sent the error, it explained</p>
+    <p>
+      error due to <code class="inline-code-block">SSL</code>
+      .
+    </p>
+    <p>
+      after troubleshoting for a while, I discovered that the above error was caused because the code it generated
+      earlier was calling <code class="inline-code-block">https</code>
+      instead of
+      <code class="inline-code-block">http</code>
+      .
+    </p>
+    <p>
+      I removed the <code class="inline-code-block">s</code>
+       and the fetch() http call went through successfully.
+    </p>
+    <p>Hurray!</p>
+    <p>
+      Also, I got the AI to rewrite the component fetch() code and here is the update you can use to replace your
+      current component too:
+    </p>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  let prompt = '';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  let data = {};</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  async function submitForm() {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    const response = await fetch('http://localhost:5001/', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      headers: { 'Content-Type': 'application/json' },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      body: JSON.stringify({ prompt }),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    if (response.ok) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      data = await response.json();</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      console.log(data);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;form on:submit|preventDefault={submitForm}&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;input type="text" bind:value={prompt} placeholder="Type your prompt here" /&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;button type="submit"&gt;Submit&lt;/button&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/form&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;div&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;p&gt;{data.message}&lt;/p&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;/div&gt;</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      Things is moving but the data recieved not handle well causing it to display <code class="inline-code-block">
+        undefine
+      </code>
+      .
+    </p>
+    <p>Let&#39;s do more request to the AI...</p>
+    <h3 id="4-send-user-input-to-openai-gtp-3-ai-api">
+      <a href="#4-send-user-input-to-openai-gtp-3-ai-api">🔥 4. Send User Input to Openai GTP-3 AI API</a>
     </h3>
     <p>Handling user input and sending it to the OpenAI API via ExpressJs backend</p>
-    <h3 id="5-displaying-user-questions-and-amp-ai-chatbot-and-39-s-responses-from-openai-api">
-      <a href="#5-displaying-user-questions-and-amp-ai-chatbot-and-39-s-responses-from-openai-api">
-        🔥 5. Displaying User questions &amp; AI chatbot&#39;s responses from Openai API
-      </a>
+    <h4 id="sveltekit-question4-to-chatgpt-ai">
+      <a href="#sveltekit-question4-to-chatgpt-ai">📝 SvelteKit Question4 to ChatGPT AI</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">the data. the message does not output the response from the ai, instead, it outputs undefine.</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">based on the express.js server the returned JSON file has been reassigned to a variable called ai from this line of code I extracted from the express.js backend server:</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //Send the AI response back to user of </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    // our chatGPT Ai chatBot SvelteKit powered frontend </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    //in json format with a success status code of 200. </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    res.status(200).send({</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      ai: response.data.choices[0].text</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content"></div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">Can you rewrite the component to access the expressjs response correctly and display it back to the user on UI?</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>Let&#39;s see what it got for us</p>
+    <h4 id="chatgpt-response-to-sveltekit-question4">
+      <a href="#chatgpt-response-to-sveltekit-question4">✅ ChatGPT Response to SvelteKit Question4</a>
+    </h4>
+    <div class="code-block  ">
+      <CodeCopy>
+        <pre><code
+            class="language-javascript">{@html String.raw`<div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">&lt;script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    let prompt = '';</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    let data = {};</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    async function submitForm() {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      try {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        const response = await fetch('http://localhost:5001/', {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          method: 'POST',</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          headers: { 'Content-Type': 'application/json' },</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          body: JSON.stringify({ prompt }),</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        });</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        if (response.ok) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          data = await response.json();</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          console.log(data);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        } else {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">          throw new Error(response.statusText);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      } catch (error) {</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">        console.error(error);</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">      }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    }</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;/script&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;form on:submit|preventDefault={submitForm}&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;input type="text" bind:value={prompt} placeholder="Type your prompt here" /&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;button type="submit"&gt;Submit&lt;/button&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;/form&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  </div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;div&gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">    &lt;p&gt;{data.ai}&amp;lt;/p&amp;gt;</div></div><div class="code-line"><div class="code-linenotation"><span class="no-line-number"></span><span class="no-line-diff"></span></div><div class="code-content">  &lt;/div&gt;</div></div>`}</code></pre>
+      </CodeCopy>
+    </div>
+    <p>
+      yeah, the above AI generated code works just fine, it was able to send the request to backend server from our
+      SvelteKit.
+    </p>
+    <h3 id="5-display-user-questions-ai-chatbot-responses">
+      <a href="#5-display-user-questions-ai-chatbot-responses">🔥 5. Display User Questions/AI Chatbot Responses</a>
     </h3>
     <p>Displaying User questions &amp; AI chatbot&#39;s responses from Openai API</p>
-    <h3
-      id="6-storing-user-questions-and-amp-ai-chatbot-and-39-s-responses-in-local-storage-to-old-retrieve-old-chats-later">
-      <a
-        href="#6-storing-user-questions-and-amp-ai-chatbot-and-39-s-responses-in-local-storage-to-old-retrieve-old-chats-later">
-        🔥 6. Storing User questions &amp; AI chatbot&#39;s responses in Local storage (to old retrieve old chats later)
+    <p>
+      When the previous code sends resquest GPT-3 AI&#39;s API endpoint via our Express.js backend with user question
+      bundled as <code class="inline-code-block">prompt</code>
+    </p>
+    <p>It gets response from GPT-3 AI and display the response below the form to user in the UI.</p>
+    <p>
+      Nice one we now have both the frontend and backend connected successfully to process and respond to user questions
+      with the AI chatbot.
+    </p>
+    <p>This is the basic needed and every other thing from here on is more of customizing the UI to our desire.</p>
+    <p>
+      but am glad you are able to make this work and can add to your <code class="inline-code-block">portfolio</code>
+       but beyond that you know how to build it from scratch yourself and not just copy-paste code that you can&#39;t explain
+      how it works.
+    </p>
+    <h3 id="6-store-user-ai-chatbot-and-39-s-chats-in-local-storage">
+      <a href="#6-store-user-ai-chatbot-and-39-s-chats-in-local-storage">
+        🔥 6. Store User/AI chatbot&#39;s Chats in Local Storage
       </a>
     </h3>
     <p>Storing User questions &amp; AI chatbot&#39;s responses in Local storage (to old retrieve old chats later)</p>
-    <h3 id="7-designing-the-chatbot-interface-to-make-it-user-friendly-and-visually-appealing">
-      <a href="#7-designing-the-chatbot-interface-to-make-it-user-friendly-and-visually-appealing">
-        🔥 7. Designing the chatbot interface to make it user-friendly and visually appealing
-      </a>
+    <p>
+      This is an intesting feature I like the ai chatbot to have which help preserve the chat by saving it in the
+      user&#39;s local storage persistently.
+    </p>
+    <h3 id="7-redesigning-chatgpt-clone-ai-chatbot-ui">
+      <a href="#7-redesigning-chatgpt-clone-ai-chatbot-ui">🔥 7. ReDesigning ChatGPT Clone AI Chatbot UI</a>
     </h3>
     <p>Designing the chatbot interface to make it user-friendly and visually appealing</p>
+    <p>
+      There are lot of features you can add to this chatGPT clone AI chatbot to suite your use case or your clients
+      demands.
+    </p>
+    <p>Go ahead and try them out.</p>
+    <p>
+      For inspiration on the features, make sure you go back to the Ai chatbot features list at the top of this course
+      to see the once have worked on and those pending that i may implement as well later in the ready to use version of
+      this app.
+    </p>
+    <p>
+      Yeah, I have moved even further to make more <code class="inline-code-block">production</code>
+       ready for you.
+    </p>
+    <p>
+      Though that is just about <code class="inline-code-block">75%</code>
+       ready not 100% production ready yet,
+    </p>
+    <p>
+      you still need to work more on it to use it full in <code class="inline-code-block">production</code>
+       as desired.
+    </p>
+    <p>
+      See the <code class="inline-code-block">Demo</code>
+      and
+      <code class="inline-code-block">Git Repo</code>
+       section to see the live demo and you can fork the repo and follow this course to use the template already done for
+      you.
+    </p>
+    <p>
+      Please don&#39;t forget to <code class="inline-code-block">star</code>
+      the repo, share this course and support in
+      <code class="inline-code-block">donation</code>
+      or even recommending the platform for
+      <code class="inline-code-block">web2/web3 dev education grants</code>
+      for me to be able to produce more of this indepth, helpful step-by-step courses in future for
+      <code class="inline-code-block">free</code>
+      .
+    </p>
     <h3 id="8-testing-the-sveltekit-frontend-in-localhost">
       <a href="#8-testing-the-sveltekit-frontend-in-localhost">🔥 8. Testing the Sveltekit Frontend in localhost</a>
     </h3>
     <p>Testing the Sveltekit Frontend in localhost</p>
+    <p>We have tested the basic UI design with backend and all works fine.</p>
+    <p>If you fork the repo, you should also test it as well to ensure everything works fine as expected.</p>
     <h3 id="exercise-4"><a href="#exercise-4">🔥 Exercise 4</a></h3>
     <ol>
-      <li><p>a</p></li>
+      <li><p>Build the chatbot interface and connect it to the OpenAI API ExpressJs backend.</p></li>
       <li><p>Experiment with different Open API parameters to customize the chatbot&#39;s responses.</p></li>
     </ol>
     <h4 id="challenge-4"><a href="#challenge-4">🍻 Challenge 4</a></h4>
+    <p>Design the chatbot interface to make it user-friendly and visually appealing.</p>
     <h2 id="lesson-5-adding-security-features-to-ai-chatbot">
       <a href="#lesson-5-adding-security-features-to-ai-chatbot">
         🔒️ Lesson 5: Adding Security Features to AI ChatBot
@@ -1651,7 +2307,7 @@
     <p>🧑‍💻dev educators path</p>
     <p>or both 👷➕🧑‍💻 paths combined just like me🤡, Solomon Foskaay🔧.</p>
     <p>
-      It took me about 4days to have the first complete version of this course (text only) to be created and organized
+      It took me about 5days to have the first complete version of this course (text only) to be created and organized
       for the first time even before the video was recorded at all and published.
     </p>
     <h3 id="phase-1"><a href="#phase-1">🏗️ Phase 1</a></h3>
@@ -1668,7 +2324,11 @@
        18th-19th January 2023 (started completed Lesson3 Express.js backend part)
     </p>
     <p>
-      <strong>Stage 2:</strong>
+      <strong>Stage 3:</strong>
+       20th January 2023 (started completed Lesson4 Svelte/SvelteKit frontend part)
+    </p>
+    <p>
+      <strong>Stage 4:</strong>
        In progress
     </p>
     <h3 id="phase-2"><a href="#phase-2">🚧 Phase 2</a></h3>
