@@ -2325,6 +2325,10 @@ Design the chatbot interface to make it user-friendly and visually appealing.
 
 Adding Security Features to AI ChatBot Website
 
+### 🔒️ 1. Discuss Vulnurabilities in the AI ChatBot
+
+Discussing the vulnurabilities in the AI ChatBot Website (Frontend & Backend)
+
 As it is now let's try it, anyone using the Ai chatbot app frontend can easy use `inspect tool` in browsers like Chrome, Firefox and more to see our Express.js backend endpoint url
 
 though it looks harmless until you think deeply and ask yourself this question I asked myself after developing to this point.
@@ -2386,26 +2390,53 @@ Cool.
 
 So, lets adjust our `server` folder and `server.js` file to implement this 2 layer security features.
 
+### 🔒️ 2. Implemente error handling and debugging
+
+Implementing error handling and debugging
+
+### 🔒️ 3. Fix security loopholes in the AI ChatBot
+
+Fixing security loopholes in the AI ChatBot Website (Frontend & Backend)
+
+### 🔒️ 4. Test Security features added to the AI ChatBot
+
+Testing the security features added to the AI ChatBot Website (Frontend & Backend)
 
 ### 🔒️ Exercise 5
 
-Create a new project in Git using Github, clone it to your PC, and set up the project folder in your IDE/Code Editor (VSCode).
+Research and identify potential vulnerabilities in the AI ChatBot Website (Frontend & Backend).
 
 #### 🍻 Challenge 5
 
-Research and implement a version control workflow for your project using Git and Github.
+Implement error handling and debugging, fix security loopholes, and test the security features added to the AI ChatBot Website (Frontend & Backend) to ensure that it is secure.
 
 ## 🎉 Lesson 6: Deployment of ChatGPT-like Ai Chatbot
 
 Deployment of ChatGPT-like Ai Chatbot Website to Vercel and Render.
 
+### 🎉 1. Preparing project for deployment
+
+Preparing project for deployment
+
+### 🎉 2. Deploy ExpressJs Backend server to a web server
+
+Deploying the ExpressJs backend server to a web server hosting
+
+### 🎉 3. Deploy Sveltekit Frontend to a web server
+
+Deploying the Sveltekit application to a web server
+
+### 🎉 4. Final Test and debug the AI ChatBot Website
+
+Final Testing and debugging the AI ChatBot Website (Frontend & Backend UI, UX and Security)
+
 ### 🎉 Exercise 6
 
-Create a new project in Git using Github, clone it to your PC, and set up the project folder in your IDE/Code Editor (VSCode).
+Deploy the chatbot website to a web server and test it to ensure that it is working properly.
 
 #### 🍻 Challenge 6
 
-Research and implement a version control workflow for your project using Git and Github.
+Debug any issues that arise and make any necessary changes to the website.
 
 ## 🔨 FINAL PROJECT
 

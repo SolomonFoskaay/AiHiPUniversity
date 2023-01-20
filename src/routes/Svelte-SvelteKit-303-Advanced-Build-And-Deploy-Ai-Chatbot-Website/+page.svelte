@@ -2055,6 +2055,10 @@
       </a>
     </h2>
     <p>Adding Security Features to AI ChatBot Website</p>
+    <h3 id="1-discuss-vulnurabilities-in-the-ai-chatbot">
+      <a href="#1-discuss-vulnurabilities-in-the-ai-chatbot">🔒️ 1. Discuss Vulnurabilities in the AI ChatBot</a>
+    </h3>
+    <p>Discussing the vulnurabilities in the AI ChatBot Website (Frontend &amp; Backend)</p>
     <p>
       As it is now let&#39;s try it, anyone using the Ai chatbot app frontend can easy use <code
         class="inline-code-block">
@@ -2131,24 +2135,53 @@
       <code class="inline-code-block">server.js</code>
        file to implement this 2 layer security features.
     </p>
+    <h3 id="2-implemente-error-handling-and-debugging">
+      <a href="#2-implemente-error-handling-and-debugging">🔒️ 2. Implemente error handling and debugging</a>
+    </h3>
+    <p>Implementing error handling and debugging</p>
+    <h3 id="3-fix-security-loopholes-in-the-ai-chatbot">
+      <a href="#3-fix-security-loopholes-in-the-ai-chatbot">🔒️ 3. Fix security loopholes in the AI ChatBot</a>
+    </h3>
+    <p>Fixing security loopholes in the AI ChatBot Website (Frontend &amp; Backend)</p>
+    <h3 id="4-test-security-features-added-to-the-ai-chatbot">
+      <a href="#4-test-security-features-added-to-the-ai-chatbot">
+        🔒️ 4. Test Security features added to the AI ChatBot
+      </a>
+    </h3>
+    <p>Testing the security features added to the AI ChatBot Website (Frontend &amp; Backend)</p>
     <h3 id="exercise-5"><a href="#exercise-5">🔒️ Exercise 5</a></h3>
-    <p>
-      Create a new project in Git using Github, clone it to your PC, and set up the project folder in your IDE/Code
-      Editor (VSCode).
-    </p>
+    <p>Research and identify potential vulnerabilities in the AI ChatBot Website (Frontend &amp; Backend).</p>
     <h4 id="challenge-5"><a href="#challenge-5">🍻 Challenge 5</a></h4>
-    <p>Research and implement a version control workflow for your project using Git and Github.</p>
+    <p>
+      Implement error handling and debugging, fix security loopholes, and test the security features added to the AI
+      ChatBot Website (Frontend &amp; Backend) to ensure that it is secure.
+    </p>
     <h2 id="lesson-6-deployment-of-chatgpt-like-ai-chatbot">
       <a href="#lesson-6-deployment-of-chatgpt-like-ai-chatbot">🎉 Lesson 6: Deployment of ChatGPT-like Ai Chatbot</a>
     </h2>
     <p>Deployment of ChatGPT-like Ai Chatbot Website to Vercel and Render.</p>
+    <h3 id="1-preparing-project-for-deployment">
+      <a href="#1-preparing-project-for-deployment">🎉 1. Preparing project for deployment</a>
+    </h3>
+    <p>Preparing project for deployment</p>
+    <h3 id="2-deploy-expressjs-backend-server-to-a-web-server">
+      <a href="#2-deploy-expressjs-backend-server-to-a-web-server">
+        🎉 2. Deploy ExpressJs Backend server to a web server
+      </a>
+    </h3>
+    <p>Deploying the ExpressJs backend server to a web server hosting</p>
+    <h3 id="3-deploy-sveltekit-frontend-to-a-web-server">
+      <a href="#3-deploy-sveltekit-frontend-to-a-web-server">🎉 3. Deploy Sveltekit Frontend to a web server</a>
+    </h3>
+    <p>Deploying the Sveltekit application to a web server</p>
+    <h3 id="4-final-test-and-debug-the-ai-chatbot-website">
+      <a href="#4-final-test-and-debug-the-ai-chatbot-website">🎉 4. Final Test and debug the AI ChatBot Website</a>
+    </h3>
+    <p>Final Testing and debugging the AI ChatBot Website (Frontend &amp; Backend UI, UX and Security)</p>
     <h3 id="exercise-6"><a href="#exercise-6">🎉 Exercise 6</a></h3>
-    <p>
-      Create a new project in Git using Github, clone it to your PC, and set up the project folder in your IDE/Code
-      Editor (VSCode).
-    </p>
+    <p>Deploy the chatbot website to a web server and test it to ensure that it is working properly.</p>
     <h4 id="challenge-6"><a href="#challenge-6">🍻 Challenge 6</a></h4>
-    <p>Research and implement a version control workflow for your project using Git and Github.</p>
+    <p>Debug any issues that arise and make any necessary changes to the website.</p>
     <h2 id="final-project"><a href="#final-project">🔨 FINAL PROJECT</a></h2>
     <p>
       Build an AI chatbot website using Svelte/Sveltekit and OpenAI&#39;s API. This could be a simple chatbot website or
