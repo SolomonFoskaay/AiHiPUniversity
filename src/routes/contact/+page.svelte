@@ -14,6 +14,42 @@
     <!-- ensures every link below opens in a new tab similar to HTML target="_blank" -->
     <base target="_blank" />
 
-    <p>For Enquiry, Partnership or Grant. Kindly reach us via: Foskaay @ AiHiPUniversity .com</p>
+    <h2 id="contact"><a href="#contact">💬 CONTACT</a></h2>
+    <p>For Enquiry, Donations, Partnerships or Web2/Web3 Developers&#39; Educational Grants.</p>
+    <p>Kindly reach us via: Foskaay @ AiHiPUniversity .com</p>
+    <h2 id="course-support"><a href="#course-support">💬 COURSE SUPPORT</a></h2>
+    <p>COURSE SUPPORT FOR OUR STUDENTS: STUCK? GET SUPPORT HERE</p>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <p>
+          <a
+            href="https://Discord.AiHiPUniversity.com?ref=AiHiPUniversity.com"
+            rel="external"
+            title="Solomon Foskaay Github Profile">
+            DISCORD
+          </a>
+        </p>
+      </li>
+      <li>
+        <p>
+          <a
+            href="https://Twitter.AiHiPUniversity.com?ref=AiHiPUniversity.com"
+            rel="external"
+            title="Solomon Foskaay Twitter Profile">
+            TWITTER
+          </a>
+        </p>
+      </li>
+    </ul>
   </article>
 </Post>

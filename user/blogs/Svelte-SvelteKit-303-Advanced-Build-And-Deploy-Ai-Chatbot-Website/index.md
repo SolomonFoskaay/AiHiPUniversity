@@ -3,7 +3,7 @@ title: SVELTE/SVELTEKIT 303 (Advanced) - Build  & Deploy AI CHATBOT Website Like
 description: Demonstrates How To Build and Deploy AI chatbot Website Like chatGPT With Sveltekit, ExpressJs and Openai API. 
 summary: ✨ Build and Deploy AI chatbot Website Like chatGPT With Sveltekit, ExpressJs and Openai API
 published: '2023-01-17T00:00:00.000+00:00'
-updated: '2023-01-21T20:00:00.000+00:00'
+updated: '2023-01-23T01:00:00.000+00:00'
 cover: ./AiHiPU-Img0000004a-robot-human-programmer-image.png
 coverStyle: 'TOP'
 coverCaption: Photo by <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a> on <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a>
@@ -433,6 +433,18 @@ Then, post the screenshot of the AI Chatbot design in your course exercise repo 
 
 Research and list out 5 best practices for building an AI Chatbot.
 
+## 💬 STUCK? GET SUPPORT HERE 1
+
+**NEED HELP?**
+
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth what is confusing in the text version.
+
+**ARE ISSUES STILL UNRESOLVED?**
+
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
+
 ## 🎨 Lesson 2: Setup Project with Git
 
 You need to first set up the project on GitHub (this might be contrary to what you are used to doing as a developer. Yeah, I want to help you adopt the good habit of consistently committing your work to a Git server like GitHub).
@@ -615,6 +627,18 @@ Clone it to your PC, and set up the project folder in your IDE/Code Editor (VSCo
 
 Add the `ai-chatbot-app` repo link you just create to your other exercise/challenge repo for submission.
 
+## 💬 STUCK? GET SUPPORT HERE 2
+
+**NEED HELP?**
+
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth what is confusing in the text version.
+
+**ARE ISSUES STILL UNRESOLVED?**
+
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
+
 ## 🔖 Lesson 3: Backend (ExpressJs) With OpenAI API
 
 Backend (ExpressJs)- Connecting to the OpenAI API With ExpressJs
@@ -738,7 +762,7 @@ Let's go🔥🚀.
 
 Go back to the VSCode and lets continue where we left after creating .`.gitignore` and `README.md` files in the root folder and pushed to GitHub.
 
-#### 🚧 Create sever folder
+#### 🚧 Create Server folder
 
 ***1.*** Create a new folder and name it `server` for Expressjs server to handle API key and API request inside the root folder ../ai-chatbot-app:
 
@@ -778,7 +802,7 @@ You can close the `.env` file,
 
 and move to the next step.
 
-#### 🚧 Create package.json in server folder
+#### 🚧 Create package.json in Server folder
 
 ***3**.** Create a `package.json` file to manage the server script, dependencies and other essential things for the Express.js server to run successfully.
 
@@ -1378,7 +1402,7 @@ And submit for check before you move on to other stages.
 
 as part of good developer habits.
 
-## 💬 STUCK? GET SUPPORT HERE
+## 💬 STUCK? GET SUPPORT HERE 3
 
 **NEED HELP?**
 
@@ -1386,7 +1410,9 @@ If you are stuck, remember to watch the video because the course instructor(s) m
 
 **ARE ISSUES STILL UNRESOLVED?**
 
-Then, reach out to the course instructor(s) for support via our discord server (at the top or footer of this course).
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
 
 ## 🔥 Lesson 4: Frontend (SvelteKit)- Build Chatbot UI
 
@@ -2297,13 +2323,25 @@ If you fork the repo, you should also test it as well to ensure everything works
 
 Design the chatbot interface to make it user-friendly and visually appealing.
 
+## 💬 STUCK? GET SUPPORT HERE 4
+
+**NEED HELP?**
+
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth what is confusing in the text version.
+
+**ARE ISSUES STILL UNRESOLVED?**
+
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
+
 ## 🔒️ Lesson 5: Adding Security Features to AI ChatBot
 
 Adding Security Features to AI ChatBot Website
 
-### 🔒️ 1. Discuss Vulnurabilities in the AI ChatBot
+### 🔒️ 1. Discuss Vulnerabilities in the AI ChatBot
 
-Discussing the vulnurabilities in the AI ChatBot Website (Frontend & Backend)
+Discussing the vulnerabilities in the AI ChatBot Website (Frontend & Backend)
 
 As it is now let's try it, anyone using the Ai chatbot app frontend can easily use `inspect tool` in browsers like Chrome, Firefox and more to see our Express.js backend endpoint URL.
 
@@ -2383,7 +2421,7 @@ When faced with an error, one of the best practices is to add a `console.log()` 
 
 Load the website and use `inspect` tool in your browser
 
-Go to the `Console` option to see output of the error to have better understanding of the error
+Go to the `Console` option to see output of the error to have a better understanding of the error
 
 That is a basic and essential step to aid in finding fixes for the bugs in your code.
 
@@ -2770,11 +2808,23 @@ We have done the testing but you can retest as many times as possible because on
 
 Research, identify and list out 5 potential vulnerabilities in the AI ChatBot Website (Frontend & Backend).
 
-Add the list to your exercise/chanllenge repo for submission.
+Add the list to your exercise/challenge repo for submission.
 
 #### 🍻 Challenge 5
 
 Implement error handling and debugging, fix security loopholes, and test the security features added to the AI ChatBot Website (Frontend & Backend) to ensure that it is secure.
+
+## 💬 STUCK? GET SUPPORT HERE 5
+
+**NEED HELP?**
+
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth what is confusing in the text version.
+
+**ARE ISSUES STILL UNRESOLVED?**
+
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
 
 ## 🎉 Lesson 6: Deployment of ChatGPT-like Ai Chatbot
 
@@ -2955,6 +3005,19 @@ Deploy the chatbot website to a web server and test it to ensure that it is work
 
 Debug any issues that arise and make any necessary changes to the website.
 
+## 💬 STUCK? GET SUPPORT HERE 6
+
+**NEED HELP?**
+
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth what is confusing in the text version.
+
+**ARE ISSUES STILL UNRESOLVED?**
+
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
+
+
 ## 🔨 FINAL PROJECT
 
 Build an AI chatbot website using Svelte/Sveltekit and OpenAI's API.
@@ -2976,6 +3039,18 @@ Aside from that, you will also be upgraded on our Discord to course Graduates-on
 This is the official GitHub repo for this ChatGPT clone AI Chatbot With SvelteKit, Epress.js and Openai GTP-3 AI's API course.
 
 - [ChatGPT AI Chatbot Openai SvelteKit Boilerplate 1](https://github.com/AiHiPUniversity/ai-chatbot-openai-sveltekit-boilerplate-1?ref=AiHiPUniversity.com "Go to ChatGPT AI Chatbot Openai SvelteKit Boilerplate 1 GitHub Repository")
+
+## 💬 STUCK? GET SUPPORT HERE 7
+
+**NEED HELP?**
+
+If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth what is confusing in the text version.
+
+**ARE ISSUES STILL UNRESOLVED?**
+
+Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media below).
+
+- [CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW](https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com "Click To Contact For Course Support Now!")
 
 ## 👍 Credit & Referencies
 

@@ -430,6 +430,27 @@
     <p>Then, post the screenshot of the AI Chatbot design in your course exercise repo for submission.</p>
     <h4 id="challenge-1"><a href="#challenge-1">🍻 Challenge 1</a></h4>
     <p>Research and list out 5 best practices for building an AI Chatbot.</p>
+    <h2 id="stuck-get-support-here-1"><a href="#stuck-get-support-here-1">💬 STUCK? GET SUPPORT HERE 1</a></h2>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
+        </a>
+      </li>
+    </ul>
     <h2 id="lesson-2-setup-project-with-git">
       <a href="#lesson-2-setup-project-with-git">🎨 Lesson 2: Setup Project with Git</a>
     </h2>
@@ -631,6 +652,27 @@
       Add the <code class="inline-code-block">ai-chatbot-app</code>
        repo link you just create to your other exercise/challenge repo for submission.
     </p>
+    <h2 id="stuck-get-support-here-2"><a href="#stuck-get-support-here-2">💬 STUCK? GET SUPPORT HERE 2</a></h2>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
+        </a>
+      </li>
+    </ul>
     <h2 id="lesson-3-backend-expressjs-with-openai-api">
       <a href="#lesson-3-backend-expressjs-with-openai-api">🔖 Lesson 3: Backend (ExpressJs) With OpenAI API</a>
     </h2>
@@ -805,7 +847,7 @@
       <code class="inline-code-block">README.md</code>
        files in the root folder and pushed to GitHub.
     </p>
-    <h4 id="create-sever-folder"><a href="#create-sever-folder">🚧 Create sever folder</a></h4>
+    <h4 id="create-server-folder"><a href="#create-server-folder">🚧 Create Server folder</a></h4>
     <p>
       <em><strong>1.</strong></em>
       Create a new folder and name it
@@ -853,7 +895,7 @@
     </p>
     <p>and move to the next step.</p>
     <h4 id="create-package-json-in-server-folder">
-      <a href="#create-package-json-in-server-folder">🚧 Create package.json in server folder</a>
+      <a href="#create-package-json-in-server-folder">🚧 Create package.json in Server folder</a>
     </h4>
     <p>
       <em>
@@ -1387,7 +1429,7 @@
     <p>And submit for check before you move on to other stages.</p>
     <p>🚩Reminder to always commit and push your project to the GitHub repo after minor or major changes,</p>
     <p>as part of good developer habits.</p>
-    <h2 id="stuck-get-support-here"><a href="#stuck-get-support-here">💬 STUCK? GET SUPPORT HERE</a></h2>
+    <h2 id="stuck-get-support-here-3"><a href="#stuck-get-support-here-3">💬 STUCK? GET SUPPORT HERE 3</a></h2>
     <p><strong>NEED HELP?</strong></p>
     <p>
       If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
@@ -1395,9 +1437,19 @@
     </p>
     <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
     <p>
-      Then, reach out to the course instructor(s) for support via our discord server (at the top or footer of this
-      course).
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
     </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
+        </a>
+      </li>
+    </ul>
     <h2 id="lesson-4-frontend-sveltekit-build-chatbot-ui">
       <a href="#lesson-4-frontend-sveltekit-build-chatbot-ui">🔥 Lesson 4: Frontend (SvelteKit)- Build Chatbot UI</a>
     </h2>
@@ -2108,16 +2160,37 @@
     </ol>
     <h4 id="challenge-4"><a href="#challenge-4">🍻 Challenge 4</a></h4>
     <p>Design the chatbot interface to make it user-friendly and visually appealing.</p>
+    <h2 id="stuck-get-support-here-4"><a href="#stuck-get-support-here-4">💬 STUCK? GET SUPPORT HERE 4</a></h2>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
+        </a>
+      </li>
+    </ul>
     <h2 id="lesson-5-adding-security-features-to-ai-chatbot">
       <a href="#lesson-5-adding-security-features-to-ai-chatbot">
         🔒️ Lesson 5: Adding Security Features to AI ChatBot
       </a>
     </h2>
     <p>Adding Security Features to AI ChatBot Website</p>
-    <h3 id="1-discuss-vulnurabilities-in-the-ai-chatbot">
-      <a href="#1-discuss-vulnurabilities-in-the-ai-chatbot">🔒️ 1. Discuss Vulnurabilities in the AI ChatBot</a>
+    <h3 id="1-discuss-vulnerabilities-in-the-ai-chatbot">
+      <a href="#1-discuss-vulnerabilities-in-the-ai-chatbot">🔒️ 1. Discuss Vulnerabilities in the AI ChatBot</a>
     </h3>
-    <p>Discussing the vulnurabilities in the AI ChatBot Website (Frontend &amp; Backend)</p>
+    <p>Discussing the vulnerabilities in the AI ChatBot Website (Frontend &amp; Backend)</p>
     <p>
       As it is now let&#39;s try it, anyone using the Ai chatbot app frontend can easily use <code
         class="inline-code-block">
@@ -2223,7 +2296,7 @@
     </p>
     <p>
       Go to the <code class="inline-code-block">Console</code>
-       option to see output of the error to have better understanding of the error
+       option to see output of the error to have a better understanding of the error
     </p>
     <p>That is a basic and essential step to aid in finding fixes for the bugs in your code.</p>
     <h3 id="3-fix-security-loopholes-in-the-ai-chatbot">
@@ -2514,12 +2587,33 @@
     <p>
       Research, identify and list out 5 potential vulnerabilities in the AI ChatBot Website (Frontend &amp; Backend).
     </p>
-    <p>Add the list to your exercise/chanllenge repo for submission.</p>
+    <p>Add the list to your exercise/challenge repo for submission.</p>
     <h4 id="challenge-5"><a href="#challenge-5">🍻 Challenge 5</a></h4>
     <p>
       Implement error handling and debugging, fix security loopholes, and test the security features added to the AI
       ChatBot Website (Frontend &amp; Backend) to ensure that it is secure.
     </p>
+    <h2 id="stuck-get-support-here-5"><a href="#stuck-get-support-here-5">💬 STUCK? GET SUPPORT HERE 5</a></h2>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
+        </a>
+      </li>
+    </ul>
     <h2 id="lesson-6-deployment-of-chatgpt-like-ai-chatbot">
       <a href="#lesson-6-deployment-of-chatgpt-like-ai-chatbot">🎉 Lesson 6: Deployment of ChatGPT-like Ai Chatbot</a>
     </h2>
@@ -2849,6 +2943,27 @@
     <p>Deploy the chatbot website to a web server and test it to ensure that it is working properly.</p>
     <h4 id="challenge-6"><a href="#challenge-6">🍻 Challenge 6</a></h4>
     <p>Debug any issues that arise and make any necessary changes to the website.</p>
+    <h2 id="stuck-get-support-here-6"><a href="#stuck-get-support-here-6">💬 STUCK? GET SUPPORT HERE 6</a></h2>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
+        </a>
+      </li>
+    </ul>
     <h2 id="final-project"><a href="#final-project">🔨 FINAL PROJECT</a></h2>
     <p>Build an AI chatbot website using Svelte/Sveltekit and OpenAI&#39;s API.</p>
     <p>
@@ -2882,6 +2997,27 @@
           rel="external"
           title="Go to ChatGPT AI Chatbot Openai SvelteKit Boilerplate 1 GitHub Repository">
           ChatGPT AI Chatbot Openai SvelteKit Boilerplate 1
+        </a>
+      </li>
+    </ul>
+    <h2 id="stuck-get-support-here-7"><a href="#stuck-get-support-here-7">💬 STUCK? GET SUPPORT HERE 7</a></h2>
+    <p><strong>NEED HELP?</strong></p>
+    <p>
+      If you are stuck, remember to watch the video because the course instructor(s) may have already explained in-depth
+      what is confusing in the text version.
+    </p>
+    <p><strong>ARE ISSUES STILL UNRESOLVED?</strong></p>
+    <p>
+      Then, reach out to the course instructor(s) for support via our discord server (and connect via other social media
+      below).
+    </p>
+    <ul>
+      <li>
+        <a
+          href="https://AiHiPUniversity.com/contact?ref=AiHiPUniversity.com"
+          rel="external"
+          title="Click To Contact For Course Support Now!">
+          CLICK HERE TO CONTACT FOR COURSE SUPPORT NOW
         </a>
       </li>
     </ul>
