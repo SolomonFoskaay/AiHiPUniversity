@@ -351,9 +351,9 @@
       With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API, then below is the full video.
     </p>
     <p>
-      <a href="https://www.youtube.com/watch?v=RmiLeS2bEuI&amp;t=905s?ref=AiHiPUniversity.com" rel="external">
+      <a href="https://www.youtube.com/watch?v=xJSWaMqu_ZY?ref=AiHiPUniversity.com" rel="external">
         <ImgZoom
-          src="/Svelte-SvelteKit-303-Advanced-Build-And-Deploy-Ai-Chatbot-Website/AiHiPU-Vid000001a-7Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023.jpg"
+          src="/Svelte-SvelteKit-303-Advanced-Build-And-Deploy-Ai-Chatbot-Website/AiHiPUniversity-Course-0001a-Sveltekit303-Build-Deploy-ChatGPT-AI-Chatbot-Part-1.jpg"
           alt="This a video about Building  &amp; Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API"
           width="1280"
           height="720" />
