@@ -3,7 +3,7 @@ title: SVELTE/SVELTEKIT 303 (Advanced) - Build  & Deploy AI CHATBOT Website Like
 description: Demonstrates How To Build and Deploy AI chatbot Website Like chatGPT With Sveltekit, ExpressJs and Openai API. 
 summary: ✨ Build and Deploy AI chatbot Website Like chatGPT With Sveltekit, ExpressJs and Openai API
 published: '2023-01-17T00:00:00.000+00:00'
-updated: '2023-01-24T20:00:00.000+00:00'
+updated: '2023-01-28T20:00:00.000+00:00'
 cover: ./AiHiPU-Img0000004a-robot-human-programmer-image.png
 coverStyle: 'TOP'
 coverCaption: Photo by <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a> on <a href="https://labs.openai.com?utm_source=AiHiPUniversity" target="_blank" rel="noreferrer">DALL-E</a>
@@ -227,7 +227,9 @@ Also, remember that coding AIs can help discover and patch security flaws in you
 
 If you prefer to watch the video where I guide you on Building  & Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT & OpenAI's GPT-3 API, then below is the full video.
 
-[![This a video about Building  & Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT & OpenAI's GPT-3 API](./AiHiPUniversity-Course-0001a-Sveltekit303-Build-Deploy-ChatGPT-AI-Chatbot-Part-1.jpg)](https://www.youtube.com/watch?v=xJSWaMqu_ZY?ref=AiHiPUniversity.com)
+[![This a video about Building  & Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT & OpenAI's GPT-3 API Part1](./AiHiPUniversity-Course-0001a-Sveltekit303-Build-Deploy-ChatGPT-AI-Chatbot-Part-1.jpg)](https://www.youtube.com/watch?v=xJSWaMqu_ZY?ref=AiHiPUniversity.com)
+
+[![This a video about Building  & Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT & OpenAI's GPT-3 API Part2](./AiHiPUniversity-Course-0001b-Sveltekit303-Build-Deploy-ChatGPT-AI-Chatbot-Part-2.jpg)](https://www.youtube.com/watch?v=jultQuA6cLI?ref=AiHiPUniversity.com)
 
 If not, continue to read the text format.
 

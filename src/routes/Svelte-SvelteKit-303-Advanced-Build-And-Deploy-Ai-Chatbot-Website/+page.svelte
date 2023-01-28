@@ -354,7 +354,16 @@
       <a href="https://www.youtube.com/watch?v=xJSWaMqu_ZY?ref=AiHiPUniversity.com" rel="external">
         <ImgZoom
           src="/Svelte-SvelteKit-303-Advanced-Build-And-Deploy-Ai-Chatbot-Website/AiHiPUniversity-Course-0001a-Sveltekit303-Build-Deploy-ChatGPT-AI-Chatbot-Part-1.jpg"
-          alt="This a video about Building  &amp; Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API"
+          alt="This a video about Building  &amp; Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API Part1"
+          width="1280"
+          height="720" />
+      </a>
+    </p>
+    <p>
+      <a href="https://www.youtube.com/watch?v=jultQuA6cLI?ref=AiHiPUniversity.com" rel="external">
+        <ImgZoom
+          src="/Svelte-SvelteKit-303-Advanced-Build-And-Deploy-Ai-Chatbot-Website/AiHiPUniversity-Course-0001b-Sveltekit303-Build-Deploy-ChatGPT-AI-Chatbot-Part-2.jpg"
+          alt="This a video about Building  &amp; Deploying AI CHATBOT Website Like ChatGPT With SVELTE/SVELTEKIT &amp; OpenAI&#39;s GPT-3 API Part2"
           width="1280"
           height="720" />
       </a>
