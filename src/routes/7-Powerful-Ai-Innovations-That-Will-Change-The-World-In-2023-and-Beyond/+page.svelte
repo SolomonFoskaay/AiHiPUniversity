@@ -25,9 +25,7 @@
       <a href="https://www.youtube.com/watch?v=RmiLeS2bEuI&amp;t=905s?ref=AiHiPUniversity.com" rel="external">
         <ImgZoom
           src="/7-Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023-and-Beyond/AiHiPU-Vid000001a-7Powerful-Ai-Innovations-That-Will-Change-The-World-In-2023.jpg"
-          alt="This a video about Powerful Ai Innovations That Will Change The World In 2023 and Beyond"
-          width="1280"
-          height="720" />
+          alt="This a video about Powerful Ai Innovations That Will Change The World In 2023 and Beyond" />
       </a>
     </p>
     <p>If not, continue to read the text format.</p>

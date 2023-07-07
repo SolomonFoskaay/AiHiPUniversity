@@ -96,6 +96,8 @@
 
   onMount(() => {
     query.init();
+    query.set($page.url.searchParams.get('query') ?? '');
+    input = $query;
   });
 
   $: if ($navigating) {
@@ -171,7 +173,7 @@
           out:fly={{ x: -50, duration: 300 }}>
           <div class="lg:hidden rounded-lg btn btn-ghost !p0">
             <Dropdown nav={mobilenavConfig} class="text-sm p2 ">
-              <button aria-label="nav menu" class="flex items-center ">
+              <button aria-label="nav menu" class="flex items-center">
                 <div class="i-mdi-hamburger-menu !w-[1.5rem] !h-[1.5rem]" />
               </button>
             </Dropdown>
